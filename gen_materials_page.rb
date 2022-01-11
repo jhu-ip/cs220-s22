@@ -93,7 +93,7 @@ weeks.keys.sort.each do |week_num|
   end
   puts ''
 
-  print ' --'
+  print ' :--: '
   week.keys.each do
     print ' | -- '
   end
@@ -102,10 +102,10 @@ weeks.keys.sort.each do |week_num|
   [
     ['Video', 'Videos'],
     ['Slides', 'Slides'],
-    ['Recap', 'Recap Questions'],
+    ['Recap', 'Recap<br>Questions'],
     ['Exercise', 'Exercise'],
-    ['Resource', 'Additional Resources'],
-    ['Recording', 'Recorded Sessions']
+    ['Resource', 'Additional<br>Resources'],
+    ['Recording', 'Recorded<br>Sessions']
   ].each do |pair|
     type = pair[0]
     row_name = pair[1]
