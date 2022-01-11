@@ -1,0 +1,4 @@
+coursename: "601.220 (S22)"
+baseurl: "/cs220-sp22"
+markdown: kramdown
+highlighter: rouge
