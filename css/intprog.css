@@ -36,6 +36,10 @@ tr:nth-child(even) {
   max-width: 56em;
 }
 
+#content p img {
+  width: 100%;
+}
+
 #pageTitle {
   margin-top: 1em;
   margin-bottom: 0.5em;
