@@ -9,6 +9,26 @@
 # Markdown can't be nested inside an HTML element.  However,
 # the blocks are generally short, so it's not a huge problem.
 
+# Use this script as follows:
+#
+#   ./convert_quilt_markdown.rb < ORIG.md > RESULT.md
+#
+# where ORIG.md is the Quilt-syntax input file, and
+# RESULT.md is the converted file that should be more or less
+# in GFM format.
+
+# Note that you will probably still need to edit the
+# YAML front matter to add the following:
+#
+# layout: default
+#
+# This will allow jekyll to choose the correct layout template
+# for the page.
+
+# Also: you will probably need to fix links to images and other
+# documents.  (E.g., the previous docasaurus-based website had
+# a "static" directory for static content, which no longer exists.)
+
 require 'open3'
 
 state = :scan
