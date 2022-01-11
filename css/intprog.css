@@ -31,8 +31,8 @@ tr:nth-child(even) {
 }
 
 #content {
-	/*margin: 0 auto;*/
-  margin-left: 2em;
+	margin: 0 auto;
+  /*margin-left: 2em;*/
 	max-width: 56em;
 }
 
@@ -59,8 +59,8 @@ tr:nth-child(even) {
 }
 
 #navbar_container {
-  /*text-align: center;*/
-  margin-left: 2em;
+  text-align: center;
+  /*margin-left: 2em;*/
 }
 
 #navbar {
