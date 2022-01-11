@@ -48,7 +48,7 @@ code in a public post.*
 
 [Gradescope](https://www.gradescope.com/) is used for
 assignment submission and handling. You make all your submissions on
-Gradescope and recieve feedback and your work in there. Regade requests
+Gradescope and recieve feedback and your work in there. Regrade requests
 can be made and are processed on Gradescope as well. You get an invitation
 to the course Gradescope in the first week.
 
