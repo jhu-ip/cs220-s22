@@ -4,6 +4,17 @@ title: "Course Material"
 category: "material"
 ---
 
+<!--
+IMPORTANT: please don't edit material.md directly.
+Instead, edit material.csv, adding a new row for each item you
+want to add, and then regenerate materials.md by running
+the command
+
+  ./gen_materials_page.rb > material.md
+
+Then add, commit, and push both material.csv and material.md.
+-->
+
 ## Week 1
 
    &nbsp; | Day 1 (01/24)
