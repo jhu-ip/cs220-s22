@@ -1,0 +1,10 @@
+Week,Day,Type,"Link text",URL
+1,1,Video,"Course intro",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dbce7d0d-59a3-45f1-bf13-ad90013c8a82
+1,1,Video,"Linux, ugrad accounts",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d6bb780e-7f77-423d-a5a2-acb701750ed2
+1,1,Slides,"Course intro",slides/day01_intro.pdf
+1,1,Slides,"Linux, ugrad accounts",slides/day01_linux_intro.pdf
+1,1,Recap,"Day 1",questions/day01.html
+1,1,Exercise,"Github account",exercise/github.html
+1,1,Resource,"Unix/Linux Tutorial",https://cs.jhu.edu/~joanne/unix.html
+1,1,Resource,"Unix/Linux Reference Card",https://cs.jhu.edu/~joanne/unixRC.pdf
+1,1,Resource,"Github SSH key setup",resources/github-ssh.html
