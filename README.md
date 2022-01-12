@@ -101,12 +101,4 @@ where `ORIG.md` is the file you want to convert, and `RESULT.md`
 is the updated file to generate.
 
 Note that you will probably need to fix links to image files and other documents,
-since the new website uses a different directory structure.  Also, you will need
-to change the [YAML front matter](https://jekyllrb.com/docs/front-matter/) at the
-beginning of the file to add the following line:
-
-```
-layout: default
-```
-
-This tells Jekyll to use the default HTML template when generating the page.
+since the new website uses a different directory structure.
