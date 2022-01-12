@@ -4,10 +4,13 @@ layout: default
 title: Github ssh authentication
 ---
 
-<div class='info'>
+<div class='admonition info'>
+  <div class="title">Info</div>
+  <div class="content">
 <p>This document explains how you can create an SSH public/private keypair for your ugrad account and configure your private repository to have Git communicate with the remote server using SSH. Doing this will avoid the need for you to type your Github username and password every time you do a remote operation such as <code>git pull</code> or <code>git push</code>.</p>
 <p>We recommend that you read and follow these instructions carefully. If you follow them exactly, they should work.</p>
 <p>Please note that configuring your Github account and private repository to use SSH is <strong>completely optional</strong>. If you would prefer to use HTTPS and use your Github username and password to authenticate, that is perfectly fine.</p>
+  </div>
 </div>
 
 ## Creating an ssh public/private keypair
