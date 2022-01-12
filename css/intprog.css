@@ -137,7 +137,7 @@ div.highlighter-rouge {
   overflow: auto;
 }
 
-code.highlighter-rouge {
+code.highlighter-rouge, p code {
   border: 1px solid #ccc;
   background-color: #eee;
   padding: 0 .25em;
@@ -233,18 +233,18 @@ div.note div.title:before {
   content: "ℹ️ ";
 }
 
-/* Tip styling */
+/* Tip/Success styling */
 
-div.tip {
+div.tip, div.success {
   background: #d8ffd8;
   border: 2px solid #161;
 }
 
-div.tip div.title {
+div.tip div.title, div.success div.title {
   color: #161;
 }
 
-div.tip div.title:before {
+div.tip div.title:before, div.success div.title:before {
   content: "💡 ";
 }
 
