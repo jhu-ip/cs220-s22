@@ -8,7 +8,7 @@ Create a Github account and provide us with the user name:
 
 1. Create a free account at <a href="https://github.com/join">Github</a>, if you do not have one already.
 
-2. Once created, fill in <a href="https://docs.google.com/forms/d/1EIZ324B6MTT5MxPhhSVyQ-JcRixtU7fRC3c635zeU6s/" target="_blank">this form</a> before **Wednesday Sep 1, Noon (Baltimore time)**. 
+2. Once created, fill in <a href="https://forms.gle/8FnUDyWZr94P8H8Z6" target="_blank">this form</a> before **Wednesday Sep 1, Noon (Baltimore time)**. 
 
 3. Look out for an invitation email from Github in the mailbox of the email address you used to sign up for Github. Accept the invitation to join the course Github organization.
 
