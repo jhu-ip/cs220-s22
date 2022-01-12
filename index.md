@@ -26,7 +26,7 @@ Use the links at the top of the page to navigate the site.
 
 <a class="external" target="_blank" href="https://github.com">Github</a> is used to facilitate
 team collaborations as well as group and individual
-source code version conrol. Scaffolding/starter files of
+source code version control. Scaffolding/starter files of
 exercises, homeworks, and projects are shared via the course
 <a class="external" target="_blank" href="https://github.com/jhu-ip/cs220-s22-public">public repository</a>.
 You may never share your private repository with anyone else.
