@@ -30,6 +30,7 @@ DEFAULT_ADMONITION_TITLES = {
   'info' => 'Info',
   'caution' => 'Caution',
   'danger' => 'Danger',
+  'success' => 'Success',
 }
 
 state = :scan
