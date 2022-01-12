@@ -193,3 +193,102 @@ code.highlighter-rouge {
   width: 100%;
   height: 100em;
 }
+
+/* General admonition styling */
+
+div.admonition {
+  border-radius: 1em;
+  padding: 0.5em;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.admonition div.title {
+  /*padding-top: 0.4em;*/
+  border-bottom: 1pt solid;
+  font-size: 120%;
+}
+
+div.admonition div.title:before {
+  font-size: 150%;
+}
+
+div.admonition div.title, div.admonition div.content {
+  margin-left: 1em;
+  /*width: 80%;*/
+}
+
+/* Note styling */
+
+div.note {
+  background: #eee;
+  border: 2px solid #666;
+}
+
+div.note div.title {
+  color: #666;
+}
+
+div.note div.title:before {
+  content: "ℹ️ ";
+}
+
+/* Tip styling */
+
+div.tip {
+  background: #d8ffd8;
+  border: 2px solid #161;
+}
+
+div.tip div.title {
+  color: #161;
+}
+
+div.tip div.title:before {
+  content: "💡 ";
+}
+
+/* Info styling */
+
+div.info {
+  background: #d8d8ff;
+  border: 2px solid #116;
+}
+
+div.info div.title {
+  color: #116;
+}
+
+div.info div.title:before {
+  content: "ℹ️ ";
+}
+
+/* Caution styling */
+
+div.caution {
+  background: #ffffd8;
+  border: 2px solid #661;
+}
+
+div.caution div.title {
+  color: #661;
+}
+
+div.caution div.title:before {
+  content: "⚠️ ";
+}
+
+/* Danger styling */
+
+div.danger {
+  background: #ffd8d8;
+  border: 2px solid #611;
+}
+
+div.danger div.title {
+  color: #611;
+}
+
+div.danger div.title:before {
+  content: "🔥 ";
+}
