@@ -59,6 +59,14 @@ class DayInfo
   end
 end
 
+def format_link(link_text, url)
+  if url.start_with?('http:') || url.start_with?('https:')
+    return "<a class='external' target='_blank' href='#{url}'>#{link_text}</a>"
+  else
+    return "[#{link_text}](#{url})"
+  end
+end
+
 # Map of week numbers to collected information for the week
 # (which in turn is a map of day numbers to day information)
 weeks = {}
@@ -141,7 +149,7 @@ weeks.keys.sort.each do |week_num|
         link_text = item[0]
         url = item[1]
 
-        print "[#{link_text}](#{url})"
+        print format_link(link_text, url)
       end
     end
 
