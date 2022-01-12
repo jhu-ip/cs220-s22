@@ -42,36 +42,19 @@ syllabus as deemed necessary with notice.)*
 
 **Instructors**
 
-<!--
-Prof. Ali Darvish, Lecturer\
-<darvish@jhu.edu>,
-[www.cs.jhu.edu/darvish/](https://www.cs.jhu.edu/~darvish/),\
-Office hours: to be announced (check the course
-[Website](https://jhu-ip.github.io/cs220-f21/))\
-Prof. Joanne Selinski, Associate Teaching Professor\
-<joanne@cs.jhu.edu>,
-[www.cs.jhu.edu/joanne/](https://www.cs.jhu.edu/~joanne/),\
-Office hours: see her website <https://cs.jhu.edu/~joanne>\
-Prof. Patricio Simari, Senior Lecturer\
-<psimari@jhu.edu>,
-[www.cs.jhu.edu/psimari/](https://www.cs.jhu.edu/~psimari/),\
-Office hours: to be announced (check the course
-[Website](https://jhu-ip.github.io/cs220-sp21/))\
--->
-
 David Hovemeyer, Associate Teaching Professor\
 <mailto:daveho@cs.jhu.edu>,\
-<https://www.cs.jhu.edu/~daveho>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~daveho">https://www.cs.jhu.edu/~daveho</a>,\
 Office hours: TBA
 
 Misha Kazhdan, Professor\
 <mailto:misha@cs.jhu.edu>\
-<https://www.cs.jhu.edu/~misha>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha">https://www.cs.jhu.edu/~misha</a>,\
 Office hours: TBA
 
 Patricio Simari, Senior Lecturer\
 <mailto:psimari@cs.jhu.edu>,\
-<https://www.cs.jhu.edu/~psimari>,\
+<a class="external" target="_blank" href="https://www.cs.jhu.edu/~psimari">https://www.cs.jhu.edu/~psimari</a>,\
 Office hours: TBA
 
 **Meetings**
@@ -85,7 +68,7 @@ Section 5: Monday, Wednesday, Friday, 08:30--09:45am, (Simari)
 
 **Course Assistants**
 
-See the course [ website staff page](https://jhu-ip.github.io/cs220-s22/staff.html).
+See the course [website staff page](staff.html).
 
 **Textbooks**
 
@@ -98,7 +81,7 @@ See the course [ website staff page](https://jhu-ip.github.io/cs220-s22/staff.ht
 -   For a more detail-oriented presentation of C++, we recommend Deitel
     & Deitel, C++ How to Program; an electronic edition is available
     through MSEL:
-    [Link](http://proxy.library.jhu.edu/login?qurl=https://go.oreilly.com/johns-hopkins-university/library/view/-/9780134448930).
+    <a class="external" target="_blank" href="http://proxy.library.jhu.edu/login?qurl=https://go.oreilly.com/johns-hopkins-university/library/view/-/9780134448930">Link</a>.
 
 -   Additionally, you will be expected to read various materials posted
     on the course website.
@@ -111,19 +94,19 @@ The following sites will be used heavily during the course:
     [jhu-ip.github.io/cs220-s22/](https://jhu-ip.github.io/cs220-s22/).
 
 -   Piazza
-    (<https://piazza.com/jhu/spring2022/en601220>)
+    (<a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220">https://piazza.com/jhu/spring2022/en601220</a>)
     will serve as our primary communication channel. You should sign up
     for Piazza immediately.
 
--   Gradescope ([gradescope.com](https://gradescope.com)) will be used
+-   Gradescope (<a class="external" target="_blank" href="https://www.gradescope.com/">https://www.gradescope.com/</a>) will be used
     for assignment submission, grades and feedback; you will receive an
     email invitation to this course on Gradescope.
 
--   Blackboard ([blackboard.jhu.edu](https://blackboard.jhu.edu)) will
+-   Blackboard (<a class="external" target="_blank" href="https://blackboard.jhu.edu">https://blackboard.jhu.edu</a>) will
     be used for video distribution.
 
--   ([en.cppreference.com](https://en.cppreference.com/w/)) and
-    ([www.cplusplus.com](https://www.cplusplus.com/reference/)) provide
+-   (<a class="external" target="_blank" href="https://en.cppreference.com/w/">en.cppreference.com</a>) and
+    (<a class="external" target="_blank" href="https://www.cplusplus.com/reference/">www.cplusplus.com</a>) provide
     excellent on-line language reference material.
 
 **Course Objectives**
@@ -380,7 +363,7 @@ CAs. We promise that we will take your communication seriously and to
 seek mutually acceptable resolutions and accommodations. Reporting will
 never impact your course grade. You may also share concerns with the
 Department Head (Randal Burns, [
-randal\@cs.jhu.edu](mailto:randal@cs.jhu.edu)), the Director of
+randal@cs.jhu.edu](mailto:randal@cs.jhu.edu)), the Director of
 Undergraduate Studies (Joanne Selinski, <joanne@cs.jhu.edu>), the
 Assistant Dean for Diversity and Inclusion (Darlene Saporu,
 <dsaporu1@jhu.edu>), or the Office of Institutional Equity
@@ -400,15 +383,14 @@ account settings, and add your picture to your Zoom profile.
 -   If you are sick, please notify us by email so that we can make
     appropriate accommodations should this affect your ability to attend
     class, complete assignments, or participate in assessments. The
-    [Student Health and
-    Wellness Center](https://studentaffairs.jhu.edu/student-health/)
+    <a class="external" target="_blank" href="https://studentaffairs.jhu.edu/student-health/">Student Health and Wellness Center</a>
     is open and operational for primary care needs. If
     you would like to speak with a medical provider, please call
     410-516-8270, and staff will determine an appropriate course of
     action based on your geographic location, presenting symptoms, and
     insurance needs. Telemedicine visits are available only to people
     currently in Maryland. See also
-    <https://studentaffairs.jhu.edu/student-life/student-outreach-support/absences-from-class/illness-note-policy/>
+    <a class="external" target="_blank" href="https://studentaffairs.jhu.edu/student-life/student-outreach-support/absences-from-class/illness-note-policy/">https://studentaffairs.jhu.edu/student-life/student-outreach-support/absences-from-class/illness-note-policy/</a>
 
 -   The Johns Hopkins COVID-19 Call Center (JHCCC), which can be reached
     at 833-546-7546 seven days a week from 7 a.m. to 7 p.m., supports
@@ -417,14 +399,13 @@ account settings, and add your picture to your Zoom profile.
     Baltimore, the JHCCC will evaluate your symptoms, order testing if
     needed, and conduct contact investigation for those affiliates who
     test positive. More information on the JHCCC and testing is on the
-    [coronavirus
-    information website](https://covidinfo.jhu.edu/health-safety/johns-hopkins-covid-19-call-center/).
+    <a class="external" target="_blank" href="https://covidinfo.jhu.edu/health-safety/johns-hopkins-covid-19-call-center/">coronavirus information website</a>.
 
 -   All students with disabilities who require accommodations for this
     course should contact us at their earliest convenience to discuss
     their specific needs. If you have a documented disability, you must
     be registered with the JHU Office for Student Disability Services
-    (Shaffer 101; 410-516-4720; <http://web.jhu.edu/disabilities/>) to
+    (Shaffer 101; 410-516-4720; <a class="external" target="_blank" href="http://web.jhu.edu/disabilities/">http://web.jhu.edu/disabilities/</a>) to
     receive accommodations.
 
 -   Students who are struggling with anxiety, stress, depression or
@@ -434,7 +415,7 @@ account settings, and add your picture to your Zoom profile.
     students, staff, and communities. Please reach out to get connected
     and learn about service options based on where you are living this
     fall at 410-516-8278 and online at
-    <http://studentaffairs.jhu.edu/counselingcenter/>.
+    <a class="external" target="_blank" href="http://studentaffairs.jhu.edu/counselingcenter/">http://studentaffairs.jhu.edu/counselingcenter/</a>.
 
 -   Student Outreach & Support will be fully operational (virtually) to
     help support students. Students can self-refer or refer a friend who
@@ -483,7 +464,7 @@ the course will remain on the academic record with a W appearing in the
 grade column to indicate that the student registered and then withdrew
 from the course. For more information on these and other academic
 policies, see
-<https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/undergraduate-policies/academic-policies/grading-policies/>
+<a class="external" target="_blank" href="https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/undergraduate-policies/academic-policies/grading-policies/">https://e-catalogue.jhu.edu/engineering/full-time-residential-programs/undergraduate-policies/academic-policies/grading-policies/</a>
 
 **The Office of Academic Support at JHU**
 
@@ -554,7 +535,7 @@ All programs are free to students. Please see below for specifics:
     -   Contact: Robert Tinkle
         <mailto:rtinkle1@jhu.edu>
 
-    -   Web Address: <https://krieger.jhu.edu/writingcenter/>
+    -   Web Address: <a class="external" target="_blank" href="https://krieger.jhu.edu/writingcenter/">https://krieger.jhu.edu/writingcenter/</a>
 
 **Ethics**
 
@@ -652,7 +633,7 @@ You can find more information about university misconduct policies on
 the web at these sites:
 
 -   For undergraduates:\
-    <https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/>
+    <a class="external" target="_blank" href="https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/">https://studentaffairs.jhu.edu/policies-guidelines/undergrad-ethics/</a>
 
 -   For graduate students:\
-    <http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/>
+    <a class="external" target="_blank" href="http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/">http://e-catalog.jhu.edu/grad-students/graduate-specific-policies/</a>
