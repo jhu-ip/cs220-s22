@@ -62,9 +62,9 @@ Office hours: TBA
 Maryland 310
 
 Section 1: Monday, Wednesday, Friday, 12:00--01:15pm, (Hovemeyer)\
-Section 3: Monday, Wednesday, Friday, 03:00--04:15pm, (Kazhdan)\
-Section 4: Monday, Wednesday, Friday, 10:00--11:45am, (Simari)\
-Section 5: Monday, Wednesday, Friday, 08:30--09:45am, (Simari)
+Section 2: Monday, Wednesday, Friday, 01:30--02:45pm, (Kazhdan)\
+Section 3: Monday, Wednesday, Friday, 03:00--4:15pm, (Simari)\
+Section 4: Monday, Wednesday, Friday, 10:00--11:15am, (Simari)
 
 **Course Assistants**
 
@@ -130,7 +130,7 @@ Upon successful completion of this course, you should be able to:
 
 This course will address the following ABET Outcomes:
 
-1.  (SO1) Analyze a complex computing problem and to apply principles of
+1.  (SO1) Analyze a complex computing problem and apply principles of
     computing and other relevant disciplines to identify solutions.
 
 2.  (SO2) Design, implement, and evaluate a computing-based solution to
@@ -151,8 +151,8 @@ This course will address the following ABET Outcomes:
     incremental design; modular design; automatic testing
 
 -   Unix-like systems and tools: Unix basics, shell basics (command line
-    tools, I/O redirection, etc.), shellscript and automation, text
-    editors, gcc, make, gdb, valgrind, version control (git)
+    tools, I/O redirection, etc.), text editors, gcc, make, gdb, valgrind,
+    version control (git)
 
 -   C language, syntax, semantics, and concepts: types, operators,
     control structures, standard (terminal) I/O, scope, arrays, strings,
@@ -181,7 +181,9 @@ while there are lots of resources provided to help you succeed, we
 cannot force you to use them; it is important to avail yourself of these
 resources, particularly office hours.
 
-**Course Approach** We take a flipped-classroom approach to the course,
+**Course Approach**
+
+We take a flipped-classroom approach to the course,
 with an emphasis on active learning during class sessions. Part of your
 homework will be to prepare for class by watching video lessons. During
 class sessions you will extend your learning by working with your
@@ -213,7 +215,7 @@ course, you will be expected to write most of the code for your homework
 assignments from scratch. You may use language libraries (according to
 assignment specifications), and you may always reuse your own code from
 prior work in the course. Downloading full or partial solutions from the
-internet, however, is an ethics violation. Using code from class
+internet, however, is an **ethics violation**. Using code from class
 examples, slides, or the textbook is acceptable, but you must cite the
 source properly in a comment in your code describing the original
 source.
@@ -246,7 +248,8 @@ references, and other resources for each topic. Students are expected to
 read these, as well as seek out other resources on their own to further
 their understanding of topics. There is a wealth of programming
 information on the internet; if one explanation doesn't make sense, you
-can probably find another that does.\
+can probably find another that does.
+
 **Homework policy**
 
 Assignments will be due **by 11:00 pm on the due date** (unless
@@ -281,14 +284,16 @@ in early so that if you encounter any last-minute delays, it will not
 hurt you too badly. Additionally, Gradescope will allow multiple
 submission attempts; we will simply grade the last one. So it's a good
 idea to develop your program incrementally, and turn in a
-fully-compiling (if only partially complete) version every day or so.\
+fully-compiling (if only partially complete) version every day or so.
+
 Deadline exceptions can only be made by an instructor (not TAs/CAs), and
 will only be considered in the circumstances outside the control of the
 student (e.g., serious illness, death of a relative, etc.). If you must
 request an exception, do so as early as possible; it is easier to get an
 exception if you ask before an assignment is due, rather than after. No
 exceptions will be given for failure to plan ahead or simply having
-\"too much work.\"\
+"too much work."
+
 **In-class Exercises**
 
 Many of the course topics will be supported by an exercise. Although
@@ -337,7 +342,7 @@ Interval | Letter grade
 \[70,73\) | C-
 \[67, 70\) | D+
 \[60,67\) | D
-\[ 0,60\) | F
+\[0,60\) | F
 
 **Classroom Climate**
 
@@ -357,17 +362,18 @@ treated unequally on the basis of any seen or unseen part of their
 identity.
 
 If you ever have concerns in this course about harassment,
-discrimination, or any unequal treatment, or if you seek accommodations
-or resources, we invite you to share directly with the instructor or
+discrimination, or any unequal treatment,
+or you have any general concerns about the classroom environment,
+we invite you to share directly with the instructor or
 CAs. We promise that we will take your communication seriously and to
 seek mutually acceptable resolutions and accommodations. Reporting will
 never impact your course grade. You may also share concerns with the
-Department Head (Randal Burns, [
-randal@cs.jhu.edu](mailto:randal@cs.jhu.edu)), the Director of
-Undergraduate Studies (Joanne Selinski, <joanne@cs.jhu.edu>), the
+Department Head (Randal Burns, [randal@cs.jhu.edu](mailto:randal@cs.jhu.edu)),
+the Director of Undergraduate Studies (Joanne Selinski, <joanne@cs.jhu.edu>), the
 Assistant Dean for Diversity and Inclusion (Darlene Saporu,
-<dsaporu1@jhu.edu>), or the Office of Institutional Equity
-(<oie@jhu.edu>). In handling reports, people will protect your privacy
+<dsaporu1@jhu.edu>), the Office of Institutional Equity
+(<oie@jhu.edu>), or the CS Department Diversity and Inclusion Committee
+(<diversityandinclusion@cs.jhu.edu>). In handling reports, people will protect your privacy
 as much as possible, but faculty and staff are required to officially
 report information for some cases (e.g. sexual harassment).
 
@@ -437,7 +443,7 @@ return as needed.
 
 **University Policy on Incompletes**
 
-The university recognizes that the Fall 2021 semester is surrounded with
+The university recognizes that the Spring 2022 semester is surrounded with
 uncertainty and many students may find themselves in unexpected
 situations where study is difficult if not impossible. Students who are
 confronted with extraordinary circumstances that interfere with their
@@ -447,7 +453,7 @@ expected that faculty will make every effort to accommodate students
 dealing with illness in the family and other pandemic-related hardships.
 The instructor and student must establish a timetable for submitting the
 unfinished work with a final deadline no later than the end of the third
-week of the Spring 2022 semester. Exceptions to this deadline require a
+week of the Fall 2022 semester. Exceptions to this deadline require a
 petition from the instructor to the student's academic advising office
 before that date. When entering an Incomplete grade in SIS, faculty must
 include a reversion grade which represents the grade the student will
@@ -456,9 +462,9 @@ deadline.
 
 **Deadlines for Adding, Dropping and Withdrawing from Courses**
 
-Students may add a course up to Friday, Sept. 10. They may drop courses
-up to October, 2021 provided they remain registered for a minimum of 12
-credits. Between October 10 and November 12, 2021, a student may
+Students may add a course up to Friday, Feb. 4. They may drop courses
+up to Sunday, March 6, provided they remain registered for a minimum of 12
+credits. Between March 6 and April 15, a student may
 withdraw from a course with a W on their academic record. A record of
 the course will remain on the academic record with a W appearing in the
 grade column to indicate that the student registered and then withdrew
