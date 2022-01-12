@@ -5,7 +5,7 @@ category: "home"
 ---
 
 Welcome to the website for Intermediate Programming (Spring 2022) at
-<a href="https://www.jhu.edu/">Johns Hopkins University</a>!
+<a class="external" target="_blank" href="https://www.jhu.edu/">Johns Hopkins University</a>!
 
 *Course description*: This course teaches intermediate to advanced
 programming, using C and C++. (Prior knowledge of these languages is not
