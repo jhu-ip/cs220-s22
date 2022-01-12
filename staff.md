@@ -16,9 +16,9 @@ category: "staff"
    <span class="name_and_role">David Hovemeyer (Sec 1)</span><br>
    Department of Computer Science<br>
    Email: <a href="mailto:daveho@cs.jhu.edu">daveho@cs.jhu.edu</a><br>
-   Web: <a href="https://www.cs.jhu.edu/~daveho/">https://www.cs.jhu.edu/~daveho/</a><br>
+   Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~daveho/">https://www.cs.jhu.edu/~daveho/</a><br>
    Office hours: TBA<br>
-   Check <a href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
+   Check <a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
 
@@ -28,9 +28,9 @@ category: "staff"
    <span class="name_and_role">Misha Kazhdan (Sec 2)</span><br>
    Department of Computer Science<br>
    Email: <a href="mailto:misha@cs.jhu.edu">misha@cs.jhu.edu</a><br>
-   Web: <a href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a><br>
+   Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a><br>
    Office hours: TBA<br>
-   Check <a href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
+   Check <a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
 
@@ -40,9 +40,9 @@ category: "staff"
    <span class="name_and_role">Patricio Simari (Sec 3 and 4)</span><br>
    Department of Computer Science<br>
    Email: <a href="mailto:psimari@cs.jhu.edu">psimari@cs.jhu.edu</a><br>
-   Web: <a href="https://www.cs.jhu.edu/~EMAIL/">https://www.cs.jhu.edu/~psimari/</a><br>
+   Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~EMAIL/">https://www.cs.jhu.edu/~psimari/</a><br>
    Office hours: TBA<br>
-   Check <a href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
+   Check <a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
 
