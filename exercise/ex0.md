@@ -1,7 +1,7 @@
 ---
 id: github
 layout: default
-title: Github Account
+title: Exercise 0
 ---
 
 Create a Github account and provide us with the user name:
