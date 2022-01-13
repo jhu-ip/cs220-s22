@@ -4,7 +4,7 @@ Week,Day,Date,Type,"Link text",URL
 1,1,01/24,Slides,"Course intro",slides/day01_intro.pdf
 1,1,01/24,Slides,"Linux, ugrad accounts",slides/day01_linux_intro.pdf
 1,1,01/24,Recap,"Day 1",questions/day01.html
-1,1,01/24,Exercise,"Exercise 0",exercise/ex0.html
+1,1,01/24,Exercise,"Exercise 0",exercise/ex00.html
 1,1,01/24,Resource,"Unix/Linux Tutorial",https://cs.jhu.edu/~joanne/unix.html
 1,1,01/24,Resource,"Unix/Linux Reference Card",https://cs.jhu.edu/~joanne/unixRC.pdf
 1,1,01/24,Resource,"Github SSH key setup",resources/github-ssh.html
@@ -17,7 +17,7 @@ Week,Day,Date,Type,"Link text",URL
 1,2,01/26,Slides,"Hello world program in C",slides/day02_hello_world_c.pdf
 1,2,01/26,Slides,"C basics",slides/day02_c_basics.pdf
 1,2,01/26,Recap,"Day 2",questions/day02.html
-1,2,01/26,Exercise,"Exercise 1",exercise/ex1.html
+1,2,01/26,Exercise,"Exercise 1",exercise/ex01.html
 1,2,01/26,Resource,"Online C compiler",https://www.onlinegdb.com/online_c_compiler
 1,2,01/26,Recording,"Section 1",#
 1,2,01/26,Recording,"Section 2",#
@@ -30,8 +30,8 @@ Week,Day,Date,Type,"Link text",URL
 1,3,01/28,Slides,"Git",slides/day03_git.pdf
 1,3,01/28,Slides,"Submission workflow",slides/day03_submission_workflow.pdf
 1,3,01/28,Recap,"Day 3",questions/day03.html
-1,3,01/28,Exercise,"Exercise 2",exercise/ex2.html
-1,3,01/28,Exercise,"Exercise 3",exercise/ex3.html
+1,3,01/28,Exercise,"Exercise 2",exercise/ex02.html
+1,3,01/28,Exercise,"Exercise 3",exercise/ex03.html
 1,3,01/28,Resource,"Emacs reference card",https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 1,3,01/28,Resource,"Interactive Vim tutorial",https://www.openvim.com/
 1,3,01/28,Resource,"Git cheatsheet",https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
