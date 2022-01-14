@@ -135,26 +135,16 @@ tr:nth-child(even) {
   text-align: center;
   display: inline-block;
   min-width: 10em;
-}
-
-#navbar a {
   text-decoration: none;
   margin: 0;
   border: 0;
   padding-top: 1em;
   padding-bottom: 1em;
+  background: #eee;
 }
 
 #navbar a:hover {
   text-decoration: underline;
-}
-
-#navbar a:nth-child(even) {
-  background: #ddd;
-}
-
-#navbar a:nth-child(odd) {
-  background: #eee;
 }
 
 #navbar a.active {
