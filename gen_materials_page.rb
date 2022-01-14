@@ -1,5 +1,15 @@
 #! /usr/bin/env ruby
 
+# Generate Course Materials web page (material.md) from material.csv,
+# which contains information about all course materials for each day
+# of the course.
+
+# Apologies for how complicated this script is. The intent is that
+# material.csv is easy to edit and amenable to version control,
+# and this script takes care of turning the CSV into HTML (which would
+# be much harder to edit.) Much of the complexity is implementing each week
+# as a collapsible section.
+
 require 'csv'
 
 FRONT_STUFF = <<'EOF1'
@@ -20,8 +30,12 @@ the command
 Then add, commit, and push both material.csv and material.md.
 -->
 
+You can click on the header for a specific week to expand or collapse
+the materials for that week.
+
 EOF1
 
+# Keys for the various kinds of course materials.
 KNOWN_KEYS = {
   'Video' => 1,
   'Slides' => 1,
@@ -31,6 +45,7 @@ KNOWN_KEYS = {
   'Recording' => 1,
 }
 
+# Collected information about a particular day of the course.
 class DayInfo
   attr_reader :date
 
@@ -59,8 +74,12 @@ class DayInfo
   end
 end
 
+# Collection of DayInfo objects for a particular week of the course.
 class Week
-  def initialize
+  attr_reader :week_num
+
+  def initialize(week_num)
+    @week_num = week_num
     # map of day number to DayInfo
     @days = {}
   end
@@ -98,6 +117,26 @@ class Week
   def last_date
     return date_of(-1)
   end
+
+  def is_not_in_future(current_date)
+    # The idea here is that current_date is the current date,
+    # and this method returns true if this week is not "in the future"
+    # compared to the current date. That is implemented in terms of
+    # the week number (starting Sunday.) Meaning, if the current date
+    # is Sunday of the week this Week object represents, that's not
+    # considered to be in the future.
+
+    # Use the Unix date command to find the week number for this week's
+    # first day and the current date pass as a parameter.
+    year = `date '+%Y'`
+    my_week = `date -d '#{year}-#{self.first_date.gsub('/', '-')}' '+%V'`
+    cur_week = `date -d '#{year}-#{current_date.gsub('/', '-')}' '+%V'`
+
+    #puts "my_week=#{my_week}"
+    #puts "cur_week=#{cur_week}"
+
+    return my_week.to_i <= cur_week.to_i
+  end
 end
 
 def format_link(link_text, url)
@@ -122,7 +161,7 @@ CSV.foreach('material.csv') do |row|
     url = row[5]
 
     if !weeks.has_key?(week_num)
-      weeks[week_num] = Week.new
+      weeks[week_num] = Week.new(week_num)
     end
 
     week_info = weeks[week_num]
@@ -137,18 +176,28 @@ CSV.foreach('material.csv') do |row|
   end
 end
 
+# Based on current day, figure out what the active week should be.
+# The rule is that the active week is the latest one that's not in the future.
+# (We may want to revisit this policy as we update the course content.)
+# As a special case, if no weeks are not in the future (i.e., the current
+# date is before the first week of classes), then the first week is active.
+current_date = `date +'%m/%d'`
+active_week = nil
+weeks.keys.sort.each do |week_num|
+  week = weeks[week_num]
+  if active_week.nil? || week.is_not_in_future(current_date)
+    active_week = week
+  end
+end
+
+# Generate beginning of the Markdown file (with the YAML front matter, etc.)
 print FRONT_STUFF
 
+# Generate a collapsible section for each Week.
 weeks.keys.sort.each do |week_num|
   week = weeks[week_num]
 
   days = week.keys.sort
-
-  #puts "## Week #{week_num}"
-  #puts ''
-
-  #first_date = week[days[0]].date
-  #last_date = week[days[-1]].date
 
   print <<"EOF2"
 <button type="button" id="week_#{week_num}_toggle" class="week_control_button">Week #{week_num} (#{week.first_date}–#{week.last_date})</button>
@@ -156,7 +205,6 @@ weeks.keys.sort.each do |week_num|
 EOF2
 
   # print table header
-  #print '  '
   print <<"EOF3"
 <table>
   <thead>
@@ -174,12 +222,6 @@ EOF3
   <tbody>
 EOF4
 
-  #print ' :--: '
-  #days.each do
-  #  print ' | -- '
-  #end
-  #puts ''
-
   [
     ['Video', 'Videos'],
     ['Slides', 'Slides'],
@@ -193,7 +235,6 @@ EOF4
 
     puts "    <tr>"
 
-    #print "#{row_name}"
     puts "      <td>#{row_name}</td>"
 
     week.keys.sort.each do |day_num|
@@ -201,7 +242,6 @@ EOF4
 
       items = day_info.get_items(type)
 
-      #print ' | '
       print "      <td>"
 
       first = true
@@ -221,8 +261,6 @@ EOF4
     puts "</td>"
     end
 
-    #puts ''
-
     puts "    </tr>"
   end
 
@@ -232,28 +270,46 @@ EOF4
   puts "</div>" # end of week content div
 end
 
+# Generate JavaScript code to handle the expanding and contracting
+# of sections.
 print <<"EOF9"
 <script type="text/javascript">
+  // Create and register a click handler for button clicks to expand/contract
+  // specified content div
+  function registerClickHandler(content, is_active) {
+    //console.log("Registering click handler for " + content.id);
+
+    content.style.display = is_active ? "block" : "none";
+
+    var button_id = content.id + "_toggle";
+    //console.log("button_id=" + button_id);
+
+    var button = document.getElementById(button_id);
+
+    button.addEventListener("click", function() {
+      button.classList.toggle('active');
+      //console.log("content.style.display="+content.style.display);
+      if (content.style.display == 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    });
+
+    if (is_active) {
+      button.classList.add('active');
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
-    // set all non-active week content to be hidden
+    var active_week_id = 'week_#{active_week.week_num}';
+
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
       var content = content_divs[i];
-      // TODO: don't default active week content to hidden
-      content.style.display = "none";
 
-      // Add callback for button press
-      var button_id = content.id + '_toggle';
-      console.log("find element " + button_id);
-      var button = document.getElementById(button_id);
-      button.addEventListener('click', function() {
-        button.classList.toggle('active');
-        if (content.style.display == 'block') {
-          content.style.display = 'none';
-        } else {
-          content.style.display = 'block';
-        }
-      });
+      var is_active = (content.id == active_week_id);
+      registerClickHandler(content, is_active);
     }
   });
 </script>

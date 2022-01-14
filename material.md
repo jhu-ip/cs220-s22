@@ -15,6 +15,9 @@ the command
 Then add, commit, and push both material.csv and material.md.
 -->
 
+You can click on the header for a specific week to expand or collapse
+the materials for that week.
+
 <button type="button" id="week_1_toggle" class="week_control_button">Week 1 (01/24–01/28)</button>
 <div id="week_1" class="collapsible">
 <table>
@@ -67,26 +70,42 @@ Then add, commit, and push both material.csv and material.md.
 </table>
 </div>
 <script type="text/javascript">
+  // Create and register a click handler for button clicks to expand/contract
+  // specified content div
+  function registerClickHandler(content, is_active) {
+    //console.log("Registering click handler for " + content.id);
+
+    content.style.display = is_active ? "block" : "none";
+
+    var button_id = content.id + "_toggle";
+    //console.log("button_id=" + button_id);
+
+    var button = document.getElementById(button_id);
+
+    button.addEventListener("click", function() {
+      button.classList.toggle('active');
+      //console.log("content.style.display="+content.style.display);
+      if (content.style.display == 'block') {
+        content.style.display = 'none';
+      } else {
+        content.style.display = 'block';
+      }
+    });
+
+    if (is_active) {
+      button.classList.add('active');
+    }
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
-    // set all non-active week content to be hidden
+    var active_week_id = 'week_1';
+
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
       var content = content_divs[i];
-      // TODO: don't default active week content to hidden
-      content.style.display = "none";
 
-      // Add callback for button press
-      var button_id = content.id + '_toggle';
-      console.log("find element " + button_id);
-      var button = document.getElementById(button_id);
-      button.addEventListener('click', function() {
-        button.classList.toggle('active');
-        if (content.style.display == 'block') {
-          content.style.display = 'none';
-        } else {
-          content.style.display = 'block';
-        }
-      });
+      var is_active = (content.id == active_week_id);
+      registerClickHandler(content, is_active);
     }
   });
 </script>
