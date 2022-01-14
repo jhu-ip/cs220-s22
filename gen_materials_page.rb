@@ -59,16 +59,57 @@ class DayInfo
   end
 end
 
+class Week
+  def initialize
+    # map of day number to DayInfo
+    @days = {}
+  end
+
+  def [](key)
+    return @days[key]
+  end
+
+  def []=(key, value)
+    @days[key] = value
+  end
+
+  def keys
+    return @days.keys
+  end
+
+  def has_key?(key)
+    return @days.has_key?(key)
+  end
+
+  def day_numbers
+    return keys.sort
+  end
+
+  def date_of(pos)
+    raise "No days yet!" if @days.empty?
+    d = self.day_numbers
+    return @days[d[pos]].date
+  end
+
+  def first_date
+    return date_of(0)
+  end
+
+  def last_date
+    return date_of(-1)
+  end
+end
+
 def format_link(link_text, url)
   if url.start_with?('http:') || url.start_with?('https:')
     return "<a class='external' target='_blank' href='#{url}'>#{link_text}</a>"
   else
-    return "[#{link_text}](#{url})"
+    #return "[#{link_text}](#{url})"
+    return "<a href='#{url}'>#{link_text}</a>"
   end
 end
 
-# Map of week numbers to collected information for the week
-# (which in turn is a map of day numbers to day information)
+# Map of week numbers to Week objects
 weeks = {}
 
 CSV.foreach('material.csv') do |row|
@@ -81,7 +122,7 @@ CSV.foreach('material.csv') do |row|
     url = row[5]
 
     if !weeks.has_key?(week_num)
-      weeks[week_num] = {}
+      weeks[week_num] = Week.new
     end
 
     week_info = weeks[week_num]
@@ -101,22 +142,43 @@ print FRONT_STUFF
 weeks.keys.sort.each do |week_num|
   week = weeks[week_num]
 
-  puts "## Week #{week_num}"
-  puts ''
+  days = week.keys.sort
+
+  #puts "## Week #{week_num}"
+  #puts ''
+
+  #first_date = week[days[0]].date
+  #last_date = week[days[-1]].date
+
+  print <<"EOF2"
+<button type="button" id="week_#{week_num}_toggle" class="week_control_button">Week #{week_num} (#{week.first_date}–#{week.last_date})</button>
+<div id="week_#{week_num}" class="collapsible">
+EOF2
 
   # print table header
-  print '  '
-  week.keys.sort.each do |day_num|
+  #print '  '
+  print <<"EOF3"
+<table>
+  <thead>
+    <tr>
+      <th></th>
+EOF3
+  days.each do |day_num|
     day_info = week[day_num]
-    print " &nbsp; | Day #{day_num} (#{day_info.date})"
+    puts "      <th>Day #{day_num} (#{day_info.date})</th>"
   end
-  puts ''
+  #puts ''
+  print <<"EOF4"
+    </tr>
+  </thead>
+  <tbody>
+EOF4
 
-  print ' :--: '
-  week.keys.each do
-    print ' | -- '
-  end
-  puts ''
+  #print ' :--: '
+  #days.each do
+  #  print ' | -- '
+  #end
+  #puts ''
 
   [
     ['Video', 'Videos'],
@@ -129,14 +191,18 @@ weeks.keys.sort.each do |week_num|
     type = pair[0]
     row_name = pair[1]
 
-    print "#{row_name}"
+    puts "    <tr>"
+
+    #print "#{row_name}"
+    puts "      <td>#{row_name}</td>"
 
     week.keys.sort.each do |day_num|
       day_info = week[day_num]
 
       items = day_info.get_items(type)
 
-      print ' | '
+      #print ' | '
+      print "      <td>"
 
       first = true
       items.each do |item|
@@ -151,9 +217,43 @@ weeks.keys.sort.each do |week_num|
 
         print format_link(link_text, url)
       end
+
+    puts "</td>"
     end
 
-    puts ''
+    #puts ''
+
+    puts "    </tr>"
   end
 
+  puts "  </tbody>"
+  puts "</table>"
+
+  puts "</div>" # end of week content div
 end
+
+print <<"EOF9"
+<script type="text/javascript">
+  document.addEventListener('DOMContentLoaded', function() {
+    // set all non-active week content to be hidden
+    var content_divs = document.getElementsByClassName("collapsible");
+    for (i = 0; i < content_divs.length; i++) {
+      var content = content_divs[i];
+      // TODO: don't default active week content to hidden
+      content.style.display = "none";
+
+      // Add callback for button press
+      var button_id = content.id + '_toggle';
+      console.log("find element " + button_id);
+      var button = document.getElementById(button_id);
+      button.addEventListener('click', function() {
+        if (content.style.display == 'block') {
+          content.style.display = 'none';
+        } else {
+          content.style.display = 'block';
+        }
+      });
+    }
+  });
+</script>
+EOF9
