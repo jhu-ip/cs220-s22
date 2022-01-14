@@ -1,5 +1,10 @@
+/***********************************************************************
+   General page element styling
+ ***********************************************************************/
+
 body {
   font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
 }
 
 a {
@@ -35,6 +40,10 @@ tr:nth-child(even) {
   background: #eee;
 }
 
+/***********************************************************************
+   Layout div styling / page structure
+ ***********************************************************************/
+
 #content {
   margin: 0 auto;
   /*margin-left: 2em;*/
@@ -46,8 +55,15 @@ tr:nth-child(even) {
   width: 90%;
 }
 
-#content p img {
+#content p img:not(.keep_original_size) {
   width: 100%;
+}
+
+#content p img.keep_original_size {
+  margin-left: 2em;
+}
+
+#content p img.normal_size {
 }
 
 #pageTitle {
@@ -71,6 +87,33 @@ tr:nth-child(even) {
   vertical-align: middle;
   margin-right: 0.2em;
 }
+
+#headerSep {
+  height: 2px;
+  border-width: 0;
+  color: #1f386b;
+  background-color: #1f386b;
+}
+
+#footer {
+  margin-bottom: 2em;
+}
+
+#officehours_spreadsheet {
+  margin-top: 1em;
+  width: 100%;
+  height: 100em;
+}
+
+#schedule_spreadsheet {
+  margin-top: 1em;
+  width: 100%;
+  height: 60em;
+}
+
+/***********************************************************************
+   Navigation bar styling
+ ***********************************************************************/
 
 #navbar_container {
   text-align: center;
@@ -119,32 +162,29 @@ tr:nth-child(even) {
   color: white;
 }
 
-#headerSep {
-  height: 2px;
-  border-width: 0;
-  color: #1f386b;
-  background-color: #1f386b;
-}
+/***********************************************************************
+  Code and code highlighting (actual syntax highlighting styles are
+  in syntax.css)
+ ***********************************************************************/
 
-/*
-code.cmd {
-  background: #222;
-  color: #8f8;
-  border: 1px solid #484;
-  padding-left: 3px;
-  padding-right: 3px;
-  border-radius: .25em;
-}
-*/
+/* This stuff is a bit of a mess, no doubt could be cleaned up considerably */
 
 div.highlighter-rouge {
-  margin-left: 2em;
-  margin-right: 2em;
+  margin: 0.5em 2em;
   background-color: #eee;
   border: 1px solid #ccc;
   padding: 0 1em;
   border-radius: .25em;
   overflow: auto;
+}
+
+pre {
+  font-family: 'Liberation Mono', monospace; font-size: 12pt;
+  margin: 0.5em 0.5em;
+}
+
+code {
+  font-family: 'Liberation Mono', monospace; font-size: 12pt;
 }
 
 code.highlighter-rouge, p code, div.admonition code {
@@ -154,14 +194,14 @@ code.highlighter-rouge, p code, div.admonition code {
   border-radius: .25em;
 }
 
-#footer {
-  margin-bottom: 2em;
-}
-
 .tentative {
   color: #888;
   font-style: italic;
 }
+
+/***********************************************************************
+  Cards for staff page
+ ***********************************************************************/
 
 .card_container:after {
   /* disable floating at the end of the card_container div */
@@ -198,19 +238,9 @@ code.highlighter-rouge, p code, div.admonition code {
   font-size: 120%;
 }
 
-#officehours_spreadsheet {
-  margin-top: 1em;
-  width: 100%;
-  height: 100em;
-}
-
-#schedule_spreadsheet {
-  margin-top: 1em;
-  width: 100%;
-  height: 60em;
-}
-
-/* collapsible sections for the Course Materials page */
+/***********************************************************************
+   collapsible sections for the Course Materials page
+ ***********************************************************************/
 
 .week_control_button {
   background-color: #eee;
@@ -237,7 +267,11 @@ code.highlighter-rouge, p code, div.admonition code {
 div.collapsible {
 }
 
-/* General admonition styling */
+/***********************************************************************
+   Admonition styling
+ ***********************************************************************/
+
+/* general styling (for all admonitions) */
 
 div.admonition {
   border-radius: 1em;
@@ -294,7 +328,7 @@ div.tip div.title:before, div.success div.title:before {
 /* Info styling */
 
 div.info {
-  background: #d8d8ff;
+  background: #e8e8ff;
   border: 2px solid #116;
 }
 
