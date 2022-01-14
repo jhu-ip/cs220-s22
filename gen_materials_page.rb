@@ -151,7 +151,7 @@ weeks.keys.sort.each do |week_num|
   #last_date = week[days[-1]].date
 
   print <<"EOF2"
-<button type="button" id="week_#{week_num}_toggle" class="week_control_button">Week #{week_num} (#{week.first_date}–#{week.last_date})</button>
+<button type="button" id="week_#{week_num}_toggle" class="week_control_button">Week+Ploppers+ #{week_num} (#{week.first_date}–#{week.last_date})</button>
 <div id="week_#{week_num}" class="collapsible">
 EOF2
 
@@ -247,6 +247,7 @@ print <<"EOF9"
       console.log("find element " + button_id);
       var button = document.getElementById(button_id);
       button.addEventListener('click', function() {
+        button.classList.toggle('active');
         if (content.style.display == 'block') {
           content.style.display = 'none';
         } else {
