@@ -15,7 +15,7 @@ the command
 Then add, commit, and push both material.csv and material.md.
 -->
 
-<button type="button" id="week_1_toggle" class="week_control_button">Week+Ploppers+ 1 (01/24–01/28)</button>
+<button type="button" id="week_1_toggle" class="week_control_button">Week 1 (01/24–01/28)</button>
 <div id="week_1" class="collapsible">
 <table>
   <thead>
