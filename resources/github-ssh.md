@@ -70,7 +70,7 @@ execute (search) the contents of the `.ssh` directory, which is what you
 want to see.  If you see different permissions, you can fix them by running the command
 
 ```bash
-chmod 0700 ~./.ssh
+chmod 0700 ~/.ssh
 ```
 
 ## Copy your public ssh key to the clipboard
