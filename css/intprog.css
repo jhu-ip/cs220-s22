@@ -160,17 +160,17 @@ tr:nth-child(even) {
 /* This stuff is a bit of a mess, no doubt could be cleaned up considerably */
 
 div.highlighter-rouge {
-  margin: 0.5em 2em;
+  margin: 1.5em 2em;
   background-color: #eee;
   border: 1px solid #ccc;
   padding: 0 1em;
-  border-radius: .25em;
+  border-radius: 0.5em;
   overflow: auto;
 }
 
 pre {
   font-family: 'Liberation Mono', monospace; font-size: 12pt;
-  margin: 0.5em 0.5em;
+  /*margin: 1.5em 0.5em;*/
 }
 
 code {
@@ -266,8 +266,8 @@ div.collapsible {
 div.admonition {
   border-radius: 1em;
   padding: 0.5em;
-  margin-top: 1em;
-  margin-bottom: 1em;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 div.admonition div.title {
