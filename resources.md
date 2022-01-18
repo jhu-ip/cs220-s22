@@ -12,7 +12,7 @@ This page has links to useful resources for the course.
 
 * <a class="external" target="_blank" href="https://cs.jhu.edu/~joanne/unix.html">Unix/Linux Tutorial</a>
 * <a class="external" target="_blank" href="https://cs.jhu.edu/~joanne/unixRC.pdf">Unix/Linux Reference Card</a>
-* <a class="external" target="_blank" href="https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer">Digital Ocean Command Line Primer</a>
+* Interactive Linux command line tutorial: <a class="external" target="_blank" href="https://www.digitalocean.com/community/tutorials/a-linux-command-line-primer">Digital Ocean Command Line Primer</a>
 
 ### Text editors
 
