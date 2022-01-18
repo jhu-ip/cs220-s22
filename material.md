@@ -69,7 +69,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (01/31–02/02)</button>
+<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (01/31–02/04)</button>
 <div id="week_2" class="collapsible">
 <table>
   <thead>
@@ -77,6 +77,7 @@ the materials for that week.
       <th></th>
       <th>Day 1 (01/31)</th>
       <th>Day 2 (02/02)</th>
+      <th>Day 3 (02/04)</th>
     </tr>
   </thead>
   <tbody>
@@ -84,31 +85,37 @@ the materials for that week.
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e83c3c47-6ee8-4351-b488-acb500313777'>Logical operators, control flow</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d75b0b98-f404-4e00-94dd-acb500313362'>Arrays, ASCII</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aff96a7c-3c0a-4631-a005-acb5003132e3'>C strings</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=222af12f-e830-4f46-90d8-acb500313281'>File I/O, assert, math functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3706539-7a02-4a5d-8850-acb5003131e8'>Writing functions, command line arguments</a></td>
     </tr>
     <tr>
       <td>Slides</td>
       <td><a href='day04_control_flow.pdf'>Logical operators, control flow</a></td>
       <td><a href='slides/day05_arrays.pdf'>Arrays</a><br><a href='slides/day05_c_strings.pdf'>C strings</a></td>
+      <td><a href='slides/day06_fileio_assertion_math.pdf'>File I/O, assert, math functions</a><br><a href='slides/day06_functions_command_line_arguments.pdf'>Writing functions, command line arguments</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
       <td><a href='questions/day04.html'>Day 4</a></td>
       <td><a href='questions/day05.html'>Day 5</a></td>
+      <td><a href='questions/day06.html'>Day 6</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
       <td><a href='exercise/ex04.html'>Exercise 4</a></td>
       <td><a href='exercise/ex05.html'>Exercise 5</a></td>
+      <td><a href='exercise/day06.html'>Exercise 6</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
+      <td></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
-      <td></td>
+      <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
+      <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
     </tr>
   </tbody>
 </table>

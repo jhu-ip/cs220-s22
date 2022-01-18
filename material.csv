@@ -53,3 +53,17 @@ Week,Day,Date,Type,"Link text",URL
 2,2,02/02,Slides,"C strings",slides/day05_c_strings.pdf
 2,2,02/02,Recap,"Day 5",questions/day05.html
 2,2,02/02,Exercise,"Exercise 5",exercise/ex05.html
+2,2,01/31,Recording,"Section 1",#
+2,2,01/31,Recording,"Section 2",#
+2,2,01/31,Recording,"Section 3",#
+2,2,01/31,Recording,"Section 4",#
+2,3,02/04,Video,"File I/O, assert, math functions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=222af12f-e830-4f46-90d8-acb500313281
+2,3,02/04,Video,"Writing functions, command line arguments",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3706539-7a02-4a5d-8850-acb5003131e8
+2,3,02/04,Slides,"File I/O, assert, math functions",slides/day06_fileio_assertion_math.pdf
+2,3,02/04,Slides,"Writing functions, command line arguments",slides/day06_functions_command_line_arguments.pdf
+2,3,02/04,Recap,"Day 6",questions/day06.html
+2,3,02/04,Exercise,"Exercise 6",exercise/day06.html
+2,3,01/31,Recording,"Section 1",#
+2,3,01/31,Recording,"Section 2",#
+2,3,01/31,Recording,"Section 3",#
+2,3,01/31,Recording,"Section 4",#
