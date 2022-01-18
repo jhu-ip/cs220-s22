@@ -50,9 +50,9 @@ the materials for that week.
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='exercise/ex00.html'>Exercise 0</a></td>
       <td><a href='exercise/ex01.html'>Exercise 1</a></td>
-      <td><a href='exercise/ex02.html'>Exercise 2</a><br><a href='exercise/ex03.html'>Exercise 3</a></td>
+      <td><a href='exercise/ex02.html'>Exercise 2</a></td>
+      <td><a href='exercise/ex03a.html'>Exercise 3-A</a><br><a href='exercise/ex03b.html'>Exercise 3-B</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
@@ -103,7 +103,7 @@ the materials for that week.
       <td>Exercise</td>
       <td><a href='exercise/ex04.html'>Exercise 4</a></td>
       <td><a href='exercise/ex05.html'>Exercise 5</a></td>
-      <td><a href='exercise/day06.html'>Exercise 6</a></td>
+      <td><a href='exercise/ex06.html'>Exercise 6</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
