@@ -13,6 +13,9 @@ This page has links to useful resources for the course.
 * [Github SSH key setup](resources/github-ssh.html)
 * <a class="external" target="_blank" href="https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf">Emacs reference card</a>
 * <a class="external" target="_blank" href="https://www.openvim.com/">Interactive Vim tutorial</a>
+* <a class="external" target="_blank" href="https://www.gnu.org/software/emacs/tour/">GNU Emacs - Guided Tour</a>
+  (very thorough overview of Emacs features, we don't expect you to learn everything mentioned here)
+* Emacs has a built-in tutorial mode: start Emacs (with the `emacs` command), and type *Control-H* followed by *t*
 * <a class="external" target="_blank" href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf">Git cheatsheet</a>
 
 ## Review materials
