@@ -38,7 +38,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/day01_intro.pdf'>Course intro</a><br><a href='slides/day01_linux_intro.pdf'>Linux, ugrad accounts</a></td>
+      <td><a href='slides/day01_intro.pdf'>Course intro</a><br><a href='slides/day01_linux_basics.pdf'>Linux, ugrad accounts</a></td>
       <td><a href='slides/day02_hello_world_c.pdf'>Hello world program in C</a><br><a href='slides/day02_c_basics.pdf'>C basics</a></td>
       <td><a href='slides/day03_editors.pdf'>Editors (emacs)</a><br><a href='slides/day03_git.pdf'>Git</a><br><a href='slides/day03_submission_workflow.pdf'>Submission workflow</a></td>
     </tr>
