@@ -13,5 +13,5 @@ reference solutions:
 1. When we declare an array in C, what are the initial values?
 2. What is the ASCII (Unicode) table?
 3. What is a null terminator? What is its ASCII value?
-4. Consider c-string "ab\0cd\0" - what is the reported string length?
-5. How do we check if two c-strings are the same?  In addition, are these two strings the same: "ab\0cd\0" and "ab\0"?
+4. Consider c-string `"ab\0cd\0"` - what is the reported string length?
+5. How do we check if two C-strings are the same?  In addition, are these two strings the same: `"ab\0cd\0"` and `"ab\0"`?
