@@ -11,8 +11,8 @@ reference solutions:
   6. just once at the beginning
 ---
 
-1. Which one is the logical "and" operator in C, "&&" or "&" or both?
-2. Which one is the logical "negation" operator in C, "~" or "!" or both?
+1. Which one is the logical "and" operator in C, `&&` or `&` or both?
+2. Which one is the logical "negation" operator in C, `~` or `!` or both?
 3. What is the result of evaluating `(34 + 2) / 40 || 80 > 'A' && 15 % 4` ?
 4. What does the keyword **break** do in a control structure?
 5. What does the keyword **continue** do in loops?
