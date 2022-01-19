@@ -156,7 +156,7 @@ Prepare your files as if you were asked to submit them to Gradescope for a homew
 	<div class='admonition caution'>
 	<div class='title'>Tip</div>
 	<div class='content'>
-	<p>do not try to type a <em>./</em> after the colon to start the relative path name, or a <em>~/</em> to indicate an absolute path name; <code>scp</code> will not understand that notation.</p>
+	<p>Do not try to type a <em>./</em> after the colon to start the relative path name, or a <em>~/</em> to indicate an absolute path name; <code>scp</code> will not understand that notation.</p>
 	</div>
 	</div>
 	<div class='admonition info'>
