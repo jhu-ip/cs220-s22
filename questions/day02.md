@@ -16,5 +16,5 @@ reference solutions:
 3. What does an **undefined** behavior mean in programming? Do we need to care about it? Why or why not?
 4. What does the modifier `const` mean? 
 5. What are the primitive types in C and what are their byte sizes?
-6. What is the value of 7 / 2 (a division of two integers) in a C program?
+6. What is the value of `7 / 2` (a division of two integers) in a C program?
 7. Is `i=i++` a well-defined expression in C?
