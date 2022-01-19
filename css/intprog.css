@@ -189,6 +189,16 @@ code.highlighter-rouge, p code, div.admonition code {
   font-style: italic;
 }
 
+/* This is used in ex02 for the green "Run" button */
+.green_button {
+  background: #6b6;
+  color: white;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  margin-left: 0.25em;
+  margin-right: 0.25em;
+}
+
 /***********************************************************************
   Cards for staff page
  ***********************************************************************/
