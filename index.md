@@ -17,7 +17,7 @@ as time permits. Students are expected to learn syntax and some language
 specific features independently. Course work involves significant
 programming projects in both languages.
 
-All public information about the course (readings, assignments, etc.) will
+All public information about the course (assignments, exercises, etc.) will
 be posted on this website.
 
 Use the links at the top of the page to navigate the site.
