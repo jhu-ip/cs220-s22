@@ -48,6 +48,7 @@ KNOWN_KEYS = {
 # Collected information about a particular day of the course.
 class DayInfo
   attr_reader :date
+  attr_accessor :global_day_number
 
   def initialize
     @info = {}
@@ -137,6 +138,20 @@ class Week
 
     return my_week.to_i <= cur_week.to_i
   end
+
+  # Assign global day numbers to each DayInfo, starting from the given one.
+  # Returns what should be the next global day number.
+  def assign_global_day_numbers(start)
+    n = start
+
+    day_numbers.each do |day_number|
+      day_info = @days[day_number]
+      day_info.global_day_number = n
+      n += 1
+    end
+
+    return n
+  end
 end
 
 def format_link(link_text, url)
@@ -190,6 +205,14 @@ weeks.keys.sort.each do |week_num|
   end
 end
 
+# Go through all of the Weeks and assign a global day number
+# to each DayInfo
+gdn = 1
+weeks.keys.sort.each do |week_num|
+  week = weeks[week_num]
+  gdn = week.assign_global_day_numbers(gdn)
+end
+
 # Generate beginning of the Markdown file (with the YAML front matter, etc.)
 print FRONT_STUFF
 
@@ -213,7 +236,7 @@ EOF2
 EOF3
   days.each do |day_num|
     day_info = week[day_num]
-    puts "      <th>Day #{day_num} (#{day_info.date})</th>"
+    puts "      <th>Day #{day_info.global_day_number} (#{day_info.date})</th>"
   end
   #puts ''
   print <<"EOF4"

@@ -12,8 +12,8 @@ Week,Day,Date,Type,"Link text",URL
 1,1,01/24,Recording,"Section 2",#
 1,1,01/24,Recording,"Section 3",#
 1,1,01/24,Recording,"Section 4",#
-1,2,01/26,Video,"Hello world program in C",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2912145c-de78-4810-8a06-acb500313555
-1,2,01/26,Video,"C basics",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f25350a1-fca7-4a12-9f9b-acb5003133d2
+1,2,01/26,Video,"Hello world program in C",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a42038f-6e6e-43cb-958a-ae230027ad23
+1,2,01/26,Video,"C basics",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7fc4118-f301-40bb-8693-ae230027ac09
 1,2,01/26,Slides,"Hello world program in C",slides/day02_hello_world_c.pdf
 1,2,01/26,Slides,"C basics",slides/day02_c_basics.pdf
 1,2,01/26,Recap,"Day 2",questions/day02.html
@@ -23,9 +23,9 @@ Week,Day,Date,Type,"Link text",URL
 1,2,01/26,Recording,"Section 2",#
 1,2,01/26,Recording,"Section 3",#
 1,2,01/26,Recording,"Section 4",#
-1,3,01/28,Video,"Editors (emacs)",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0bc6cbce-e7db-40f4-8961-acb5003135d4
-1,3,01/28,Video,"Git",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=695b3415-c00b-47cc-b015-acb9013c2c2e
-1,3,01/28,Video,"Submission workflow",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ab3c5c69-5c49-452a-827a-acb500313465
+1,3,01/28,Video,"Editors (emacs)",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d7af51c6-fffc-4c79-9e8e-ae230027adb4
+1,3,01/28,Video,"Git",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7f332c5e-6ad8-4ff8-a702-ae23002793cf
+1,3,01/28,Video,"Submission workflow",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4c4f67dd-677c-40d9-8bbc-ae230027ac60
 1,3,01/28,Slides,"Editors (emacs)",slides/day03_editors.pdf
 1,3,01/28,Slides,"Git",slides/day03_git.pdf
 1,3,01/28,Slides,"Submission workflow",slides/day03_submission_workflow.pdf
@@ -39,7 +39,7 @@ Week,Day,Date,Type,"Link text",URL
 1,3,01/28,Recording,"Section 2",#
 1,3,01/28,Recording,"Section 3",#
 1,3,01/28,Recording,"Section 4",#
-2,1,01/31,Video,"Logical operators, control flow",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e83c3c47-6ee8-4351-b488-acb500313777
+2,1,01/31,Video,"Logical operators, control flow",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=45b14d44-3d4e-4fd7-b0c0-ae230027aef2
 2,1,01/31,Slides,"Logical operators, control flow",day04_control_flow.pdf
 2,1,01/31,Recap,"Day 4",questions/day04.html
 2,1,01/31,Exercise,"Exercise 4",exercise/ex04.html
@@ -47,8 +47,8 @@ Week,Day,Date,Type,"Link text",URL
 2,1,01/31,Recording,"Section 2",#
 2,1,01/31,Recording,"Section 3",#
 2,1,01/31,Recording,"Section 4",#
-2,2,02/02,Video,"Arrays, ASCII",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d75b0b98-f404-4e00-94dd-acb500313362
-2,2,02/02,Video,"C strings",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aff96a7c-3c0a-4631-a005-acb5003132e3
+2,2,02/02,Video,"Arrays, ASCII",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=58f4d402-fd0d-4868-b805-ae230027ab93
+2,2,02/02,Video,"C strings",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06a4f1da-f6a1-4212-b686-ae230027ab33
 2,2,02/02,Slides,"Arrays",slides/day05_arrays.pdf
 2,2,02/02,Slides,"C strings",slides/day05_c_strings.pdf
 2,2,02/02,Recap,"Day 5",questions/day05.html
@@ -57,8 +57,8 @@ Week,Day,Date,Type,"Link text",URL
 2,2,01/31,Recording,"Section 2",#
 2,2,01/31,Recording,"Section 3",#
 2,2,01/31,Recording,"Section 4",#
-2,3,02/04,Video,"File I/O, assert, math functions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=222af12f-e830-4f46-90d8-acb500313281
-2,3,02/04,Video,"Writing functions, command line arguments",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3706539-7a02-4a5d-8850-acb5003131e8
+2,3,02/04,Video,"File I/O, assert, math functions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae149930-15ce-460c-a2df-ae230027aac0
+2,3,02/04,Video,"Writing functions, command line arguments",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1de2958b-f8b8-4fae-ac47-ae230027aa77
 2,3,02/04,Slides,"File I/O, assert, math functions",slides/day06_fileio_assertion_math.pdf
 2,3,02/04,Slides,"Writing functions, command line arguments",slides/day06_functions_command_line_arguments.pdf
 2,3,02/04,Recap,"Day 6",questions/day06.html
