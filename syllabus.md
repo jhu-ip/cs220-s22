@@ -45,7 +45,7 @@ syllabus as deemed necessary with notice.)*
 David Hovemeyer, Associate Teaching Professor\
 <mailto:daveho@cs.jhu.edu>,\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~daveho">https://www.cs.jhu.edu/~daveho</a>,\
-Office hours: TBA
+Office hours: T 12-2pm, Th 1-3pm, via Zoom (see <a class="external" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a> for link)
 
 Misha Kazhdan, Professor\
 <mailto:misha@cs.jhu.edu>\
