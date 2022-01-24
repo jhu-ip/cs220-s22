@@ -8,4 +8,4 @@ category: assignments
 
 Assignment | Due date
 ---------- | --------
-[Homework 0](assign/hw0.html) | Thursday, Feb 24th by 11pm
+[Homework 0](assign/hw0.html) | Friday, Feb 4th by 11pm
