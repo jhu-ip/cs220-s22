@@ -43,6 +43,7 @@ KNOWN_KEYS = {
   'Exercise' => 1,
   'Resource' => 1,
   'Recording' => 1,
+  'Ignore' => 1,
 }
 
 # Collected information about a particular day of the course.
@@ -56,7 +57,7 @@ class DayInfo
   end
 
   def add_item(type, link_text, url)
-    raise "Unknown item type #{type}" if !KNOWN_KEYS.has_key?(type)
+    #raise "Unknown item type #{type}" if !KNOWN_KEYS.has_key?(type)
 
     if !@info.has_key?(type)
       @info[type] = []

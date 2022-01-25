@@ -65,7 +65,9 @@ Week,Day,Date,Type,"Link text",URL
 2,3,02/04,Slides,"Writing functions, command line arguments",slides/day06_functions_command_line_arguments.pdf
 2,3,02/04,Recap,"Day 6",questions/day06.html
 2,3,02/04,Exercise,"Exercise 6",exercise/ex06.html
-2,3,01/31,Recording,"Section 1",#
-2,3,01/31,Recording,"Section 2",#
-2,3,01/31,Recording,"Section 3",#
-2,3,01/31,Recording,"Section 4",#
+2,3,02/04,Recording,"Section 1",#
+2,3,02/04,Recording,"Section 2",#
+2,3,02/04,Recording,"Section 3",#
+2,3,02/04,Recording,"Section 4",#
+3,1,02/07,_Video,"Day 7: Function Declarations",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbef007b-88a8-4e42-bcc4-ae230027a8f4
+3,1,02/07,_Exercise,"Exercise 7",exercise/ex07.html

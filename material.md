@@ -120,6 +120,43 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (02/07–02/07)</button>
+<div id="week_3" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 7 (02/07)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
