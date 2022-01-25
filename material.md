@@ -56,13 +56,13 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unix.html'>Unix/Linux Tutorial</a><br><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unixRC.pdf'>Unix/Linux Reference Card</a><br><a href='resources/github-ssh.html'>Github SSH key setup</a></td>
+      <td><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unix.html'>Unix/Linux Tutorial</a><br><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unixRC.pdf'>Unix/Linux Reference Card</a><br><a href='resources/github-ssh.html'>Github SSH key setup</a><br><a href='slides/sec01/day01_intro.pdf'>Section 1 Course intro slides</a><br><a href='slides/sec01/day01_linux_basics.pdf'>Section 1 Linux slides</a></td>
       <td><a class='external' target='_blank' href='https://www.onlinegdb.com/online_c_compiler'>Online C compiler</a></td>
       <td><a class='external' target='_blank' href='https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf'>Emacs reference card</a><br><a class='external' target='_blank' href='https://www.openvim.com/'>Interactive Vim tutorial</a><br><a class='external' target='_blank' href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'>Git cheatsheet</a></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=914e8dea-f143-4354-8eb8-ae270139ec44'>Section 1</a><br><a href='#'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f4a0107-2691-41d6-99f0-ae2701625daa'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84257fd7-6d0a-4489-a0b5-ae27010ed80b'>Section 4</a></td>
       <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
       <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
     </tr>

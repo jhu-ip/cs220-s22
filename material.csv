@@ -8,10 +8,12 @@ Week,Day,Date,Type,"Link text",URL
 1,1,01/24,Resource,"Unix/Linux Tutorial",https://cs.jhu.edu/~joanne/unix.html
 1,1,01/24,Resource,"Unix/Linux Reference Card",https://cs.jhu.edu/~joanne/unixRC.pdf
 1,1,01/24,Resource,"Github SSH key setup",resources/github-ssh.html
-1,1,01/24,Recording,"Section 1",#
+1,1,01/24,Resource,"Section 1 Course intro slides",slides/sec01/day01_intro.pdf
+1,1,01/24,Resource,"Section 1 Linux slides",slides/sec01/day01_linux_basics.pdf
+1,1,01/24,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=914e8dea-f143-4354-8eb8-ae270139ec44
 1,1,01/24,Recording,"Section 2",#
-1,1,01/24,Recording,"Section 3",#
-1,1,01/24,Recording,"Section 4",#
+1,1,01/24,Recording,"Section 3",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f4a0107-2691-41d6-99f0-ae2701625daa
+1,1,01/24,Recording,"Section 4",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84257fd7-6d0a-4489-a0b5-ae27010ed80b
 1,2,01/26,Video,"Hello world program in C",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a42038f-6e6e-43cb-958a-ae230027ad23
 1,2,01/26,Video,"C basics",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c7fc4118-f301-40bb-8693-ae230027ac09
 1,2,01/26,Slides,"Hello world program in C",slides/day02_hello_world_c.pdf
