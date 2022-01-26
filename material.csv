@@ -11,7 +11,7 @@ Week,Day,Date,Type,"Link text",URL
 1,1,01/24,Resource,"Section 1 Course intro slides",slides/sec01/day01_intro.pdf
 1,1,01/24,Resource,"Section 1 Linux slides",slides/sec01/day01_linux_basics.pdf
 1,1,01/24,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=914e8dea-f143-4354-8eb8-ae270139ec44
-1,1,01/24,Recording,"Section 2",#
+1,1,01/24,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d57a4aa-3153-4277-bcb0-ae290022bd6a
 1,1,01/24,Recording,"Section 3",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f4a0107-2691-41d6-99f0-ae2701625daa
 1,1,01/24,Recording,"Section 4",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84257fd7-6d0a-4489-a0b5-ae27010ed80b
 1,2,01/26,Video,"Hello world program in C",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1a42038f-6e6e-43cb-958a-ae230027ad23
@@ -21,7 +21,8 @@ Week,Day,Date,Type,"Link text",URL
 1,2,01/26,Recap,"Day 2",questions/day02.html
 1,2,01/26,Exercise,"Exercise 2",exercise/ex02.html
 1,2,01/26,Resource,"Online C compiler",https://www.onlinegdb.com/online_c_compiler
-1,2,01/26,Recording,"Section 1",#
+1,2,01/26,Resource,"Section 1 notes",slides/sec01/day02_notes.pdf
+1,2,01/26,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31bb08b3-9845-4b85-994e-ae29013542fa
 1,2,01/26,Recording,"Section 2",#
 1,2,01/26,Recording,"Section 3",#
 1,2,01/26,Recording,"Section 4",#
