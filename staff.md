@@ -80,22 +80,132 @@ category: "staff"
   </div>
 </div>
 
-<!--
-<div class="card">
-  <img alt="NAME photo" src="{{site.baseurl}}/img/staffpix/NAME.jpg">
-  <div class="details">
-   <span class="name_and_role">FIRSTNAME LASTNAME</span><br>
-   Email: <a href="mailto:EMAIL@jhu.edu">EMAIL@jhu.edu</a><br>
-  </div>
-</div>
--->
-
 <div class="card_container">
 </div>
 
 ## Course Assistants
 
-Coming soon!
+<div class="card">
+  <img alt="Jessie photo" src="{{site.baseurl}}/img/staffpix/jessie.jpg">
+  <div class="details">
+   <span class="name_and_role">Jessie Luo</span><br>
+   Email: <a href="mailto:jluo30@jhu.edu">jluo30@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Stella photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Stella Li</span><br>
+   Email: <a href="mailto:sli136@jhu.edu">sli136@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Sangmin photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Sangmin Woo</span><br>
+   Email: <a href="mailto:swoo17@jhu.edu">swoo17@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Justin photo" src="{{site.baseurl}}/img/staffpix/justin.jpg">
+  <div class="details">
+   <span class="name_and_role">Justin Winkler</span><br>
+   Email: <a href="mailto:jwinkle8@jhu.edu">jwinkle8@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Alexandra photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Alexandra Mo</span><br>
+   Email: <a href="mailto:ymo6@jh.edu">ymo6@jh.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Hongyi photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Hongyi Liu</span><br>
+   Email: <a href="mailto:liuhongyi@jhu.edu">liuhongyi@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Anika photo" src="{{site.baseurl}}/img/staffpix/anika.jpg">
+  <div class="details">
+   <span class="name_and_role">Anika Misra</span><br>
+   Email: <a href="mailto:amisra7@jhu.edu">amisra7@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Ilana photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Ilana Chalom</span><br>
+   Email: <a href="mailto:ichalom1@jhu.edu">ichalom1@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Velat photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Velat Kilic</span><br>
+   Email: <a href="mailto:velat_kilic@jhu.edu">velat_kilic@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Karen photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Karen He</span><br>
+   Email: <a href="mailto:khe8@jhu.edu">khe8@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Arthur photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Arthur Wang</span><br>
+   Email: <a href="mailto:awang91@jhu.edu">awang91@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Eugene photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Eugene Han</span><br>
+   Email: <a href="mailto:ehan15@jhu.edu">ehan15@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Sheila photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Sheila Iyer</span><br>
+   Email: <a href="mailto:siyer20@jhu.edu">siyer20@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Shaopeng photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Shaopeng Zeng</span><br>
+   Email: <a href="mailto:szeng10@jhu.edu">szeng10@jhu.edu</a><br>
+  </div>
+</div>
+
+<!--
+<div class="card">
+  <img alt="NAME photo" src="{{site.baseurl}}/img/staffpix/NAME.jpg">
+  <div class="details">
+   <span class="name_and_role">FIRSTNAME LASTNAME</span><br>
+   Email: <a href="mailto:"></a><br>
+  </div>
+</div>
+-->
 
 <div class="card_container">
 </div>
