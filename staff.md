@@ -64,7 +64,31 @@ category: "staff"
 
 ## Head Course Assistants
 
-Coming soon!
+<div class="card">
+  <img alt="Ben photo" src="{{site.baseurl}}/img/staffpix/ben.jpg">
+  <div class="details">
+   <span class="name_and_role">Ben Cillie</span><br>
+   Email: <a href="mailto:bcillie1@jhu.edu">bcillie1@jhu.edu</a><br>
+  </div>
+</div>
+
+<div class="card">
+  <img alt="Mark photo" src="{{site.baseurl}}/img/staffpix/mark.jpg">
+  <div class="details">
+   <span class="name_and_role">Mark Tiavises</span><br>
+   Email: <a href="mailto:mtiavis1@jhu.edu">mtiavis1@jhu.edu</a><br>
+  </div>
+</div>
+
+<!--
+<div class="card">
+  <img alt="NAME photo" src="{{site.baseurl}}/img/staffpix/NAME.jpg">
+  <div class="details">
+   <span class="name_and_role">FIRSTNAME LASTNAME</span><br>
+   Email: <a href="mailto:EMAIL@jhu.edu">EMAIL@jhu.edu</a><br>
+  </div>
+</div>
+-->
 
 <div class="card_container">
 </div>
