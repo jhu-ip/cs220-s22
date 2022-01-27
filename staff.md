@@ -94,7 +94,7 @@ category: "staff"
 </div>
 
 <div class="card">
-  <img alt="Stella photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Stella photo" src="{{site.baseurl}}/img/staffpix/stella.jpg">
   <div class="details">
    <span class="name_and_role">Stella Li</span><br>
    Email: <a href="mailto:sli136@jhu.edu">sli136@jhu.edu</a><br>
