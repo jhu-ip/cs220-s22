@@ -85,11 +85,14 @@ category: "staff"
 
 ## Course Assistants
 
+See the [CA office hours](officehours.html) page for the CA office hours schedule.
+
 <div class="card">
   <img alt="Jessie photo" src="{{site.baseurl}}/img/staffpix/jessie.jpg">
   <div class="details">
    <span class="name_and_role">Jessie Luo</span><br>
    Email: <a href="mailto:jluo30@jhu.edu">jluo30@jhu.edu</a><br>
+   Section 01
   </div>
 </div>
 
@@ -98,6 +101,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Stella Li</span><br>
    Email: <a href="mailto:sli136@jhu.edu">sli136@jhu.edu</a><br>
+   Section 01
   </div>
 </div>
 
@@ -106,6 +110,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Sangmin Woo</span><br>
    Email: <a href="mailto:swoo17@jhu.edu">swoo17@jhu.edu</a><br>
+   Section 01
   </div>
 </div>
 
@@ -114,6 +119,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Justin Winkler</span><br>
    Email: <a href="mailto:jwinkle8@jhu.edu">jwinkle8@jhu.edu</a><br>
+   Section 02
   </div>
 </div>
 
@@ -122,6 +128,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Alexandra Mo</span><br>
    Email: <a href="mailto:ymo6@jh.edu">ymo6@jh.edu</a><br>
+   Section 02
   </div>
 </div>
 
@@ -130,6 +137,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Hongyi Liu</span><br>
    Email: <a href="mailto:liuhongyi@jhu.edu">liuhongyi@jhu.edu</a><br>
+   Section 02
   </div>
 </div>
 
@@ -138,6 +146,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Anika Misra</span><br>
    Email: <a href="mailto:amisra7@jhu.edu">amisra7@jhu.edu</a><br>
+   Section 03
   </div>
 </div>
 
@@ -146,6 +155,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Ilana Chalom</span><br>
    Email: <a href="mailto:ichalom1@jhu.edu">ichalom1@jhu.edu</a><br>
+   Section 03
   </div>
 </div>
 
@@ -154,6 +164,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Velat Kilic</span><br>
    Email: <a href="mailto:velat_kilic@jhu.edu">velat_kilic@jhu.edu</a><br>
+   Section 03
   </div>
 </div>
 
@@ -162,6 +173,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Karen He</span><br>
    Email: <a href="mailto:khe8@jhu.edu">khe8@jhu.edu</a><br>
+   Section 04
   </div>
 </div>
 
@@ -170,6 +182,7 @@ category: "staff"
   <div class="details">
    <span class="name_and_role">Arthur Wang</span><br>
    Email: <a href="mailto:awang91@jhu.edu">awang91@jhu.edu</a><br>
+   Section 04
   </div>
 </div>
 
