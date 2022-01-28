@@ -174,7 +174,7 @@ category: "staff"
 </div>
 
 <div class="card">
-  <img alt="Eugene photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Eugene photo" src="{{site.baseurl}}/img/staffpix/eugene.jpg">
   <div class="details">
    <span class="name_and_role">Eugene Han</span><br>
    Email: <a href="mailto:ehan15@jhu.edu">ehan15@jhu.edu</a><br>
