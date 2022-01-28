@@ -47,7 +47,7 @@ Week,Day,Date,Type,"Link text",URL
 1,3,01/28,Recording,"Section 3",#
 1,3,01/28,Recording,"Section 4",#
 2,1,01/31,Video,"Logical operators, control flow",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=45b14d44-3d4e-4fd7-b0c0-ae230027aef2
-2,1,01/31,Slides,"Logical operators, control flow",day04_control_flow.pdf
+2,1,01/31,Slides,"Logical operators, control flow",slides/day04_control_flow.pdf
 2,1,01/31,Recap,"Day 4",questions/day04.html
 2,1,01/31,Exercise,"Exercise 4",exercise/ex04.html
 2,1,01/31,Recording,"Section 1",#

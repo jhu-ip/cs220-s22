@@ -89,7 +89,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='day04_control_flow.pdf'>Logical operators, control flow</a></td>
+      <td><a href='slides/day04_control_flow.pdf'>Logical operators, control flow</a></td>
       <td><a href='slides/day05_arrays.pdf'>Arrays</a><br><a href='slides/day05_c_strings.pdf'>C strings</a></td>
       <td><a href='slides/day06_fileio_assertion_math.pdf'>File I/O, assert, math functions</a><br><a href='slides/day06_functions_command_line_arguments.pdf'>Writing functions, command line arguments</a></td>
     </tr>
