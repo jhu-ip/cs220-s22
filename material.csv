@@ -40,8 +40,9 @@ Week,Day,Date,Type,"Link text",URL
 1,3,01/28,Resource,"Emacs reference card",https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf
 1,3,01/28,Resource,"Interactive Vim tutorial",https://www.openvim.com/
 1,3,01/28,Resource,"Git cheatsheet",https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf
+1,3,01/28,Resource,"Section 1 notes",slides/sec01/day03_notes.pdf
 1,3,01/28,Resource,"Section 2 lecture slides",slides/sec02/03.pdf
-1,3,01/28,Recording,"Section 1",#
+1,3,01/28,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56b7b3c4-d25a-49a5-ba8a-ae2b013b8674
 1,3,01/28,Recording,"Section 2",#
 1,3,01/28,Recording,"Section 3",#
 1,3,01/28,Recording,"Section 4",#
