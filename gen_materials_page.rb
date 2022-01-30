@@ -42,6 +42,7 @@ KNOWN_KEYS = {
   'Recap' => 1,
   'Exercise' => 1,
   'Resource' => 1,
+  'LectureSlides' => 1,
   'Recording' => 1,
   'Ignore' => 1,
 }
@@ -252,6 +253,7 @@ EOF4
     ['Recap', 'Recap<br>Questions'],
     ['Exercise', 'Exercise'],
     ['Resource', 'Additional<br>Resources'],
+    ['LectureSlides', 'Lecture<br>Slides'],
     ['Recording', 'Recorded<br>Sessions']
   ].each do |pair|
     type = pair[0]

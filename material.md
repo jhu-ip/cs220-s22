@@ -56,9 +56,15 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unix.html'>Unix/Linux Tutorial</a><br><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unixRC.pdf'>Unix/Linux Reference Card</a><br><a href='resources/github-ssh.html'>Github SSH key setup</a><br><a href='slides/sec01/day01_intro.pdf'>Section 1 Course intro slides</a><br><a href='slides/sec01/day01_linux_basics.pdf'>Section 1 Linux slides</a><br><a href='slides/sec02/01.pdf'>Section 2 lecture slides</a></td>
-      <td><a class='external' target='_blank' href='https://www.onlinegdb.com/online_c_compiler'>Online C compiler</a><br><a href='slides/sec01/day02_notes.pdf'>Section 1 notes</a><br><a href='slides/sec02/02.pdf'>Section 2 lecture slides</a></td>
-      <td><a class='external' target='_blank' href='https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf'>Emacs reference card</a><br><a class='external' target='_blank' href='https://www.openvim.com/'>Interactive Vim tutorial</a><br><a class='external' target='_blank' href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'>Git cheatsheet</a><br><a href='slides/sec01/day03_notes.pdf'>Section 1 notes</a><br><a href='slides/sec02/03.pdf'>Section 2 lecture slides</a></td>
+      <td><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unix.html'>Unix/Linux Tutorial</a><br><a class='external' target='_blank' href='https://cs.jhu.edu/~joanne/unixRC.pdf'>Unix/Linux Reference Card</a><br><a href='resources/github-ssh.html'>Github SSH key setup</a></td>
+      <td><a class='external' target='_blank' href='https://www.onlinegdb.com/online_c_compiler'>Online C compiler</a></td>
+      <td><a class='external' target='_blank' href='https://www.gnu.org/software/emacs/refcards/pdf/refcard.pdf'>Emacs reference card</a><br><a class='external' target='_blank' href='https://www.openvim.com/'>Interactive Vim tutorial</a><br><a class='external' target='_blank' href='https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf'>Git cheatsheet</a></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td><a href='slides/sec01/day01_intro.pdf'>Section 1 (intro)</a><br><a href='slides/sec01/day01_linux_basics.pdf'>Section 1 (Linux)</a><br><a href='slides/sec02/01.pdf'>Section 2</a></td>
+      <td><a href='slides/sec01/day02_notes.pdf'>Section 1</a><br><a href='slides/sec02/02.pdf'>Section 2</a></td>
+      <td><a href='slides/sec01/day03_notes.pdf'>Section 1</a><br><a href='slides/sec02/03.pdf'>Section 2</a></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
@@ -112,6 +118,12 @@ the materials for that week.
       <td></td>
     </tr>
     <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
       <td>Recorded<br>Sessions</td>
       <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
       <td><a href='#'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
@@ -148,6 +160,10 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
       <td></td>
     </tr>
     <tr>
