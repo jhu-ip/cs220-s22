@@ -106,7 +106,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 </div>
 
 <div class="card">
-  <img alt="Sangmin photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Sangmin photo" src="{{site.baseurl}}/img/staffpix/sangmin.jpg">
   <div class="details">
    <span class="name_and_role">Sangmin Woo</span><br>
    Email: <a href="mailto:swoo17@jhu.edu">swoo17@jhu.edu</a><br>
@@ -124,7 +124,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 </div>
 
 <div class="card">
-  <img alt="Alexandra photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Alexandra photo" src="{{site.baseurl}}/img/staffpix/alexandra.jpg">
   <div class="details">
    <span class="name_and_role">Alexandra Mo</span><br>
    Email: <a href="mailto:ymo6@jh.edu">ymo6@jh.edu</a><br>
