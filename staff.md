@@ -195,7 +195,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 </div>
 
 <div class="card">
-  <img alt="Sheila photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Sheila photo" src="{{site.baseurl}}/img/staffpix/sheila.jpg">
   <div class="details">
    <span class="name_and_role">Sheila Iyer</span><br>
    Email: <a href="mailto:siyer20@jhu.edu">siyer20@jhu.edu</a><br>
