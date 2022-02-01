@@ -52,7 +52,7 @@ command
 jekyll serve --baseurl ''
 ```
 
-Enter the url [`http://localhost:4000/`](http://localhost:4000/){:target="_blank"} in a web browser, and you should be
+Enter the url [`http://localhost:4000/`](http://localhost:4000/&target=blank) in a web browser, and you should be
 previewing the website.  As you make changes to the website files, the
 web browser will *not* automatically update to reflect those changes, so
 you'll need to refresh manually.
