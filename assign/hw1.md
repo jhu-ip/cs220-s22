@@ -57,7 +57,7 @@ activity. Recall that your code is always expected to compile without
 errors or warnings. Submissions which don't compile properly may earn
 zero points, so be sure to submit to Gradescope early and often! And
 once you get a good start on the assignment, always have some earlier
-compiling version of your work pushed up to Bitbucket.
+compiling version of your work pushed up to Github.
 
 You must work individually on this assignment. 
 
