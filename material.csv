@@ -62,8 +62,9 @@ Week,Day,Date,Type,"Link text",URL
 2,2,02/02,Slides,"C strings",slides/day05_c_strings.pdf
 2,2,02/02,Recap,"Day 5",questions/day05.html
 2,2,02/02,Exercise,"Exercise 5",exercise/ex05.html
+2,2,02/02,LectureSlides,"Section 1",slides/sec01/day05_notes.pdf
 2,2,02/02,LectureSlides,"Section 2",slides/sec02/05.pdf
-2,2,02/02,Recording,"Section 1",#
+2,2,02/02,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f580d38a-33fb-4c3f-8677-ae3001350222
 2,2,02/02,Recording,"Section 2",#
 2,2,02/02,Recording,"Section 3",#
 2,2,02/02,Recording,"Section 4",#
