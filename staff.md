@@ -203,7 +203,7 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 </div>
 
 <div class="card">
-  <img alt="Shaopeng photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <img alt="Shaopeng photo" src="{{site.baseurl}}/img/staffpix/shaopeng.jpg">
   <div class="details">
    <span class="name_and_role">Shaopeng Zeng</span><br>
    Email: <a href="mailto:szeng10@jhu.edu">szeng10@jhu.edu</a><br>
