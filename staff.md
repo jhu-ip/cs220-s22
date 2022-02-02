@@ -64,6 +64,8 @@ category: "staff"
 
 ## Head Course Assistants
 
+<div class="card_container">
+
 <div class="card">
   <img alt="Ben photo" src="{{site.baseurl}}/img/staffpix/ben.jpg">
   <div class="details">
@@ -80,12 +82,13 @@ category: "staff"
   </div>
 </div>
 
-<div class="card_container">
 </div>
 
 ## Course Assistants
 
 See the [CA office hours](officehours.html) page for the CA office hours schedule.
+
+<div class="card_container">
 
 <div class="card">
   <img alt="Jessie photo" src="{{site.baseurl}}/img/staffpix/jessie.jpg">
@@ -220,5 +223,4 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
 </div>
 -->
 
-<div class="card_container">
 </div>
