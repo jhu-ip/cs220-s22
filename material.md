@@ -120,7 +120,7 @@ the materials for that week.
     <tr>
       <td>Lecture<br>Slides</td>
       <td><a href='slides/sec01/day04_notes.pdf'>Section 1</a><br><a href='slides/sec02/04.pdf'>Section 2</a></td>
-      <td></td>
+      <td><a href='slides/sec02/05.pdf'>Section 2</a></td>
       <td></td>
     </tr>
     <tr>
@@ -132,42 +132,58 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (02/07–02/07)</button>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (02/07–02/11)</button>
 <div id="week_3" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
       <th>Day 7 (02/07)</th>
+      <th>Day 8 (02/09)</th>
+      <th>Day 9 (02/11)</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td>Videos</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbef007b-88a8-4e42-bcc4-ae230027a8f4'>Function declarations</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c18158bd-cf31-48c4-a2c0-ae230027a87e'>Passing arrays to functions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=12215376-94e9-48dd-8d5a-ae230027937e'>Recursion</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76660996-f221-4bda-85bf-ae230027aa0b'>Separate compilation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=956ae811-74a5-48f2-8d73-ae230027a9b0'>Makefiles</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76a9e1f6-07f3-483c-9341-ae230027a948'>Header guards</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67aec427-5035-40bb-a34f-ae230027a824'>Multidimensional arrays, gdb</a></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td></td>
+      <td><a href='slides/day07_function_declaration.pdf'>Function declarations</a><br><a href='slides/day07_passing_arrays_to_functions.pdf'>Passing arrays to functions</a><br><a href='slides/day07_recursion.pdf'>Recursion</a></td>
+      <td><a href='slides/day08_separate_compilation.pdf'>Separate compilation</a><br><a href='slides/day08_makefiles.pdf'>Makefiles</a><br><a href='slides/day08_header_guards.pdf'>Header guards</a></td>
+      <td><a href='slides/day09_multidimensional_arrays_gdb.pdf'>Multidimensional arrays, gdb</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td></td>
+      <td><a href='questions/day07.html'>Day 7</a></td>
+      <td><a href='questions/day08.html'>Day 8</a></td>
+      <td><a href='questions/day09.html'>Day 9</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
-      <td></td>
+      <td><a href='exercise/ex07.html'>Exercise 7</a></td>
+      <td><a href='exercise/ex08.html'>Exercise 8</a></td>
+      <td><a href='exercise/ex09.html'>Exercise 9</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
       <td></td>
+      <td></td>
+      <td></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
