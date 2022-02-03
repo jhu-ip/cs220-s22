@@ -213,6 +213,14 @@ See the [CA office hours](officehours.html) page for the CA office hours schedul
   </div>
 </div>
 
+<div class="card">
+  <img alt="Qifan photo" src="{{site.baseurl}}/img/staffpix/placeholder.jpg">
+  <div class="details">
+   <span class="name_and_role">Qifan Sun</span><br>
+   Email: <a href="mailto:qsun17@jhu.edu">qsun17@jhu.edu</a><br>
+  </div>
+</div>
+
 <!--
 <div class="card">
   <img alt="NAME photo" src="{{site.baseurl}}/img/staffpix/NAME.jpg">
