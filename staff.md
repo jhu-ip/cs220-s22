@@ -29,7 +29,7 @@ category: "staff"
    Department of Computer Science<br>
    Email: <a href="mailto:misha@cs.jhu.edu">misha@cs.jhu.edu</a><br>
    Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha/">https://www.cs.jhu.edu/~misha/</a><br>
-   Office hours: TBA<br>
+   Office hours: W 11-12pm @ Malone 229 and/or Zoom (or by appointment)<br>
    Check <a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
