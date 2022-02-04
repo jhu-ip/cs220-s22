@@ -77,8 +77,8 @@ Week,Day,Date,Type,"Link text",URL
 2,3,02/04,LectureSlides,"Section 2",slides/sec02/06.pdf
 2,3,02/04,Recording,"Section 1",#
 2,3,02/04,Recording,"Section 2",#
-2,3,02/04,Recording,"Section 3",#
-2,3,02/04,Recording,"Section 4",#
+2,3,02/04,Recording,"Section 3",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a5aeec4-456d-441c-84f8-ae3201608977
+2,3,02/04,Recording,"Section 4",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=40f171a5-d879-4975-8383-ae32010c67d0
 3,1,02/07,Slides,"Function declarations",slides/day07_function_declaration.pdf
 3,1,02/07,Slides,"Passing arrays to functions",slides/day07_passing_arrays_to_functions.pdf
 3,1,02/07,Slides,"Recursion",slides/day07_recursion.pdf
