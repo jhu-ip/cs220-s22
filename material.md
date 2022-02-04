@@ -69,7 +69,7 @@ the materials for that week.
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=914e8dea-f143-4354-8eb8-ae270139ec44'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d57a4aa-3153-4277-bcb0-ae290022bd6a'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=3f4a0107-2691-41d6-99f0-ae2701625daa'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=84257fd7-6d0a-4489-a0b5-ae27010ed80b'>Section 4</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31bb08b3-9845-4b85-994e-ae29013542fa'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6210273-872e-4aa7-af40-ae290146a8aa'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=31bb08b3-9845-4b85-994e-ae29013542fa'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=b6210273-872e-4aa7-af40-ae290146a8aa'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9602930b-ae42-4c79-90e7-ae29015affb1'>Section 3</a><br><a href='#'>Section 4</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=56b7b3c4-d25a-49a5-ba8a-ae2b013b8674'>Section 1</a><br><a href='#'>Section 2</a><br><a href='#'>Section 3</a><br><a href='#'>Section 4</a></td>
     </tr>
   </tbody>
@@ -218,7 +218,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_2';
+    var active_week_id = 'week_3';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
