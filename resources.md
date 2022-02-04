@@ -21,7 +21,7 @@ This page has links to useful resources for the course.
 * <a class="external" target="_blank" href="https://www.gnu.org/software/emacs/tour/">GNU Emacs - Guided Tour</a>
   (very thorough overview of Emacs features, we don't expect you to learn everything mentioned here)
 * Emacs has a built-in tutorial mode: start Emacs (with the `emacs` command), and type *Control-H* followed by *t*
-* <a class="external" target="_blank" href="https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9efa206a-6849-4bab-b630-ae3200303731">VS code help session (video)]</a>
+* <a class="external" target="_blank" href="https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9efa206a-6849-4bab-b630-ae3200303731">VS code help session (video)</a>
 
 ### Git and version control
 
