@@ -129,11 +129,21 @@ class Week
     # is Sunday of the week this Week object represents, that's not
     # considered to be in the future.
 
+    # This is complicated by the fact that the %V format to print the
+    # week number considers weeks as starting on Monday, not Sunday.
+
     # Use the Unix date command to find the week number for this week's
     # first day and the current date pass as a parameter.
     year = `date '+%Y'`
+
+    # Week number of this object's week
     my_week = `date -d '#{year}-#{self.first_date.gsub('/', '-')}' '+%V'`
-    cur_week = `date -d '#{year}-#{current_date.gsub('/', '-')}' '+%V'`
+
+    # Week number of current time (considering the week to start on Sunday,
+    # not Monday)
+    cur_epoch_time = `date -d '#{year}-#{current_date.gsub('/', '-')}' '+%s'`.to_i
+    tomorrow_epoch_time = cur_epoch_time + 86400
+    cur_week = `date -d '@'#{tomorrow_epoch_time} '+%V'`
 
     #puts "my_week=#{my_week}"
     #puts "cur_week=#{cur_week}"
