@@ -121,7 +121,7 @@ class Week
     return date_of(-1)
   end
 
-  def is_not_in_future(current_date)
+  def not_in_future?(current_date)
     # The idea here is that current_date is the current date,
     # and this method returns true if this week is not "in the future"
     # compared to the current date. That is implemented in terms of
@@ -212,7 +212,7 @@ current_date = `date +'%m/%d'`
 active_week = nil
 weeks.keys.sort.each do |week_num|
   week = weeks[week_num]
-  if active_week.nil? || week.is_not_in_future(current_date)
+  if active_week.nil? || week.not_in_future?(current_date)
     active_week = week
   end
 end
