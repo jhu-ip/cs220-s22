@@ -91,6 +91,7 @@ Week,Day,Date,Type,"Link text",URL
 3,1,02/07,LectureSlides,"Section 1",slides/sec01/day07_notes.pdf
 3,1,02/07,LectureSlides,"Section 2",slides/sec02/07.pdf
 3,1,02/07,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=51916e89-95b2-48c6-922a-ae3501370ac5
+3,1,02/07,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1802c3b6-6330-4bf6-9c10-ae3501462214
 3,2,02/09,Slides,"Separate compilation",slides/day08_separate_compilation.pdf
 3,2,02/09,Slides,"Makefiles",slides/day08_makefiles.pdf
 3,2,02/09,Slides,"Header guards",slides/day08_header_guards.pdf
