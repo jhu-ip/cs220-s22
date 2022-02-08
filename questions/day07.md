@@ -6,7 +6,7 @@ reference solutions:
   1. sizeof(array_name) / sizeof(int)
   2. no - sizeof(array_name) vs. strlen(array_name)
   3. declaration is the function header only; definition is header + body
-  4. yes if their parameter lists are different in size or types (or both)
+  4. no, C does not support this (unlike Java and C++)
   5. array contents are passed by reference; array parameter type is int[]
   6. const ar[]
   7. tricky to conceive; might use extra space
