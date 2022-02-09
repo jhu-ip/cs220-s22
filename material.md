@@ -189,6 +189,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (02/14–02/18)</button>
+<div id="week_4" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 10 (02/14)</th>
+      <th>Day 11 (02/16)</th>
+      <th>Day 12 (02/18)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='exercise/ex10.html'>Exercise 10</a></td>
+      <td><a href='exercise/ex11.html'>Exercise 11</a></td>
+      <td><a href='exercise/ex12.html'>Exercise 12</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
