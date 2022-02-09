@@ -113,5 +113,15 @@ Week,Day,Date,Type,"Link text",URL
 4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
 4,1,02/14,Recap,"Day 10",questions/day10.html
 4,1,02/14,Exercise,"Exercise 10",exercise/ex10.html
+4,2,02/16,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
+4,2,02/16,Video,"Valgrind",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2
+4,2,02/14,Slides,"Dynamic Memory Allocation",slides/day11_dynamic_memory_allocation.pdf
+4,2,02/14,Slides,"Valgrind",slides/day11_valgrind.pdf
+4,2,02/14,Recap,"Day 11",questions/day11.html
 4,2,02/16,Exercise,"Exercise 11",exercise/ex11.html
+4,3,02/18,Video,"Pointer Arithmetic",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303
+4,3,02/18,Video,"Dynamic 2-D Arrays, Pointers and Const",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
+4,3,02/18,Slides,"Pointer Arithmetic",slides/day12_pointer_arithmetic.pdf
+4,3,02/18,Slides,"Dynamic 2-D Arrays, Pointers and Const",slides/day12_more_pointers_dynamic_2d_arrays.pdf
+4,3,02/18,Recap,"Day 12",questions/day12.html
 4,3,02/18,Exercise,"Exercise 12",exercise/ex12.html

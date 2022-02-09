@@ -204,20 +204,20 @@ the materials for that week.
     <tr>
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3'>Pointers</a></td>
-      <td></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2'>Valgrind</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303'>Pointer Arithmetic</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic 2-D Arrays, Pointers and Const</a></td>
     </tr>
     <tr>
       <td>Slides</td>
       <td><a href='slides/day10_pointers.pdf'>Pointers</a></td>
-      <td></td>
-      <td></td>
+      <td><a href='slides/day11_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a><br><a href='slides/day11_valgrind.pdf'>Valgrind</a></td>
+      <td><a href='slides/day12_pointer_arithmetic.pdf'>Pointer Arithmetic</a><br><a href='slides/day12_more_pointers_dynamic_2d_arrays.pdf'>Dynamic 2-D Arrays, Pointers and Const</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
       <td><a href='questions/day10.html'>Day 10</a></td>
-      <td></td>
-      <td></td>
+      <td><a href='questions/day11.html'>Day 11</a></td>
+      <td><a href='questions/day12.html'>Day 12</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
