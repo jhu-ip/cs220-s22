@@ -107,6 +107,9 @@ Week,Day,Date,Type,"Link text",URL
 3,3,02/11,Video,"Multidimensional arrays, gdb",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67aec427-5035-40bb-a34f-ae230027a824
 3,3,02/11,Recap,"Day 9",questions/day09.html
 3,3,02/11,Exercise,"Exercise 9",exercise/ex09.html
+4,1,02/14,Video,"Pointers",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3
+4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
+4,1,02/14,Recap,"Day 10",questions/day10.html
 4,1,02/14,Exercise,"Exercise 10",exercise/ex10.html
 4,2,02/16,Exercise,"Exercise 11",exercise/ex11.html
 4,3,02/18,Exercise,"Exercise 12",exercise/ex12.html

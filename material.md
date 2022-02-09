@@ -203,19 +203,19 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3'>Pointers</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Slides</td>
-      <td></td>
+      <td><a href='slides/day10_pointers.pdf'>Pointers</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td></td>
+      <td><a href='questions/day10.html'>Day 10</a></td>
       <td></td>
       <td></td>
     </tr>
