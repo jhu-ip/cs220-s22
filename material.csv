@@ -102,9 +102,27 @@ Week,Day,Date,Type,"Link text",URL
 3,2,02/09,Video,"Header guards",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76a9e1f6-07f3-483c-9341-ae230027a948
 3,2,02/09,Recap,"Day 8",questions/day08.html
 3,2,02/09,Exercise,"Exercise 8",exercise/ex08.html
+3,2,02/09,LectureSlides,"Section 1",slides/sec01/day08_notes.pdf
 3,2,02/09,LectureSlides,"Section 2",slides/sec02/08.pdf
+3,2,02/09,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1766ed35-dca0-4554-bc7e-ae3701389e8a
 3,2,02/09,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e76dc91-825b-43dd-9a16-ae3701463bd3
 3,3,02/11,Slides,"Multidimensional arrays, gdb",slides/day09_multidimensional_arrays_gdb.pdf
 3,3,02/11,Video,"Multidimensional arrays, gdb",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67aec427-5035-40bb-a34f-ae230027a824
 3,3,02/11,Recap,"Day 9",questions/day09.html
 3,3,02/11,Exercise,"Exercise 9",exercise/ex09.html
+4,1,02/14,Video,"Pointers",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3
+4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
+4,1,02/14,Recap,"Day 10",questions/day10.html
+4,1,02/14,Exercise,"Exercise 10",exercise/ex10.html
+4,2,02/16,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
+4,2,02/16,Video,"Valgrind",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2
+4,2,02/14,Slides,"Dynamic Memory Allocation",slides/day11_dynamic_memory_allocation.pdf
+4,2,02/14,Slides,"Valgrind",slides/day11_valgrind.pdf
+4,2,02/14,Recap,"Day 11",questions/day11.html
+4,2,02/16,Exercise,"Exercise 11",exercise/ex11.html
+4,3,02/18,Video,"Pointer Arithmetic",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303
+4,3,02/18,Video,"Dynamic 2-D Arrays, Pointers and Const",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
+4,3,02/18,Slides,"Pointer Arithmetic",slides/day12_pointer_arithmetic.pdf
+4,3,02/18,Slides,"Dynamic 2-D Arrays, Pointers and Const",slides/day12_more_pointers_dynamic_2d_arrays.pdf
+4,3,02/18,Recap,"Day 12",questions/day12.html
+4,3,02/18,Exercise,"Exercise 12",exercise/ex12.html

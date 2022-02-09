@@ -177,13 +177,71 @@ the materials for that week.
     <tr>
       <td>Lecture<br>Slides</td>
       <td><a href='slides/sec01/day07_notes.pdf'>Section 1</a><br><a href='slides/sec02/07.pdf'>Section 2</a></td>
-      <td><a href='slides/sec02/08.pdf'>Section 2</a></td>
+      <td><a href='slides/sec01/day08_notes.pdf'>Section 1</a><br><a href='slides/sec02/08.pdf'>Section 2</a></td>
       <td></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=51916e89-95b2-48c6-922a-ae3501370ac5'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1802c3b6-6330-4bf6-9c10-ae3501462214'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ed38cf3a-d791-4221-9706-ae35015a0bf3'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5e4de440-7633-4a5f-b53d-ae3501095795'>Section 4</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1766ed35-dca0-4554-bc7e-ae3701389e8a'>Section 1</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e76dc91-825b-43dd-9a16-ae3701463bd3'>Section 2</a></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (02/14–02/18)</button>
+<div id="week_4" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 10 (02/14)</th>
+      <th>Day 11 (02/16)</th>
+      <th>Day 12 (02/18)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3'>Pointers</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2'>Valgrind</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303'>Pointer Arithmetic</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic 2-D Arrays, Pointers and Const</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='slides/day10_pointers.pdf'>Pointers</a></td>
+      <td><a href='slides/day11_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a><br><a href='slides/day11_valgrind.pdf'>Valgrind</a></td>
+      <td><a href='slides/day12_pointer_arithmetic.pdf'>Pointer Arithmetic</a><br><a href='slides/day12_more_pointers_dynamic_2d_arrays.pdf'>Dynamic 2-D Arrays, Pointers and Const</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='questions/day10.html'>Day 10</a></td>
+      <td><a href='questions/day11.html'>Day 11</a></td>
+      <td><a href='questions/day12.html'>Day 12</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='exercise/ex10.html'>Exercise 10</a></td>
+      <td><a href='exercise/ex11.html'>Exercise 11</a></td>
+      <td><a href='exercise/ex12.html'>Exercise 12</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
       <td></td>
     </tr>
   </tbody>
