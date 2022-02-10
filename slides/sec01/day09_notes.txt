@@ -1,0 +1,78 @@
+Day 9 (Fri 02/11)
+
+- Exercise 8 review
+- Day 9 recap questions
+- Exercise 9
+
+Reminders:
+
+- HW1 due *this evening* by 11pm
+- HW2 due Friday, Feb 18th by 11pm
+  - late submissions not allowed!
+
+slido.com
+jhuintprog01
+
+
+Exercise 8 review
+
+Checking whether result capacity is sufficient:
+
+   int word1_len = strlen(word1);
+   int word2_len = strlen(word2);
+
+   if (word1_len + word2_len + 1 > result_capacity) { return 0; }
+
+Concatenating word1 and word2, placing concatenation in result
+
+  - copy all characters from word1 into result
+  - copy all characters from word2 into result
+  - place NUL terminator after all of the characters from
+    word1 and word2
+
+
+Modularizing the program
+
+main function goes in run_concat.c
+
+concat function goes in string_functions.c
+
+function declaration goes in string_functions.h
+
+  it should look like this:
+
+    #ifndef STRING_FUNCTIONS_H
+    #define STRING_FUNCTIONS_H
+
+    int concat(const char word1[], const char word2[], char result[], int result_capacity);
+
+    #endif // STRING_FUNCTIONS_H
+
+both run_concat.c and string_functions.c should
+
+    #include "string_functions.h"
+
+
+Editing the Makefile
+
+  The Makefile is already set up correctly. All that should be needed
+  is to edit the file names.
+
+  If it's working correctly and you run "make" for the first time, it should
+  run the following commands:
+
+    gcc -std=c99 -pedantic -Wall -Wextra -c run_concat.c
+    gcc -std=c99 -pedantic -Wall -Wextra -c string_functions.c
+    gcc -o run_concat run_concat.o string_functions.o
+
+
+What happens when the user enters more than 10 characters for a
+string?
+
+  scanf will store characters past the end of the array. This is
+  undefined behavior, and will generally corrupt other variables in
+  the program.
+
+  If the overrun is large enough, the main function's return address
+  will be corrupted, and the program will (likely) segfault when
+  it tries to return.
