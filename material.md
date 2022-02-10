@@ -172,7 +172,7 @@ the materials for that week.
       <td>Additional<br>Resources</td>
       <td></td>
       <td></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf'>GDB Cheat Sheet</a></td>
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
