@@ -76,3 +76,49 @@ string?
   If the overrun is large enough, the main function's return address
   will be corrupted, and the program will (likely) segfault when
   it tries to return.
+
+
+
+Day 9 recap questions
+
+1. How do you declare a multi-dimensional array and pass it to a function?
+2. How do you initialize a multi-dimensional array using array initialization?
+3. What is the compile flag needed to compile a program such that we can debug it using gdb?
+4. How do you set a break point using gdb and check the call stack?
+5. Check the gdb cheat sheet and find the command to print the content of a variable per step, instead of only printing it once using `print`.
+
+1. E.g. a two dimensional array:
+
+  int chessboard[8][8];
+
+For 2-D arrays, first dimension is "rows" and second dimension is "columns".
+
+Passing to a function:
+
+  int is_checkmate(int board[8][8]) {
+    // ...code...
+  }
+
+Note that the size of the first array dimension can be omitted, but the sizes of
+the other array dimensions are required.
+
+2. E.g.:
+
+  // assume 0=empty, 1=pawn, 2=rook, 3=knight, 4=bishop, 5=king, 6=queen
+  // note that we should really have #define constants or an enum
+  // type so that these values can have meaningful names
+
+  int chessboard[8][8] = {
+    { 2, 3, 4, 6, 5, 4, 3, 2 },
+    { 0, 0, 0, 0, 0, 0, 0, 0 },
+    // etc. for other rows
+  };
+
+3. -g: is required when compiling, but not required when linking
+
+4. break name_of_function
+   break source_filename.c:N    (N is the line number)
+
+   backtrace
+
+5. display name_of_variable
