@@ -28,6 +28,10 @@ This page has links to useful resources for the course.
 * [Github SSH key setup](resources/github-ssh.html)
 * <a class="external" target="_blank" href="https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf">Git cheatsheet</a>
 
+### Development tools
+
+* [GDB Cheat Sheet](resources/GDB%20Cheat%20Sheet.pdf) (<a class="external" target="_blank" href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">original version</a>
+
 ## Review materials
 
 Coming soon!
