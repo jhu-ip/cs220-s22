@@ -106,10 +106,13 @@ Week,Day,Date,Type,"Link text",URL
 3,2,02/09,LectureSlides,"Section 2",slides/sec02/08.pdf
 3,2,02/09,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1766ed35-dca0-4554-bc7e-ae3701389e8a
 3,2,02/09,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6e76dc91-825b-43dd-9a16-ae3701463bd3
+3,2,02/09,Recording,"Section 3",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cfba7a5-99ce-4920-b151-ae37015eed1f
+3,2,02/09,Recording,"Section 4",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06d18323-7fa6-497a-a16d-ae37010dcfee
 3,3,02/11,Slides,"Multidimensional arrays, gdb",slides/day09_multidimensional_arrays_gdb.pdf
 3,3,02/11,Video,"Multidimensional arrays, gdb",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67aec427-5035-40bb-a34f-ae230027a824
 3,3,02/11,Recap,"Day 9",questions/day09.html
 3,3,02/11,Exercise,"Exercise 9",exercise/ex09.html
+3,3,02/11,Resource,"GDB Cheat Sheet",https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
 4,1,02/14,Video,"Pointers",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3
 4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
 4,1,02/14,Recap,"Day 10",questions/day10.html
