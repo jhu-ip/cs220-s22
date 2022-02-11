@@ -30,7 +30,7 @@ This page has links to useful resources for the course.
 
 ### Development tools
 
-* [GDB Cheat Sheet](resources/GDB%20Cheat%20Sheet.pdf) (<a class="external" target="_blank" href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">original version</a>
+* [GDB Cheat Sheet](resources/GDB%20Cheat%20Sheet.pdf) (<a class="external" target="_blank" href="https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf">original version</a>)
 
 ## Review materials
 
