@@ -113,7 +113,9 @@ Week,Day,Date,Type,"Link text",URL
 3,3,02/11,Recap,"Day 9",questions/day09.html
 3,3,02/11,Exercise,"Exercise 9",exercise/ex09.html
 3,3,02/11,Resource,"GDB Cheat Sheet",https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf
+3,3,02/11,LectureSlides,"Section 1",slides/sec01/day09_notes.pdf
 3,3,02/11,LectureSlides,"Section 2",slides/sec02/09.pdf
+3,3,02/11,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=67c3cd1b-41b9-4a20-a3d8-ae3901398d1c
 4,1,02/14,Video,"Pointers",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3
 4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
 4,1,02/14,Recap,"Day 10",questions/day10.html
