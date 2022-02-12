@@ -210,3 +210,9 @@ good confidence that your `read_image` and `write_image` functions work correctl
 Now, you can move on to the main program.
 
 ## The `cs220_paint` program
+
+The `cs220_paint` program reads a graphics command file and generates an image
+file with the result of rendering the drawing operations specified in the
+command file.
+
+TODO: more...
