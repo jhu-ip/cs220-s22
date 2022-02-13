@@ -311,19 +311,23 @@ Note that "sqrt" indicates the square root function.
 
 The `f` command performs a *flood fill* operation. The two integer values
 following the `f` character are the x and y coordinates of the start pixel.
-The start pixel, and all pixels with exactly the same color as the start pixel,
-*and* which are reachable through some path consisting of moves up, down, left,
-and right from the start pixel, one pixel at a time, should be changed
-to the current drawing color.
+All pixels in the *fill region* should be changed from the original
+color of the start pixel to the current drawing color. The fill region
+consists of the start pixel, and all pixels exactly the same color as the start pixel
+that can be reached by some series of moves up, down, left, or right
+from the start pixel, one pixel at a time, without traversing any pixels
+that are not the same color as the start pixel's original color.
 
 Your implementations of drawing operations should take care that they only
 access and modify pixels that are within the boundaries of the drawing
-surface.  The `r`, `e`, and `f` commands could specify drawing operations
+surface.  The `r` and `e` commands could specify drawing operations
 that are completely or partially out of bounds.  These should be allowed,
 but they should only draw the part of the requested shape that is
 within the bounds of the drawing surface. (In the example command file
 in the next section, notice that the final `e` command specifies a
-green ellipse that is partially out of bounds.)
+green ellipse that is partially out of bounds.)  The `f` command could
+specify a start pixel that is out of bounds, in which case the command
+should not change the color of any pixel.
 
 ### Example command file
 
