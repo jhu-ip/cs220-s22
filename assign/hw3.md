@@ -307,7 +307,7 @@ The distance between two points *x*<sub>1</sub>, *y*<sub>1</sub> and
 
 > sqrt((*x*<sub>2</sub> - *x*<sub>1</sub>)<sup>2</sup> × (*y*<sub>2</sub> - *y*<sub>1</sub>)<sup>2</sup>)
 
-Note that "sqrt" indicate the square root function.
+Note that "sqrt" indicates the square root function.
 
 The `f` command performs a *flood fill* operation. The two integer values
 following the `f` character are the x and y coordinates of the start pixel.
