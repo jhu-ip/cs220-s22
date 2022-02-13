@@ -56,6 +56,17 @@ Now copy the starter files from the public repo:
 $ cp -r ~/cs220-s22-public/homework/hw3/* .
 ```
 
+Throughout your work on this assignment, be sure to frequently add, commit
+(supplying meaningful messages) and push your changes to your personal
+git repository.  After you complete your work on the assignment, you'll
+be asked to submit a `gitlog.txt` file, just as in [Homework 0](hw0.html).
+However, we expect your log for this homework to show more
+activity. Recall that your code is always expected to compile without
+errors or warnings. Submissions which don't compile properly may earn
+zero points, so be sure to submit to Gradescope early and often! And
+once you get a good start on the assignment, always have some earlier
+compiling version of your work pushed up to Github.
+
 ### Working with image files
 
 TODO: writeup about how to deal with the fact that the image files
@@ -114,7 +125,7 @@ int rc = fscanf(in, "%x", &val);
 ```
 
 would attempt to read a single hexadecimal value into the variable `val`.
-(Checking the value of `rc` will allow you to determine whether a hexademical
+(Checking the value of `rc` will allow you to determine whether a hexadecimal
 value was read successfully.)
 
 Each pixel is represented as a red component value, a green component value,
@@ -125,10 +136,10 @@ and 240 rows. The first 320 × 3 color byte values specify the colors (r/g/b)
 of the first row of 320 pixels. The next 320 × 3 byte values specify the colors
 of the second row of pixels, and so forth.
 
-In your code, you should use an array of `unsigned char` elements to represent
-the pixel color component values for the entire image.  This array should store
-the r/g/b pixel color values row by row, the same way that the values are stored
-in the image file.
+In your code, you should use a dynamically allocated array of `unsigned char`
+elements to represent the pixel color component values for the entire image.
+This array should store the r/g/b pixel color values row by row, the same way
+that the values are stored in the image file.
 
 ## Image functions
 
@@ -291,6 +302,15 @@ The start pixel, and all pixels with exactly the same color as the start pixel,
 and right from the start pixel, one pixel at a time, should be changed
 to the current drawing color.
 
+Your implementations of drawing operations should take care that they only
+access and modify pixels that are within the boundaries of the drawing
+surface.  The `r`, `e`, and `f` commands could specify drawing operations
+that are completely or partially out of bounds.  These should be allowed,
+but they should only draw the part of the requested shape that is
+within the bounds of the drawing surface. (In the example command file
+in the next section, notice that the final `e` command specifies a
+green ellipse that is partially out of bounds.)
+
 ### Example command file
 
 Here is an example command file:
@@ -310,6 +330,7 @@ r 220 160 4 24
 r 260 160 4 44
 c 208 167 0
 f 251 168
+e 120 3 309 86 440
 ```
 
 After running the [resulting image file](hw3/test.txt) through the `txt2png`
@@ -334,3 +355,56 @@ using an image viewer (once you've downloaded it onto your local computer):
 ```
 $ ./txt2png img/test.txt png/test.png
 ```
+
+If any errors occur, or if the contents of the command file are invalid
+in any way, the program should print an error message to standard output
+and exit with the exit code 1.  An error message must be printed on
+a single line, and have the following form:
+
+<div class="highlighter-rouge"><pre>
+Error: <i>brief description of the error that occurred</i>
+</pre></div>
+
+You should try to make the description of the error meaningful, but the
+exact text of the description is up to you. (Do make sure that the
+error message starts with `Error:` followed by a space character.)
+
+If the program completes successfully, it should print a single
+line
+
+<div class="highlighter-rouge"><pre>
+Success
+</pre></div>
+
+to standard output, and exit with exit code 0.
+
+## Hints and tips
+
+Make sure that each program uses `free` to deallocate any memory which was
+dynamically allocated using `malloc`.  We *strongly* recommend that you test
+your programs using `valgrind` frequently to ensure that there are no memory
+errors or memory leaks.
+
+The functions you write to implement drawing commands will need to take
+a pointer to the pixel data array and the image width and height as
+parameters.  They should work by modifying the data in the pixel data
+array.
+
+The flood fill operation can be implemented recursively. The idea is that
+you will implement a recursive function whose parameters specify
+
+* the coordinates of a pixel that is or might be part of the region to
+  be filled
+* an "original color", which is the r/g/b values of the pixel where the
+  flood fill starts
+* a "fill color", which is the current drawing color
+
+If the coordinates are out of bounds, or if they specify a pixel that already
+has the fill color, or if they specify a pixel which does not have the
+original color, then nothing needs to be done.
+
+Otherwise:
+
+* the function changes the pixel at the specified coordinates to the fill color
+* then, it recursively initiates a recursive flood fill at the neighboring
+  pixels above, below, left, and right of the specified pixel
