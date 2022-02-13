@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Feb 9** — Homework 2 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
+  as **HW2: C basics (written)**, and is due **Friday, Feb 18th** by 11pm. Note that late submissions are
+  *not* accepted for written homeworks.
 * **Feb 4** — The [Resources](resources.html) page has a link to a <a class="external" target="_blank" href="https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9efa206a-6849-4bab-b630-ae3200303731">video</a> showing how to set up and use <a class="external" target="_blank" href="https://code.visualstudio.com/">Visual Studio Code</a> for C and C++ development. (VS Code is an alternative to Emacs and Vim.)
 * **Feb 2** — [Homework 1](assign/hw1.html) is due **Friday, Feb 11th** by 11pm.
 * **Jan 24** — Welcome back! [Homework 0](assign/hw0.html) is due **Friday, Feb 4th** by 11pm.
