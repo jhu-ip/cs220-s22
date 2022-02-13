@@ -69,8 +69,22 @@ compiling version of your work pushed up to Github.
 
 ### Working with image files
 
-TODO: writeup about how to deal with the fact that the image files
-are on ugrad, but they need to be on the local machine to view them.
+This homework involves working with image files. Because there is
+no straightforward way to view an image in a terminal program,
+you will need to download image files to your local computer
+so you can view them in an image viewer.
+
+For example, let's say that you want to see the contents of
+a file called `png/test.png` that is part of your working files
+for this homework.  You should be able to use the following command
+on your local computer:
+
+```
+scp USERNAME@ugradx.cs.jhu.edu:my220repo/homework/hw3/png/test.png .
+```
+
+(Use `pscp` if you are using PuTTY on Windows.) Substitute your
+ugrad account name for `USERNAME`.
 
 ## Concepts
 
@@ -405,6 +419,47 @@ original color, then nothing needs to be done.
 
 Otherwise:
 
-* the function changes the pixel at the specified coordinates to the fill color
-* then, it recursively initiates a recursive flood fill at the neighboring
-  pixels above, below, left, and right of the specified pixel
+1. the function changes the pixel at the specified coordinates to the fill color, and then
+2. it recursively initiates a recursive flood fill at the neighboring
+   pixels above, below, left, and right of the specified pixel
+
+## Testing your program
+
+TODO: section about example command files and expected rendered image files
+that are included with the starter code, how to do some automated testing
+to make sure that the output is the same as the expected output.
+
+## Submission
+
+Create a .zip file named `hw3.zip` which contains
+
+* all of the `.c` files
+* all of the `.h` files
+* your `Makefile`
+* `gitlog.txt`
+
+Copy the `hw3.zip` file to your local machine, and
+submit it as **Homework 3** on Gradescope. When you submit, gradescope
+conducts a series of automatic tests.  These tests do basic things like
+check that you submitted the right files and that your `Makefile`
+correctly compiles and links the required programs.
+If you see error messages here (look for red), address them and
+resubmit. You may re-submit any number of times prior to the deadline;
+only your latest submission will be graded. Review the course syllabus
+for late submission policies (grace period and late days), and remember
+that if your final submitted code does not compile, you will likely earn
+a zero score for the assignment.
+
+Two notes regarding automatic checks for programming assignments:
+
+* Passing an automatic check is not itself worth points.  (There might be
+  a nominal, low point value like 0.01 associated with a check, but that
+  won’t count in the end.) The checks exist to help you and the graders
+  find obvious errors.  This will be true for most of the assignments;
+  the actual grades are given manually by the graders, along with comments.
+* The automatic checks cover some of the requirements set out in the
+  assignment, but not all. In general, it is up to you to test your
+  own work and ensure your programs satisfy _all stated requirements_.
+
+Passing all the automatic checks does not necessarily mean you will earn
+all the points.
