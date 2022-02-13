@@ -176,13 +176,13 @@ read successfully,
 * the width of the image (number of columns of pixels) should be stored in the
   variable that the `width` pointer is pointing to
 * the height of the image (number of rows of pixels) should be stored in the
-  variabel that the `height` pointer is pointing to
+  variable that the `height` pointer is pointing to
 * the function should return a pointer to a dynamically-allocated array of
   color component values (stored as r/g/b triplets arranged row-by-row,
   as described above)
 
 If `read_image` cannot successfully read a complete image, either because the
-file exists, or the contents are not in the correct format, it should return
+file could not be opened or the contents are not in the correct format, it should return
 `NULL`.
 
 The `write_image` function should write image file data to the file named
