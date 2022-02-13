@@ -215,4 +215,122 @@ The `cs220_paint` program reads a graphics command file and generates an image
 file with the result of rendering the drawing operations specified in the
 command file.
 
-TODO: more...
+You will need to add a target for the `cs220_paint` executable. It should
+depend on `cs220_paint.o` and `driver.o`.  Note that you will most likely
+need to link against the math library using the `-lm` option, since
+one of the drawing operations will involve calling the `sqrt` function.
+So, the command you use to link the `cs220_paint` executable might look
+like this:
+
+```
+$(CC) -o cs220_paint driver.o cs220_paint.o -lm
+```
+
+Note that the `main` function is in `driver.c`. To the extent possible,
+you should have your `main` function call functions whose definitions
+are in `cs220_paint.c`. For example, your `main` function should
+call `write_image` to write the image file once all of the drawing commands
+have been processed, but it can also call functions to carry out
+the drawing commands.
+
+### Command file format
+
+A command file has the following format.  Like the image file format,
+the command file format is entirely text-based, so you should use `fscanf`
+to read its contents.  Also, whitespace characters have no meaning other
+than to act as separators, so formatting and line breaks have no significance.
+
+A command file starts with two positive integers specifying the width and
+height of the image to generate.  All pixels should start out as black,
+meaning that their red, green, and blue color component values should be
+set to 0.
+
+Following the width and height are a series of 0 or more drawing commands.
+Each drawing command starts with a single non-space text character.
+
+The `c` command sets the drawing color.  The `c` character is followed by
+three non-negative decimal integer values specifying the red, green, and blue
+color component values for subsequent drawing operations. For example,
+the command
+
+```
+c 0 200 200
+```
+
+would specify the following color: <span style="display: inline-block; background: #00c8c8; min-width: 2em;">&nbsp;</span>
+
+The `r` command draws a filled rectangle.  The values following the `r` are the
+integer x and y coordinates (pixel column and row) of the upper-left corner
+of the rectangle, followed by the integer width and height of the rectangle.
+The coordinates, width, and height will be non-negative.
+
+The `e` command draw a filled ellipse.  The values following the `e` are the
+floating-point x and y coordinates of the two focal points of the ellipse,
+followed by a floating point length value.  To draw the ellipse, your
+program should find all pixels such that the sum of
+
+1. the distance between the focal points,
+2. the distance from the first focal point to the pixel, and
+3. the distance from the second focal point to the pixel
+
+is less than or equal to the specified length, and set their colors to
+the current drawing color. The focal point coordinates and the length
+will all be non-negative.
+
+The distance between two points *x*<sub>1</sub>, *y*<sub>1</sub> and
+*x*<sub>2</sub>, *y*<sub>2</sub> is
+
+> sqrt((*x*<sub>2</sub> - *x*<sub>1</sub>)<sup>2</sup> × (*y*<sub>2</sub> - *y*<sub>1</sub>)<sup>2</sup>)
+
+Note that "sqrt" indicate the square root function.
+
+The `f` command performs a *flood fill* operation. The two integer values
+following the `f` character are the x and y coordinates of the start pixel.
+The start pixel, and all pixels with exactly the same color as the start pixel,
+*and* which are reachable through some path consisting of moves up, down, left,
+and right from the start pixel, one pixel at a time, should be changed
+to the current drawing color.
+
+### Example command file
+
+Here is an example command file:
+
+```
+320 240
+c 0 200 200
+r 100 80 140 96
+c 72 0 128
+e 160.0 75.0 26.7 175.1 344.9
+c 212 212 0
+r 180 180 44 4
+r 220 160 44 4
+r 180 200 84 4
+r 180 180 4 24
+r 220 160 4 24
+r 260 160 4 44
+c 208 167 0
+f 251 168
+```
+
+After running the [resulting image file](hw3/test.txt) through the `txt2png`
+program to convert it to a PNG file, the resulting image is this:
+
+<a href="img/test.png"><img alt="output of test command file" class="keep_original_size" src="img/test.png"></a>
+
+### Running
+
+The `cs220_paint` program takes two command line arguments. The first is the
+filename of the command file, and the second is the filename of the output
+image file to create.  As an example, the following invocation would process
+the commands in `cmd/test.txt` to produce the image file `img/test.txt`:
+
+```
+$ ./cs220_paint cmd/test.txt img/test.txt
+```
+
+Usually, you'll want to convert the image file to PNG so that you can view it
+using an image viewer (once you've downloaded it onto your local computer):
+
+```
+$ ./txt2png img/test.txt png/test.png
+```
