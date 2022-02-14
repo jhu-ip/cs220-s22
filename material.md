@@ -204,7 +204,7 @@ the materials for that week.
     <tr>
       <td>Videos</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7dd96f56-4676-4f7c-913d-ae230027a7a3'>Pointers</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2'>Valgrind</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=88e3945a-f1f2-4442-825e-ae230027a746'>Dynamic Memory Allocation</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2'>Valgrind</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303'>Pointer Arithmetic</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9'>Dynamic 2-D Arrays, Pointers and Const</a></td>
     </tr>
     <tr>
