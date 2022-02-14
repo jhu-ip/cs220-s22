@@ -233,7 +233,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
-      <td></td>
+      <td><a href='slides/sec01/day10_notes.pdf'>Section 1</a><br><a href='slides/sec02/day10_notes.pdf'>Section 2</a></td>
       <td></td>
       <td></td>
     </tr>
