@@ -227,7 +227,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Additional<br>Resources</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://www.youtube.com/watch?v=5VnDaHBi8dM'>Binky Pointer (Video)</a></td>
       <td></td>
       <td></td>
     </tr>
