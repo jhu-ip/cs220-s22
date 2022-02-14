@@ -123,6 +123,7 @@ Week,Day,Date,Type,"Link text",URL
 4,1,02/14,Slides,"Pointers",slides/day10_pointers.pdf
 4,1,02/14,Recap,"Day 10",questions/day10.html
 4,1,02/14,Exercise,"Exercise 10",exercise/ex10.html
+4,1,02/14,Resource,"Binky Pointer (Video)",https://www.youtube.com/watch?v=5VnDaHBi8dM
 4,2,02/16,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
 4,2,02/16,Video,"Valgrind",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2
 4,2,02/14,Slides,"Dynamic Memory Allocation",slides/day11_dynamic_memory_allocation.pdf
