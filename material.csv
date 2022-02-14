@@ -126,6 +126,8 @@ Week,Day,Date,Type,"Link text",URL
 4,1,02/14,Resource,"Binky Pointer (Video)",https://www.youtube.com/watch?v=5VnDaHBi8dM
 4,1,02/14,LectureSlides,"Section 1",slides/sec01/day10_notes.pdf
 4,1,02/14,LectureSlides,"Section 2",slides/sec02/day10_notes.pdf
+4,1,02/14,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cbb5d553-2dbe-4a69-9cfa-ae3c0149c498
+4,1,02/14,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=95081dcb-d179-48e6-b89d-ae3c01440764
 4,2,02/16,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
 4,2,02/16,Video,"Valgrind",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f4c78306-67c7-4184-955f-ae230027a6b2
 4,2,02/14,Slides,"Dynamic Memory Allocation",slides/day11_dynamic_memory_allocation.pdf
