@@ -11,3 +11,4 @@ Assignment | Due date
 [Homework 0](assign/hw0.html) | Friday, Feb 4th by 11pm
 [Homework 1](assign/hw1.html) | Friday, Feb 11th by 11pm
 <a class="external" target="_blank" href="https://www.gradescope.com/">Homework 2</a><br>(**HW2: C basics (written)** on Gradescope)<br>*Late submissions are not allowed* | Friday, Feb 18th by 11pm
+[Homework 3](assign/hw3.html) | Friday, Feb 25th by 11pm

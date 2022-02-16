@@ -47,6 +47,7 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Feb 15** — [Homework 3](assign/hw3.html) is due **Friday, Feb 25th** by 11pm.
 * **Feb 9** — Homework 2 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
   as **HW2: C basics (written)**, and is due **Friday, Feb 18th** by 11pm. Note that late submissions are
   *not* accepted for written homeworks.
