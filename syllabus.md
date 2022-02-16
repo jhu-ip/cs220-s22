@@ -50,7 +50,7 @@ Office hours: T 12-2pm, Th 1-3pm, via Zoom (see <a class="external" href="https:
 Misha Kazhdan, Professor\
 <mailto:misha@cs.jhu.edu>\
 <a class="external" target="_blank" href="https://www.cs.jhu.edu/~misha">https://www.cs.jhu.edu/~misha</a>,\
-Office hours: TBA
+Office hours: W 11-12pm, via Zoom (see <a class="external" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a> for link)
 
 Patricio Simari, Senior Lecturer\
 <mailto:psimari@cs.jhu.edu>,\
