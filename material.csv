@@ -136,6 +136,7 @@ Week,Day,Date,Type,"Link text",URL
 4,2,02/14,Slides,"Valgrind",slides/day11_valgrind.pdf
 4,2,02/14,Recap,"Day 11",questions/day11.html
 4,2,02/16,Exercise,"Exercise 11",exercise/ex11.html
+4,2,02/16,LectureSlides,"Section 2",slides/sec02/11.pdf
 4,3,02/18,Video,"Pointer Arithmetic",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d83163b7-7827-4bca-a6ca-ae2300279303
 4,3,02/18,Video,"Dynamic 2-D Arrays, Pointers and Const",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5b124364-dcca-4e9b-b276-ae23002792a9
 4,3,02/18,Slides,"Pointer Arithmetic",slides/day12_pointer_arithmetic.pdf
