@@ -54,6 +54,7 @@ Now copy the starter files from the public repo:
 
 ```
 $ cp -r ~/cs220-s22-public/homework/hw3/* .
+$ cp ~/cs220-s22-public/homework/hw3/.gitignore .
 ```
 
 Throughout your work on this assignment, be sure to frequently add, commit
@@ -442,9 +443,25 @@ Otherwise:
 
 ## Testing your program
 
-TODO: section about example command files and expected rendered image files
-that are included with the starter code, how to do some automated testing
-to make sure that the output is the same as the expected output.
+The `cmd`, `img`, and `png` directories that you copied from the public repo
+contain some test command files, image files, and PNG files.  For each
+command file, a corresponding image file and PNG file is provided.
+We encourage you to run your `cs220_paint` program on each command file
+and then verify that the resulting image file and PNG file are correct.
+
+Here is the procedure for checking your output.  Say that you want
+to make sure that `cmd/test.txt` is processed correctly.
+You could run the following commands:
+
+```
+$ ./cs220_paint cmd/test.txt img/test_out.txt
+$ ./compare_img.rb img/test_out.txt img/test.txt
+$ ./txt2png img/test_out.txt png/test_out.png
+$ idiff png/test_out.png png/test.png
+```
+
+If the `./compare_img.rb` and `idiff` commands are successful, then your
+`cs220_paint` program produced output that matches the expected output.
 
 ## Submission
 
