@@ -25,6 +25,8 @@ layout: default
   <li>Makefiles</li>
   <li>Recursion</li>
   <li>File I/O</li>
+  <li>Pointers</li>
+  <li>Dynamic memory allocation</li>
 </ul>
 </div>
 </div>
