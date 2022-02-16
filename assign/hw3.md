@@ -59,7 +59,8 @@ $ cp -r ~/cs220-s22-public/homework/hw3/* .
 Throughout your work on this assignment, be sure to frequently add, commit
 (supplying meaningful messages) and push your changes to your personal
 git repository.  After you complete your work on the assignment, you'll
-be asked to submit a `gitlog.txt` file, just as in [Homework 0](hw0.html).
+be asked to submit a `gitlog.txt` file, just as in [Homework 0](hw0.html)
+and [Homework 1](hw1.html).
 However, we expect your log for this homework to show more
 activity. Recall that your code is always expected to compile without
 errors or warnings. Submissions which don't compile properly may earn
@@ -142,6 +143,14 @@ would attempt to read a single hexadecimal value into the variable `val`.
 (Checking the value of `rc` will allow you to determine whether a hexadecimal
 value was read successfully.)
 
+Hexadecimal values can be written to a file using `fprintf` as follows
+(assuming `out` is a `FILE*` open for writing output):
+
+```c
+unsigned val = /* a color value in the range 0-255 */;
+fprintf(out, "%x", val);
+```
+
 Each pixel is represented as a red component value, a green component value,
 and a blue component value, in that order. (This is why the number of byte values
 is three times the number of pixels.)  The pixel color values are specified
@@ -157,7 +166,8 @@ that the values are stored in the image file.
 
 ## Image functions
 
-You are required to implement the following two functions:
+The provided header file `cs220_paint.h` contains the following
+function declarations:
 
 ```c
 unsigned char *read_image(const char *filename, int *width, int *height);
@@ -166,26 +176,28 @@ int write_image(const char *filename, int width, int height,
                 const unsigned char *buf);
 ```
 
-You should add declarations for these functions to `cs220_paint.h` and definitions
-for them to `cs220_paint.c`.
+The source file `cs220_paint.c` contains definitions for both
+of these functions.  The `read_image` function is fully implemented.
+You will need to complete the `write_image` function.
 
-The `read_image` function should read image file data (expecting the format
+The `read_image` function reads image file data (expecting the format
 described above) from the file named by the `filename` parameter.  If the image data is
 read successfully,
 
-* the width of the image (number of columns of pixels) should be stored in the
+* the width of the image (number of columns of pixels) is stored in the
   variable that the `width` pointer is pointing to
-* the height of the image (number of rows of pixels) should be stored in the
+* the height of the image (number of rows of pixels) is stored in the
   variable that the `height` pointer is pointing to
-* the function should return a pointer to a dynamically-allocated array of
+* the function returns a pointer to a dynamically-allocated array of
   color component values (stored as r/g/b triplets arranged row-by-row,
   as described above)
 
 If `read_image` cannot successfully read a complete image, either because the
-file could not be opened or the contents are not in the correct format, it should return
+file could not be opened or the contents are not in the correct format, it returns
 `NULL`.
 
-The `write_image` function should write image file data to the file named
+The `write_image` function (which you are required to implement) should write
+image file data to the file named
 by the `filename` parameter.  The `width` and `height` parameters indicate
 the width and height of the image.  The `buf` parameter is an array of color
 component values (r/g/b triples, arranged row by row.)
@@ -221,8 +233,8 @@ then convert it back to PNG.  Try running the following commands:
 
 ```
 $ make png2txt txt2png
-$ ./png2txt png/ingo.png img/ingo.txt
-$ ./txt2png img/ingo.txt png/ingo_copy.png
+$ ./png2txt png/ingo.png img/ingo_copy.txt
+$ ./txt2png img/ingo_copy.txt png/ingo_copy.png
 ```
 
 Then, download `png/ingo_copy.png` from your ugrad account. It should look like
@@ -231,7 +243,7 @@ this:
 <a href="img/ingo.png"><img alt="picture of Ingo the cat" class="keep_original_size" src="img/ingo.png"></a>
 
 If the `png2txt` and `txt2png` programs worked correctly, then you should have
-good confidence that your `read_image` and `write_image` functions work correctly.
+good confidence that the `read_image` and `write_image` functions work correctly.
 Now, you can move on to the main program.
 
 ## The `cs220_paint` program
@@ -256,7 +268,8 @@ you should have your `main` function call functions whose definitions
 are in `cs220_paint.c`. For example, your `main` function should
 call `write_image` to write the image file once all of the drawing commands
 have been processed, but it can also call functions to carry out
-the drawing commands.
+the drawing commands.  (The files `cs220_paint.h` and `cs220_paint.c`
+have some suggested helper functions.)
 
 ### Command file format
 
@@ -361,17 +374,17 @@ program to convert it to a PNG file, the resulting image is this:
 The `cs220_paint` program takes two command line arguments. The first is the
 filename of the command file, and the second is the filename of the output
 image file to create.  As an example, the following invocation would process
-the commands in `cmd/test.txt` to produce the image file `img/test.txt`:
+the commands in `cmd/test.txt` to produce the image file `img/test_out.txt`:
 
 ```
-$ ./cs220_paint cmd/test.txt img/test.txt
+$ ./cs220_paint cmd/test.txt img/test_out.txt
 ```
 
 Usually, you'll want to convert the image file to PNG so that you can view it
 using an image viewer (once you've downloaded it onto your local computer):
 
 ```
-$ ./txt2png img/test.txt png/test.png
+$ ./txt2png img/test_out.txt png/test_out.png
 ```
 
 If any errors occur, or if the contents of the command file are invalid
