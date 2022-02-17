@@ -14,6 +14,10 @@ layout: default
 </div>
 </div>
 
+*Update 2/17*: Added information about the `-lz` option being necessary
+to link the `png2txt` and `txt2png` executables. See the
+[png2txt and txt2png](#png2txt-and-txt2png) section.
+
 ## Learning objectives
 
 <div class='admonition success'>
@@ -223,6 +227,16 @@ executables can be built, with the following dependencies:
 
 The commands for these executables should (naturally) link the depended-on
 object files into the correctly-named executable file (`png2txt` or `txt2png`.)
+
+Note that both `png2txt` and `txt2png` will require the `-lz` option
+at the end of the link command.  Adding the `-lm` option to link against
+the math library is also a good idea, since your `cs220_paint.c` module
+will probably use the `sqrt` function.  So, the target for `png2txt` might
+be something like
+
+```
+$(CC) png2txt.o pnglite.o cs220_paint.o -o png2txt -lz -lm
+```
 
 You'll need to add targets for the various `.o` files. Make sure you
 specify their dependencies as appropriate (including any header files they
