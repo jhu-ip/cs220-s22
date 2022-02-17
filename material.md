@@ -278,9 +278,9 @@ the materials for that week.
     </tr>
     <tr>
       <td>Exercise</td>
-      <td><a href='#'>Exercise 13</a></td>
-      <td><a href='#'>Exercise 14</a></td>
-      <td><a href='#'>Exercise 15</a></td>
+      <td><a href='exercise/ex13.html'>Exercise 13</a></td>
+      <td><a href='exercise/ex14.html'>Exercise 14</a></td>
+      <td><a href='exercise/ex15.html'>Exercise 15</a></td>
     </tr>
     <tr>
       <td>Additional<br>Resources</td>

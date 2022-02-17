@@ -155,14 +155,14 @@ Week,Day,Date,Type,Link text,URL
 5,1,21-Feb,Slides,Structs,slides/day13_struct_type.pdf
 5,1,21-Feb,Slides,Random number generation,slides/day13_random_numbers.pdf
 5,1,21-Feb,Recap,Day 13,questions/day13.html
-5,1,21-Feb,Exercise,Exercise 13,#
+5,1,21-Feb,Exercise,Exercise 13,exercise/ex13.html
 5,2,23-Feb,Video,Binary file I/O,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f
 5,2,23-Feb,Video,Bitwise operations,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246
 5,2,23-Feb,Slides,Binary file I/O,slides/day14_binary_file_io.pdf
 5,2,23-Feb,Slides,Bitwise operations,slides/day14_bitwise_operations.pdf
 5,2,23-Feb,Recap,Day 14,questions/day14.html
-5,2,23-Feb,Exercise,Exercise 14,#
+5,2,23-Feb,Exercise,Exercise 14,exercise/ex14.html
 5,3,25-Feb,Video,"Number representation, type conversion/casting",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af
 5,3,25-Feb,Slides,"Number representation, type conversion/casting",slides/day15_number_rep_type_conversions.pdf
 5,3,25-Feb,Recap,Day 15,questions/day15.html
-5,3,25-Feb,Exercise,Exercise 15,#
+5,3,25-Feb,Exercise,Exercise 15,exercise/ex15.html
