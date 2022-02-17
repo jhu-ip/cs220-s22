@@ -18,15 +18,15 @@ Then add, commit, and push both material.csv and material.md.
 You can click on the header for a specific week to expand or collapse
 the materials for that week.
 
-<button type="button" id="week_1_toggle" class="week_control_button">Week 1 (01/24–01/28)</button>
+<button type="button" id="week_1_toggle" class="week_control_button">Week 1 (24-Jan–28-Jan)</button>
 <div id="week_1" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 1 (01/24)</th>
-      <th>Day 2 (01/26)</th>
-      <th>Day 3 (01/28)</th>
+      <th>Day 1 (24-Jan)</th>
+      <th>Day 2 (26-Jan)</th>
+      <th>Day 3 (28-Jan)</th>
     </tr>
   </thead>
   <tbody>
@@ -75,15 +75,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (01/31–02/04)</button>
+<button type="button" id="week_2_toggle" class="week_control_button">Week 2 (31-Jan–4-Feb)</button>
 <div id="week_2" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 4 (01/31)</th>
-      <th>Day 5 (02/02)</th>
-      <th>Day 6 (02/04)</th>
+      <th>Day 4 (31-Jan)</th>
+      <th>Day 5 (2-Feb)</th>
+      <th>Day 6 (4-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -132,15 +132,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (02/07–02/11)</button>
+<button type="button" id="week_3_toggle" class="week_control_button">Week 3 (7-Feb–11-Feb)</button>
 <div id="week_3" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 7 (02/07)</th>
-      <th>Day 8 (02/09)</th>
-      <th>Day 9 (02/11)</th>
+      <th>Day 7 (7-Feb)</th>
+      <th>Day 8 (9-Feb)</th>
+      <th>Day 9 (11-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -189,15 +189,15 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (02/14–02/18)</button>
+<button type="button" id="week_4_toggle" class="week_control_button">Week 4 (14-Feb–18-Feb)</button>
 <div id="week_4" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 10 (02/14)</th>
-      <th>Day 11 (02/16)</th>
-      <th>Day 12 (02/18)</th>
+      <th>Day 10 (14-Feb)</th>
+      <th>Day 11 (16-Feb)</th>
+      <th>Day 12 (18-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -246,6 +246,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_5_toggle" class="week_control_button">Week 5 (21-Feb–25-Feb)</button>
+<div id="week_5" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 13 (21-Feb)</th>
+      <th>Day 14 (23-Feb)</th>
+      <th>Day 15 (25-Feb)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a href='#'>Lifetime/Scope</a><br><a href='#'>Structs</a><br><a href='#'>Random number generation</a></td>
+      <td><a href='#'>Binary file I/O</a><br><a href='#'>Bitwise operations</a></td>
+      <td><a href='#'>Number representation, type conversion/casting</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='#'>Lifetime/Scope</a><br><a href='#'>Structs</a><br><a href='#'>Random number generation</a></td>
+      <td><a href='#'>Binary file I/O</a><br><a href='#'>Bitwise operations</a></td>
+      <td><a href='#'>Number representation, type conversion/casting</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='#'>Day 13</a></td>
+      <td><a href='#'>Day 14</a></td>
+      <td><a href='#'>Day 15</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='#'>Exercise 13</a></td>
+      <td><a href='#'>Exercise 14</a></td>
+      <td><a href='#'>Exercise 15</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
@@ -275,7 +332,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_4';
+    var active_week_id = 'week_5';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
