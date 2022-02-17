@@ -148,6 +148,7 @@ Week,Day,Date,Type,Link text,URL
 4,3,18-Feb,Slides,"Dynamic 2-D Arrays, Pointers and Const",slides/day12_more_pointers_dynamic_2d_arrays.pdf
 4,3,18-Feb,Recap,Day 12,questions/day12.html
 4,3,18-Feb,Exercise,Exercise 12,exercise/ex12.html
+4,3,18-Feb,LectureSlides,Section 2,slides/sec02/12.pdf
 5,1,21-Feb,Video,Lifetime/Scope,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663
 5,1,21-Feb,Video,Structs,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4
 5,1,21-Feb,Video,Random number generation,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7
