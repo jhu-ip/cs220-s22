@@ -240,7 +240,7 @@ the materials for that week.
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cbb5d553-2dbe-4a69-9cfa-ae3c0149c498'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=95081dcb-d179-48e6-b89d-ae3c01440764'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=22ffebd8-7c4f-4bb4-b720-ae3c01572d41'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d1c626f1-e6e7-427a-9e6b-ae3c010b01c2'>Section 4</a></td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6604b439-ba5d-4146-9d76-ae3e013a8960'>Section 1</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6604b439-ba5d-4146-9d76-ae3e013a8960'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6820679c-930e-4f0a-a832-ae3e014c2169'>Section 2</a></td>
       <td></td>
     </tr>
   </tbody>
