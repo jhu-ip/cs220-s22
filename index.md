@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Feb 17** — The [Homework 3](assign/hw3.html) description has been updated to
+  clarify how to link the `png2txt` and `txt2png` executables. (The `-lz` option
+  is needed.)
 * **Feb 15** — [Homework 3](assign/hw3.html) is due **Friday, Feb 25th** by 11pm.
 * **Feb 9** — Homework 2 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
   as **HW2: C basics (written)**, and is due **Friday, Feb 18th** by 11pm. Note that late submissions are
