@@ -151,18 +151,18 @@ Week,Day,Date,Type,Link text,URL
 5,1,21-Feb,Video,Lifetime/Scope,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663
 5,1,21-Feb,Video,Structs,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4
 5,1,21-Feb,Video,Random number generation,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7
-5,1,21-Feb,Slides,Lifetime/Scope,#
-5,1,21-Feb,Slides,Structs,#
-5,1,21-Feb,Slides,Random number generation,#
-5,1,21-Feb,Recap,Day 13,#
+5,1,21-Feb,Slides,Lifetime/Scope,slides/
+5,1,21-Feb,Slides,Structs,slides/
+5,1,21-Feb,Slides,Random number generation,slides/
+5,1,21-Feb,Recap,Day 13,questions/day13.html
 5,1,21-Feb,Exercise,Exercise 13,#
 5,2,23-Feb,Video,Binary file I/O,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f
 5,2,23-Feb,Video,Bitwise operations,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246
-5,2,23-Feb,Slides,Binary file I/O,#
-5,2,23-Feb,Slides,Bitwise operations,#
-5,2,23-Feb,Recap,Day 14,#
+5,2,23-Feb,Slides,Binary file I/O,slides/
+5,2,23-Feb,Slides,Bitwise operations,slides/
+5,2,23-Feb,Recap,Day 14,questions/day14.html
 5,2,23-Feb,Exercise,Exercise 14,#
 5,3,25-Feb,Video,"Number representation, type conversion/casting",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af
-5,3,25-Feb,Slides,"Number representation, type conversion/casting",#
-5,3,25-Feb,Recap,Day 15,#
+5,3,25-Feb,Slides,"Number representation, type conversion/casting",slides/
+5,3,25-Feb,Recap,Day 15,questions/day15.html
 5,3,25-Feb,Exercise,Exercise 15,#

@@ -266,15 +266,15 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='#'>Lifetime/Scope</a><br><a href='#'>Structs</a><br><a href='#'>Random number generation</a></td>
-      <td><a href='#'>Binary file I/O</a><br><a href='#'>Bitwise operations</a></td>
-      <td><a href='#'>Number representation, type conversion/casting</a></td>
+      <td><a href='slides/'>Lifetime/Scope</a><br><a href='slides/'>Structs</a><br><a href='slides/'>Random number generation</a></td>
+      <td><a href='slides/'>Binary file I/O</a><br><a href='slides/'>Bitwise operations</a></td>
+      <td><a href='slides/'>Number representation, type conversion/casting</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
-      <td><a href='#'>Day 13</a></td>
-      <td><a href='#'>Day 14</a></td>
-      <td><a href='#'>Day 15</a></td>
+      <td><a href='questions/day13.html'>Day 13</a></td>
+      <td><a href='questions/day14.html'>Day 14</a></td>
+      <td><a href='questions/day15.html'>Day 15</a></td>
     </tr>
     <tr>
       <td>Exercise</td>
