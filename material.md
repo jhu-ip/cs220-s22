@@ -260,9 +260,9 @@ the materials for that week.
   <tbody>
     <tr>
       <td>Videos</td>
-      <td><a href='#'>Lifetime/Scope</a><br><a href='#'>Structs</a><br><a href='#'>Random number generation</a></td>
-      <td><a href='#'>Binary file I/O</a><br><a href='#'>Bitwise operations</a></td>
-      <td><a href='#'>Number representation, type conversion/casting</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=6fa78f1f-431c-40ea-95e2-ae230027a663'>Lifetime/Scope</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=81f128ab-96f2-433e-b770-ae230027a5f4'>Structs</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e02cd998-bfde-4c4a-977a-ae23002791e7'>Random number generation</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f'>Binary file I/O</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246'>Bitwise operations</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9ce56b92-a382-468f-8c9e-ae230027a1af'>Number representation, type conversion/casting</a></td>
     </tr>
     <tr>
       <td>Slides</td>
