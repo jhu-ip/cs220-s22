@@ -266,9 +266,9 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='slides/'>Lifetime/Scope</a><br><a href='slides/'>Structs</a><br><a href='slides/'>Random number generation</a></td>
-      <td><a href='slides/'>Binary file I/O</a><br><a href='slides/'>Bitwise operations</a></td>
-      <td><a href='slides/'>Number representation, type conversion/casting</a></td>
+      <td><a href='slides/day13_lifetime_scope.pdf'>Lifetime/Scope</a><br><a href='slides/day13_struct_type.pdf'>Structs</a><br><a href='slides/day13_random_numbers.pdf'>Random number generation</a></td>
+      <td><a href='slides/day14_binary_file_io.pdf'>Binary file I/O</a><br><a href='slides/day14_bitwise_operations.pdf'>Bitwise operations</a></td>
+      <td><a href='slides/day15_number_rep_type_conversions.pdf'>Number representation, type conversion/casting</a></td>
     </tr>
     <tr>
       <td>Recap<br>Questions</td>
