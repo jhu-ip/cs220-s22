@@ -40,7 +40,7 @@ but for the "inner" call, the array is never freed.
 
 Fix:
 
-  int *a = int *pairsum2 = pairwise_sum(pairwise_sum(array, 5), 4);
+  int *a = pairwise_sum(array, 5);
   int *pairsum2 = pairwise_sum(a, 4);
   ...
   free(pairsum2);
@@ -69,6 +69,8 @@ set_primes:
   int set_primes( int **list , int capacity )
 
 main:
+
+  int *list = /* initial allocation of array */
 
   // originally
   int prime_count = set_primes( list , capacity );
