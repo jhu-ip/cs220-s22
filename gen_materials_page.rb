@@ -203,19 +203,24 @@ CSV.foreach('material.csv') do |row|
   end
 end
 
-# Based on current day, figure out what the active week should be.
-# The rule is that the active week is the latest one that's not in the future.
-# (We may want to revisit this policy as we update the course content.)
-# As a special case, if no weeks are not in the future (i.e., the current
-# date is before the first week of classes), then the first week is active.
-current_date = `date +'%m/%d'`
-active_week = nil
-weeks.keys.sort.each do |week_num|
-  week = weeks[week_num]
-  if active_week.nil? || week.not_in_future?(current_date)
-    active_week = week
-  end
-end
+## Based on current day, figure out what the active week should be.
+## The rule is that the active week is the latest one that's not in the future.
+## (We may want to revisit this policy as we update the course content.)
+## As a special case, if no weeks are not in the future (i.e., the current
+## date is before the first week of classes), then the first week is active.
+#current_date = `date +'%m/%d'`
+#active_week = nil
+#weeks.keys.sort.each do |week_num|
+#  week = weeks[week_num]
+#  if active_week.nil? || week.not_in_future?(current_date)
+#    active_week = week
+#  end
+#end
+
+# Just use the last week as the active week
+week_numbers = weeks.keys.sort
+last_week = weeks[week_numbers[-1]]
+active_week = last_week
 
 # Go through all of the Weeks and assign a global day number
 # to each DayInfo

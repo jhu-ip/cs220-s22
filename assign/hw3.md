@@ -489,7 +489,7 @@ Create a .zip file named `hw3.zip` which contains
 * `gitlog.txt`
 
 Copy the `hw3.zip` file to your local machine, and
-submit it as **Homework 3** on Gradescope. When you submit, gradescope
+submit it as **HW3: CS220 paint (coding)** on Gradescope. When you submit, gradescope
 conducts a series of automatic tests.  These tests do basic things like
 check that you submitted the right files and that your `Makefile`
 correctly compiles and links the required programs.
