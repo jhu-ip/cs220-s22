@@ -14,6 +14,8 @@ layout: default
 </div>
 </div>
 
+*Update 2/18*: Corrected formula for distance between points.
+
 *Update 2/17*: Added information about the `-lz` option being necessary
 to link the `png2txt` and `txt2png` executables. See the
 [png2txt and txt2png](#png2txt-and-txt2png) section.
@@ -335,7 +337,7 @@ will all be non-negative.
 The distance between two points *x*<sub>1</sub>, *y*<sub>1</sub> and
 *x*<sub>2</sub>, *y*<sub>2</sub> is
 
-> sqrt((*x*<sub>2</sub> - *x*<sub>1</sub>)<sup>2</sup> × (*y*<sub>2</sub> - *y*<sub>1</sub>)<sup>2</sup>)
+> sqrt((*x*<sub>2</sub> - *x*<sub>1</sub>)<sup>2</sup> + (*y*<sub>2</sub> - *y*<sub>1</sub>)<sup>2</sup>)
 
 Note that "sqrt" indicates the square root function.
 
