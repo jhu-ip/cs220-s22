@@ -1,0 +1,118 @@
+Day 13 (Mon 02/21)
+
+- exercise 12 review
+- day 13 recap questions
+- exercise 13
+
+Announcements/reminders:
+
+- HW3 due Friday, 2/25 by 11pm
+
+
+
+Exercise 12 review
+
+Declaration of search function:
+
+  How it is called:
+
+    pos = search(arr1, arr1 + 10, 318);
+
+  Declaration:
+
+    int *search(int *start, int *end, int searchval);
+
+
+Exercise 12 review (continued):
+
+  Useful property when lower bound of search range is inclusive,
+  and upper bound is exclusive: end - start is the number of elements
+  in the range
+
+  So:
+
+    int *search(int *start, int *end, int searchval) {
+      int num_elts = (int) (end - start);
+      if (num_elts < 1) {
+        return NULL; // no elements in range
+      } else {
+        // general case: check middle element, if it's equal to
+        // searchval, success, otherwise continue recursively on
+        // left or right side of range
+      }
+    }
+
+Exercise 12 review (continued):
+
+  // search, general case
+  int *mid = start + (num_elts/2);
+  if (*mid == searchval) {
+    return mid; // success, found the search value
+  } else if (*mid < searchval) {
+    // continue recursively in right side of range
+  } else {
+    // continue recursively in left side of range
+  }
+
+
+Exercise 12 review:
+
+  // in the test code, finding the index of the matching element
+  pos = search(arr1, arr1 + 10, 318);
+  assert(pos != NULL);
+  assert(*pos == 318);
+  // TODO: compute the index of the matching element
+  index = pos - arr1;  // <-- add this
+  assert(2 == index);
+
+
+Exercise 12 review:
+
+  general observation about 2-D arrays: if p is a pointer to an
+  element, and N is the number of columns in one row, then
+
+    p + N
+
+  yields a pointer to an element that is in the same column
+  and next row from the element p points to
+
+
+Exercise 12 review:
+
+  makeCol -
+    // TODO: declare the unit variable (array of 9 integers, to be returned)
+    int *unit = malloc(9 * sizeof(int));
+
+  makeCube -
+
+    // TODO: declare the unit variable (array of 9 integers, to be returned
+    int *unit = malloc(9 * sizeof(int));
+
+  checkRows -
+
+    // TODO: call check on current row and add to variable good
+    good += check(&table[r][0]);
+
+    observation: elements in a single row are contiguous in memory
+     (each row of a 2-D array can be treated as a 1-D array)
+
+  checkCols -
+    for (int c = 0; c < SIZE; c++) {
+      // TODO: call makeCol on current column and assign result to variable column
+      column = makeCol(&table[0][c]);     // <-- get one column of values
+      good += check(column);
+      free(column);                       // <-- free dynamic array
+    }
+
+  checkCubes -
+
+    // TODO: call makeCube on current cube and assign result to variable cube
+    cube = makeCube(&table[r][c]);    // <-- get 3x3 "cube" of values
+    good += check(cube);
+    free(cube);                       // <-- free dynamic array
+
+  main (in sudoku.c) -
+
+    code does not call fclose to close input file: should modify
+    main function so that infile is guaranteed to be closed (using fclose)
+    if it is opened successfully
