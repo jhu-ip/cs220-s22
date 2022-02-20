@@ -11,32 +11,33 @@ reference solutions:
   6. 0; 3; 5; 2; [global variable is initialized, demonstrated to use extern get access to the global]
 ---
 
-1.	What is *struct* in C?
-2.	How are the fields of a struct passed into a function - by value or by reference?
-3.	What is the size of a *struct*? What is structure padding in C?
-4.	What is the difference between lifetime and scope of a variable?
-5.	What is variable shadowing (i.e. hiding)?
+1. What is *struct* in C?
+2. How are the fields of a struct passed into a function - by value or by reference?
+3. What is the size of a *struct*? What is structure padding in C?
+4. What is the difference between lifetime and scope of a variable?
+5. What is variable shadowing (i.e. hiding)?
 6.  What is the output of the below program?
+
 ```c
 #include <stdio.h>
 int foo;
 void bar() {
-	int foo = 3;
-	{
-		extern int foo;
-		printf("%d; ", foo);
-		foo = 2;
-	}
-	printf("%d; ", foo);
+  int foo = 3;
+  {
+    extern int foo;
+    printf("%d; ", foo);
+    foo = 2;
+  }
+  printf("%d; ", foo);
 }
 void baz() { printf("%d; ", foo); }
 int main() {
-	{
-		int foo = 5;
-		bar();
-		printf("%d; ", foo);
-	}
-	baz();
-	return 0;
+  {
+    int foo = 5;
+    bar();
+    printf("%d; ", foo);
+  }
+  baz();
+  return 0;
 }
 ```
