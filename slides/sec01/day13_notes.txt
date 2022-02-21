@@ -116,3 +116,131 @@ Exercise 12 review:
     code does not call fclose to close input file: should modify
     main function so that infile is guaranteed to be closed (using fclose)
     if it is opened successfully
+
+  Makefile
+
+    CFLAGS should include the -g option (to enable debug symbols)
+
+  running valgrind:
+
+    valgrind ./main --leak-check=full --show-leak-kinds=all <name of input file>
+
+
+Day 13 recap questions:
+
+
+1. What is struct in C?
+2. How are the fields of a struct passed into a function - by value or by reference?
+3. What is the size of a struct? What is structure padding in C?
+4. What is the difference between lifetime and scope of a variable?
+5. What is variable shadowing (i.e. hiding)?
+6. What is the output of the below program?
+
+
+1. struct introduces a *used-defined data type*
+
+  Very much like a class in Java or Python, but with only the ability to include
+  member variables, not member functions.
+
+  An instance of a struct is a "bundle" of variables that are packaged as a single
+  entity.
+
+2. Instances of a struct type are passed by value. E.g.
+
+  struct Point { int x, y; };
+
+  void f(struct Point p, int dx) {
+    p.x += dx;
+  }
+
+  int main(void) {
+    struct Point q = { .x = 4, .y = 5 };
+    f(q);
+    printf("%d,%d\n", q.x, q.y); // prints "4,5"
+    return 0;
+  }
+
+3. sizeof(struct Foo) is
+
+   the sum of the sizes of the fields of struct Foo, plus the total
+   size of any padding inserted by the compiler to ensure that fields
+   are correctly aligned
+
+   alignment: the memory address of a variable (including a field variable
+   in an instance of a struct type) must be a multiple of the size of the
+   field.
+
+   E.g., a 4-byte int variable (or struct field) must have its storage allocated
+   starting at a machine address that is a multiple of 4.
+
+   The compiler will insert padding automatically: you don't need to do
+   anything special.  sizeof(struct Foo) will always take the padding
+   into account.  Just trust that the compiler will figure out
+   the right struct layout to use.
+
+4. Lifetime: the interval from (1) the point in time when a variable is created,
+   to (2) the point in time when a variable is destroyed.
+
+     Examples:
+
+       the lifetime of a local variable is the duration of the function call
+
+       the lifetime of a global variable is the duration of the entire program
+
+   Scope: the region of the program code in which a variable may be accessed
+
+     Examples:
+
+       the scope of a local variable is from its declaration to the closing "}"
+       of the block in which it's defined
+
+       the scope of a global variable is the entire program (assuming that there
+       is a declaration or definition of the variable in the current block,
+       or in the enclosing block
+
+5.  Shadowing: a variable declaration in a nested scope has the same name
+as a variable in an "outer" scope.
+
+E.g.
+
+  int x;
+
+  void foo(int x) {
+    {
+      int x = 5;
+      printf("%d\n", x); // prints "5"
+    }
+    printf("%d\n", x); // prints "4"
+  }
+
+  int main(void) {
+    x = 3;
+    foo(4);
+    printf("%d\n", x); // prints "3"
+    return 0;
+  }
+
+6.
+
+#include <stdio.h>
+int foo;
+void bar() {
+  int foo = 3;
+  {
+    extern int foo;
+    printf("%d; ", foo);
+    foo = 2;
+  }
+  printf("%d; ", foo);
+}
+void baz() { printf("%d; ", foo); }
+int main() {
+  {
+    int foo = 5;
+    bar();
+    printf("%d; ", foo);
+  }
+  baz();
+  return 0;
+}
+
