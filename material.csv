@@ -162,6 +162,8 @@ Week,Day,Date,Type,Link text,URL
 5,1,21-Feb,Slides,Random number generation,slides/day13_random_numbers.pdf
 5,1,21-Feb,Recap,Day 13,questions/day13.html
 5,1,21-Feb,Exercise,Exercise 13,exercise/ex13.html
+5,1,21-Feb,LectureSlides,"Section 1",slides/sec01/day13_notes.pdf
+5,1,21-Feb,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e6e1ef62-380d-4bb9-8a18-ae43013e03e2
 5,2,23-Feb,Video,Binary file I/O,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9a428f88-2a13-420b-b008-ae230027a35f
 5,2,23-Feb,Video,Bitwise operations,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=373770ad-6472-4b72-b789-ae230027a246
 5,2,23-Feb,Slides,Binary file I/O,slides/day14_binary_file_io.pdf
