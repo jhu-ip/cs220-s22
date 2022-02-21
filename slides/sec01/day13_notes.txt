@@ -55,7 +55,7 @@ Exercise 12 review (continued):
   }
 
 
-Exercise 12 review:
+Exercise 12 review (continued):
 
   // in the test code, finding the index of the matching element
   pos = search(arr1, arr1 + 10, 318);
