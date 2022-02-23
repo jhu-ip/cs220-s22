@@ -144,7 +144,7 @@ We recommend that you break your code into several files, and have as little cod
 - `texture_synthesis.h` - the header file for the texture synthesis.
 
 You can find a description of the provided functionality
-[here](html/index.html).
+[here](midterm/index.html).
 
 :::info
 The list above is not a list of ALL files that should be included in your submission.  It is only a minimal listing of source code files.
