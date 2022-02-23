@@ -303,6 +303,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_6_toggle" class="week_control_button">Week 6 (28-Feb–4-Mar)</button>
+<div id="week_6" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 16 (28-Feb)</th>
+      <th>Day 17 (2-Mar)</th>
+      <th>Day 18 (4-Mar)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=254ea75c-12a1-456c-b91d-ae230027a0c6'>Linked lists</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42'>More Linked lists</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='#'>Midterm project</a></td>
+      <td><a href='slides/day17_linked_lists.pdf'>Linked lists</a></td>
+      <td><a href='slides/day18_more_linked_lists.pdf'>More Linked lists</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+      <td><a href='questions/day17.html'>Day 17</a></td>
+      <td><a href='questions/day18.html'>Day 18</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td></td>
+      <td><a href='exercise/ex17.html'>Exercise 17</a></td>
+      <td><a href='exercise/ex18.html'>Exercise 18</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
@@ -332,7 +389,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_5';
+    var active_week_id = 'week_6';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
