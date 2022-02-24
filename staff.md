@@ -41,7 +41,7 @@ category: "staff"
    Department of Computer Science<br>
    Email: <a href="mailto:psimari@cs.jhu.edu">psimari@cs.jhu.edu</a><br>
    Web: <a class="external" target="_blank" href="https://www.cs.jhu.edu/~EMAIL/">https://www.cs.jhu.edu/~psimari/</a><br>
-   Office hours: TBA<br>
+   Office hours: Tue and Thu 9-10:30am<br>
    Check <a class="external" target="_blank" href="https://piazza.com/jhu/spring2022/en601220/staff">Piazza→Resources→Staff</a><br>&nbsp;&nbsp;for Zoom link!
   </div>
 </div>
