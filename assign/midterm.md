@@ -278,12 +278,11 @@ To find a good exemplar pixel, you will go through all the exemplar pixels and f
 ## Comparing Your Code
 Comparing your results to a "ground-truth" solution is hard because of the inherently stochastic (random) nature of the algorithm. To help you along, we have:
 * Seeded the random number generator at the beginning of the `main` function.
-* Provided a function `SortTBSPixels` that sorts the TBS pixels in the array, resolving ties in a consistent manner.
-	Note that for you to get results consistent with ours, the entries in the TBS array have to satisfy the following properties (before calling `SortTBSPixels`):
+* Provided a function `SortTBSPixels` that sorts the TBS pixels in the array, resolving ties in a consistent manner. Note that for you to get results consistent with ours, the entries in the TBS array have to satisfy the following properties (before calling `SortTBSPixels`):
 	* The entries have distinct pixel indices.
 	* The `neighborCount` value of an entry cannot be zero.
-* Whenever you iterate over the pixels in an image/window, the outer loop iterates over the rows (top to bottom) and the inner loop iterates over the columns (left to right).
 
+However, if you really want to reproduce our results you will also need to ensure that when you compute the array of candidate exemplar pixels (from which you will pick one at random), those candidate pixels are sorted so that pixels coming earlier in the image (i.e. in earlier rows, or in earlier columns if the two pixels are in the same row) appear earlier in the candidate list.
 
 ## Submission
 
