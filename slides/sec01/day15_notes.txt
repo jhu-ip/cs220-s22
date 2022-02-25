@@ -147,3 +147,12 @@ Can be used to eliminate warnings in some cases:
   }
 
 An explicit type cast is a good idea when your program does a narrowing conversion. (Lets the programmer know the conversion is intentional.)
+
+
+6. What is the output of the code segment below?
+
+int n = 32065;
+float x = 24.79;
+printf("int n = %d but (char) n = %c\n", n, (char) n);
+printf("float x = %f but (long) x = %ld\n", x, (long) x);
+
