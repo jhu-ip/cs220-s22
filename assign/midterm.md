@@ -1,29 +1,42 @@
 ---
 id: midterm
+layout: default
 title: Midterm Project
 layout: default
 ---
 
-:::caution 
-* You are expected to work in a team of two.
-* **Released: [MK: Need date here]**
-* **Due: [MK: Need date here]**
-* *This project is worth **[MK: Need points here]** points*
-* No late days may be used!
-:::
+**Warning**: This is a preliminary version of the midterm project. Details may change.
+
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<ul>
+<li>You are expected to work in a team of two.</li>
+<li><strong>Released:</strong> Monday, Feb 28th</li>
+<li><strong>Due:</strong> Friday, March 18th by 11pm Baltimore time</li>
+<li><em>This project is worth 140 points</em></li>
+<li>No late days may be used!</li>
+</ul>
+</div>
+</div>
 
 ## Learning Objectives
-:::success Objectives
-* structs
-* binary file I/O
-* nested loops
-* data representations
-* dynamic memory allocation
-* random numbers
-* math library functions
-* makefile
-* development tools `gdb`, `valgrind`, `git`
-:::
+<div class='admonition success'>
+<div class='title'>Objectives</div>
+<div class='content'>
+<ul>
+<li>structs</li>
+<li>binary file I/O</li>
+<li>nested loops</li>
+<li>data representations</li>
+<li>dynamic memory allocation</li>
+<li>random numbers</li>
+<li>math library functions</li>
+<li>makefile</li>
+<li>development tools <code>gdb</code>, <code>valgrind</code>, <code>git</code></li>
+</ul>
+</div>
+</div>
 
 ## General Requirements
 
@@ -31,15 +44,21 @@ This is a team of two programming assignment, meaning you and a partner will col
 
 As usual for coding assignments, you are required to use the `git` version control system and include a *log file* with your project submission. Both partners must make sigificant commits to the project.
 
-:::caution
-We will provision you a separate repo for your midterm project under the `jhu-ip` organization and both team members along with course staff will be invited to have an admin role on the repo. You will both need to clone this new repo to get started. You should anticipate some conflicts when sharing a repo, and will need to resolve and merge them appropriately. Frequent commit/push/pull sequences are even more important in this situation.
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>We will provision you a separate repo for your midterm project under the <code>jhu-ip</code> organization and both team members along with course staff will be invited to have an admin role on the repo. You will both need to clone this new repo to get started. You should anticipate some conflicts when sharing a repo, and will need to resolve and merge them appropriately. Frequent commit/push/pull sequences are even more important in this situation.</p>
+</div>
+</div>
 
 This project is larger and more complex than previous programming assignments. Additionally, since you have now been exposed to most of what C can do, there are no restrictions on what language features you can use (other than the conventions of good style, of course; you still shouldn't use global variables, for example).
 
-:::tip
-From this point forward in the semester, your programs will need to not only compile and run cleanly (i.e. with **no warnings, errors, or crashes**), but also **must not have any memory-related issues** (as reported by `valgrind`).
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>From this point forward in the semester, your programs will need to not only compile and run cleanly (i.e. with <strong>no warnings, errors, or crashes</strong>), but also <strong>must not have any memory-related issues</strong> (as reported by <code>valgrind</code>).</p>
+</div>
+</div>
 
 ## Program Description
 This program will be a texture synthesis application. It will take as its input an example texture image (the _exemplar_) and will grow the texture into a larger image. It will have a command-line-based user interface (UI), so there will be no graphical interface. In particular, the program will read in the exemplar image's file-name from the command prompt, as well as the output image's dimensions, the output images file-name and the radius of the search window. It will then synthesize the new texture and output it to the prescribed file.
@@ -59,36 +78,40 @@ exemplar | radius=2 | radius=5 | radius=10 | radius=15
 ### Viewing your results
 Since your program will not have a GUI, you will use external programs to view the images. If you are on ugrad (either locally, or remotely with X-tunnelling), you can use the program `feh`.
 
-:::info
-For this project, you will be working with images in a PPM format (described below). This means that you will want to view images, which means that in order to work remotely on the ugrad machines, you will need to set up X-tunnelling using [Xming](https://sourceforge.net/projects/xming/) on Windows or [XQuartz](https://www.xquartz.org/) on Mac (Reach out to us if you need help to set this up). Also, PPM images can be quite large; be aware of file sizes, and try not to fill up your hard drive (or your disk quota on ugrad) with thousands of pictures...
-
-
-`feh` is a very simple command-line image viewer.  It is available on ugrad machines and you can simply run the program with the name of an image file as a command-line argument, and it will display the image on your screen. e.g.
-```sh
-$ feh myimage.ppm
-```
-**Note:** Before running `feh`, make sure either Xming or Xquartz is running and x-tunneling is enabled (i.e. add -Y on mac when you `ssh` in to ugard. On Putty, enable x-11 forwarding option)
-:::
+<div class='admonition info'>
+<div class='title'>Info</div>
+<div class='content'>
+<p>For this project, you will be working with images in a PPM format (described below). This means that you will want to view images, which means that in order to work remotely on the ugrad machines, you will need to set up X-tunnelling using <a href="https://sourceforge.net/projects/xming/">Xming</a> on Windows or <a href="https://www.xquartz.org/">XQuartz</a> on Mac (Reach out to us if you need help to set this up). Also, PPM images can be quite large; be aware of file sizes, and try not to fill up your hard drive (or your disk quota on ugrad) with thousands of pictures...</p>
+<p><code>feh</code> is a very simple command-line image viewer. It is available on ugrad machines and you can simply run the program with the name of an image file as a command-line argument, and it will display the image on your screen. e.g.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1">$ <span class="ex">feh</span> myimage.ppm</a></code></pre></div>
+<p><strong>Note:</strong> Before running <code>feh</code>, make sure either Xming or Xquartz is running and x-tunneling is enabled (i.e. add -Y on mac when you <code>ssh</code> in to ugard. On Putty, enable x-11 forwarding option)</p>
+</div>
+</div>
 
 If you are using a different platform, you are welcome to use an image viewer of your choice; `feh` is easy to install using most linux package managers, but there are other open source image viewing programs, as well as alternatives for Windows and MacOSx.
 
 While there are many formats for storing image files, your program will **only** need to read and write one, the **PPM** format. This is essentially the simplest and easiest format to read and write, which is why it was chosen; its main drawback is that it does not use any kind of compression, so images stored in this format tend to be on the large side when compared to formats like JPEG or PNG or GIF. An implementation to read PPM files is provided for you. However, you will need to write the corresponding method to write to a PPM file format. (See `ppm.h` and `ppm.c` in the starter code.)
 
-:::caution
-Make sure to do a `git pull` on the public repo before starting to work to get the starter files for this project. You must work with the starter files!
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>Make sure to do a <code>git pull</code> on the public repo before starting to work to get the starter files for this project. You must work with the starter files!</p>
+</div>
+</div>
 
 ### PPM image format
 
 For this assignment, we will use a very simple image-file format called PPM (Portable Pixel Map). It's an uncompressed format, meaning that the images will take up a lot of disk space (compared to JPG or PNG files), but it's very easy to read and write from C code (which is why we're using it). For the formal "official" description of the PPM format, see the [netpbm site](http://netpbm.sourceforge.net/).
 
-:::info
-NOTE: you can use a unix program called `convert` to convert between image formats; e.g. to convert an existing file called "selfie.jpg" into a PPM, you would type:
-```
-$ convert selfie.jpg selfie.ppm
-```
-This works for most image format file extensions; it converts to/from most known image formats, including .jpg, .gif, .png, .ppm, .tiff, and .pdf, and is installed on the ugrad machines. If it's not installed on your local machine (or virtual machine), most linux package managers can install it (or can install ImageMagick, which is the suite of tools that `convert` is part of).
-:::
+<div class='admonition info'>
+<div class='title'>Info</div>
+<div class='content'>
+<p>NOTE: you can use a unix program called <code>convert</code> to convert between image formats; e.g. to convert an existing file called "selfie.jpg" into a PPM, you would type:</p>
+<pre><code>$ convert selfie.jpg selfie.ppm
+</code></pre>
+<p>This works for most image format file extensions; it converts to/from most known image formats, including .jpg, .gif, .png, .ppm, .tiff, and .pdf, and is installed on the ugrad machines. If it's not installed on your local machine (or virtual machine), most linux package managers can install it (or can install ImageMagick, which is the suite of tools that <code>convert</code> is part of).</p>
+</div>
+</div>
 
 The PPM format itself is pretty simple (compared to most other image formats). Basically, at the top of the file will be a special "tag" that marks the file as a PPM; this should be "P6". Then, there are three numbers, separated by whitespace; these numbers represent the size of the image as columns, rows, and colors. Columns and rows specify the width and height of the image (in pixels) respectively. (BEWARE: columns come before rows in this format!) Colors encodes how many different shades of each color a pixel can take on; for this assignment, this number must always be 255 (you must reject any image that uses a different value, but you're unlikely to encounter one). Immediately after the 255 the binary data encoding pixels begins. 
 
@@ -98,9 +121,12 @@ All of this will be ANSI text, so you can use the normal text functions (e.g. fg
 
 After the color size specification, there will be a **single** whitespace character (usually a newline, but that's not guaranteed), after which the remainder of the file will be the actual pixel values. Basically, each "pixel" consists of three values; the first value is the "red" channel, the second value is the "green" channel, and the third value is the "blue" value. Taken together, these three values specify a single color, which is the RGB color value of that pixel. Since the max color value is 255, each of these values will be in the range 0-255, which fits exactly in one byte of memory. For more information about RGB color codes see [Wikipedia](https://en.wikipedia.org/wiki/RGB_color_model).
 
-:::caution
-The PPM format stores the red, green, and blue channels of an image as three consecutive bytes. However, for this project you will need a fourth chanel -- the _alpha_ channel. As a result, you will not be able to read/write a `Pixel` struct directly from/to a PPM file. There are many ways you can address this. You can create a second, three-channel, struct, read into that, and then copy the information to the four-channel `Pixel` struct. Alternatively, you can use the fact that the alpha channel is the last channel, and read in the pixels three bytes at a time, thereby setting the red, green, and blue channels. 
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>The PPM format stores the red, green, and blue channels of an image as three consecutive bytes. However, for this project you will need a fourth chanel -- the <em>alpha</em> channel. As a result, you will not be able to read/write a <code>Pixel</code> struct directly from/to a PPM file. There are many ways you can address this. You can create a second, three-channel, struct, read into that, and then copy the information to the four-channel <code>Pixel</code> struct. Alternatively, you can use the fact that the alpha channel is the last channel, and read in the pixels three bytes at a time, thereby setting the red, green, and blue channels.</p>
+</div>
+</div>
 
 Your first coding task for this project is to write the `WritePPM` function in the `ppm.c` implememtation file, as well as the `AllocateImage` and `FreeImage` functions in the `image.c`implementation file. We have provided implememtations of `ReadPPM` in `ppm.c`.
 
@@ -146,34 +172,49 @@ We recommend that you break your code into several files, and have as little cod
 You can find a description of the provided functionality
 [here](midterm/index.html).
 
-:::info
-The list above is not a list of ALL files that should be included in your submission.  It is only a minimal listing of source code files.
-:::
+<div class='admonition info'>
+<div class='title'>Info</div>
+<div class='content'>
+<p>The list above is not a list of ALL files that should be included in your submission. It is only a minimal listing of source code files.</p>
+</div>
+</div>
 
 We recommend that before you start coding, you make a **development plan**. This means that you sit down and plan out (on paper) how you will break the program down into modules (e.g. functions or groups of functions), what each module will do, and how they will interact. You should also plan who/when/how each will be coded, leaving yourselves a week for debugging! 
 
-:::tip
-Aim to write small, clean helper functions for better readability and easier testing, as well as greater reusability. Then, make a plan for what order you will implement the modules in. You will also want to test your modules; it's a good idea to use test-driven design, which means that you will design tests for your functions before you actually start trying to write the functions themselves.
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>Aim to write small, clean helper functions for better readability and easier testing, as well as greater reusability. Then, make a plan for what order you will implement the modules in. You will also want to test your modules; it's a good idea to use test-driven design, which means that you will design tests for your functions before you actually start trying to write the functions themselves.</p>
+</div>
+</div>
 
 For each module, it's important to think about precisely what it should do, and also how you can test it to be sure it's doing what you want. There are lots of ways of testing your code; for this project, a lot of your tests will likely involve the visual inspection of output images to see if they look the way they're supposed to. Still, having an idea of how you'll test each piece before you start writing it (and then testing/fixing it before you move on to the next one) will make your life a lot easier.
 
-:::tip
-Some results images are provided in the starter code under `results` folder. The filename will be of the form <`header`>.<`res`>.<`radius`>.ppm where <`header`> is the header of the .ppm file in the `data` directory provided for processing, the synthesized image is of size `res`x`res`, and the window radius was `radius`. Note that because the algorithm requires randomness, it is possible for you to implement the method correctly and get results that are qualitatively similar but pixel-wise different. (See the *Comparing Your Code* section below.)
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>Some results images are provided in the starter code under <code>results</code> folder. The filename will be of the form &lt;<code>header</code>&gt;.&lt;<code>res</code>&gt;.&lt;<code>radius</code>&gt;.ppm where &lt;<code>header</code>&gt; is the header of the .ppm file in the <code>data</code> directory provided for processing, the synthesized image is of size <code>res</code>x<code>res</code>, and the window radius was <code>radius</code>. Note that because the algorithm requires randomness, it is possible for you to implement the method correctly and get results that are qualitatively similar but pixel-wise different. (See the <em>Comparing Your Code</em> section below.)</p>
+</div>
+</div>
 
 ### Scaffolding Folder
 The scaffolding (i.e. starter code) folder for this project (available in the public repository) provides you with `ppm.c`, `ppm.h`, `image.c`, `image.h`, and `project.c`. (You will need to write the `Makefile` yourself.) It also contains some testing PPM files in a folder named `data` and some expected results in a subfolder named `results`, which is in the PPM format. Lastly, we provide starter files `texture_synthesis.h` and `texture_synthesis.c` which is where your implementations of the texture synthesis should be added.
 
-:::info
-Note that the results displaying on this page are jpg versions. You should use the provided PPM ones for comparison.
-:::
+<div class='admonition info'>
+<div class='title'>Info</div>
+<div class='content'>
+<p>Note that the results displaying on this page are jpg versions. You should use the provided PPM ones for comparison.</p>
+</div>
+</div>
 
 We encourage you to store the provided PPM images and all created images in a subfolder of your own repository named `data`, to keep your images separate from your source code files. You don't need to submit any PPM files to us; keeping them in a separate folder will help you avoid accidentally including them.
 
-:::tip
-If you're using the `data` subfolder, we suggest you to execute your code from within the `data` folder by typing `../project`, so you can refer to input filenames while the program is executing directly as `D3.ppm`, rather than `data/D3.ppm`, saving yourself the extra typing while testing.
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>If you're using the <code>data</code> subfolder, we suggest you to execute your code from within the <code>data</code> folder by typing <code>../project</code>, so you can refer to input filenames while the program is executing directly as <code>D3.ppm</code>, rather than <code>data/D3.ppm</code>, saving yourself the extra typing while testing.</p>
+</div>
+</div>
 
 ## Error Reporting
 The approach your program will take for error reporting is to have your `main()` method return a `0` value indicating success or a positive value indicating failure. Which positive value your program should return is indicated in the table below. If more than one error condition occurs, your program should return the error code listed earliest in the table below.
@@ -224,9 +265,12 @@ you will center a 5x5 (blue) window over each exemplar pixel and compare the pix
 	* Once you have compared the window around the TBS pixel to the windows about every exemplar pixel, you will identify an exemplar pixel which is a good match, copy its color into the TBS pixel, and change the TBS pixel to _set_.
 * You will repeat the process until there are no _unset_ pixels in the output.
 
-:::caution
-**The code will not be fast.** For **every** _unset_ TBS pixel it needs to compare a window about the _unset_ pixel to a window about **every** exemplar pixel. And that comparison requires looking at the difference in pixel values for **every** pixel within the window. This will make the running time slow, and it will get slower as you increase the window radius. For example, for the texture synthesized above for the `D3` exemplar with radii 2, 5, 10, and 15, the respective running times (on my computer, after optimization) were 6.3, 23.3, 69.1, and 131.0 seconds.
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p><strong>The code will not be fast.</strong> For <strong>every</strong> <em>unset</em> TBS pixel it needs to compare a window about the <em>unset</em> pixel to a window about <strong>every</strong> exemplar pixel. And that comparison requires looking at the difference in pixel values for <strong>every</strong> pixel within the window. This will make the running time slow, and it will get slower as you increase the window radius. For example, for the texture synthesized above for the <code>D3</code> exemplar with radii 2, 5, 10, and 15, the respective running times (on my computer, after optimization) were 6.3, 23.3, 69.1, and 131.0 seconds.</p>
+</div>
+</div>
 
 
 ### Implementation details
@@ -241,13 +285,19 @@ To identify the set of pixels that are ready to be synthesized, you will iterate
 
 You will sort these pixels, ordering them so that TBS pixels with more _set_ neighbors are earlier in the list. You will further randomly sort the list of TBS pixels to resolve ties when two TBS pixels have the same number of _set_ neighbors.
 
-:::tip
-To help you with the sorting, the `texture_synthesis.h` file defines a struct `TBSPixel` which stores information about where the TBS pixel is (the `idx` member), how many of the neighbors are _set_ (the `neighborCount` member) and a random value for resolving ties in the sorting (the `r` member). When you generate the list of TBS pixels, you should only set the first two members. You can then call the `SortTBSPixels` which will sort this list for you, reordering so that TBS pixels with larger _set_ neighbor counts occur earlier in the list and resolving ties appropriately.
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>To help you with the sorting, the <code>texture_synthesis.h</code> file defines a struct <code>TBSPixel</code> which stores information about where the TBS pixel is (the <code>idx</code> member), how many of the neighbors are <em>set</em> (the <code>neighborCount</code> member) and a random value for resolving ties in the sorting (the <code>r</code> member). When you generate the list of TBS pixels, you should only set the first two members. You can then call the <code>SortTBSPixels</code> which will sort this list for you, reordering so that TBS pixels with larger <em>set</em> neighbor counts occur earlier in the list and resolving ties appropriately.</p>
+</div>
+</div>
 
-:::caution
-In defining the TBS pixels for the current iteration you should only be using immediate pixel neighbors (at most 8), independent of the value of the window radius parameter read in from the command line.
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p>In defining the TBS pixels for the current iteration you should only be using immediate pixel neighbors (at most 8), independent of the value of the window radius parameter read in from the command line.</p>
+</div>
+</div>
 
 ### Iterating over exemplar pixels
 Given a radius `r` as prescribed on the command line, you will be using a window whose width and height are 2x`r`+1. You will center the window about **every** exemplar pixel and compre the window about the exemplar pixel to the window about the TBS pixel. Note that it will not always be the case that the window about the exemplar (resp. TBS) pixel fits within the exemplar (resp. synthesized) image. In that case, you should only use pixels that are within the image.
@@ -268,9 +318,12 @@ Assuming that you are considering a TBS pixel with column/row index (`colS`,`row
 		* increment the difference: `diff` += `d`x`s`
 		* increment the total sum: `sum` += `s`
 
-:::tip
-you should be careful in computing the sum of squared differences as the red, green, and blue values are stored as `unsigned char`s. To help you out, the `image.h` file declares (and `image.c` defines) the `PixelSquaredDifference` function which takes two `Pixel`s as input and returns a double value corresponding to the sum of squared differences of red, green, and blue values.
-:::
+<div class='admonition tip'>
+<div class='title'>Tip</div>
+<div class='content'>
+<p>you should be careful in computing the sum of squared differences as the red, green, and blue values are stored as <code>unsigned char</code>s. To help you out, the <code>image.h</code> file declares (and <code>image.c</code> defines) the <code>PixelSquaredDifference</code> function which takes two <code>Pixel</code>s as input and returns a double value corresponding to the sum of squared differences of red, green, and blue values.</p>
+</div>
+</div>
 
 ### Selecting a good exemplar pixel for a given to-be-synthesized (TBS) pixel
 To find a good exemplar pixel, you will go through all the exemplar pixels and find `min`, the minimum sum of squared differences computed over all exemplar windows. You will then identify all exemplar pixels whose associated sum of squared differences is no larger than `min`x(1.1) and you will pick a random exemplar pixel from within those.
@@ -286,16 +339,24 @@ However, if you really want to reproduce our results you will also need to ensur
 
 ## Submission
 
-:::danger
-Remember that programs which do not compile (with standard compiler flags on the ugrad machines) will not receive credit.  Additionally, points will be deducted for any compiler warnings. Points will also be deducted for any warnings, errors, or memory leaks reported by `valgrind`. All executables should be buildable using a `Makefile` with `project` as the main target, and should build and run cleanly.
-:::
+<div class='admonition danger'>
+<div class='title'>Danger</div>
+<div class='content'>
+<p>Remember that programs which do not compile (with standard compiler flags on the ugrad machines) will not receive credit. Additionally, points will be deducted for any compiler warnings. Points will also be deducted for any warnings, errors, or memory leaks reported by <code>valgrind</code>. All executables should be buildable using a <code>Makefile</code> with <code>project</code> as the main target, and should build and run cleanly.</p>
+</div>
+</div>
 
-:::tip submission
-Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a `Makefile`) as well as a `README` file (which includes both partner names, JHEDs and Hopkins IDs) and a `git log` file from your midterm project repo. The `log` should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission **should not** contain any compiled binaries (executables or object files), or any testing-related files (in particular, **please do not submit any image files**).
+<div class='admonition tip'>
+<div class='title'>submission</div>
+<div class='content'>
+<p>Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a <code>Makefile</code>) as well as a <code>README</code> file (which includes both partner names, JHEDs and Hopkins IDs) and a <code>git log</code> file from your midterm project repo. The <code>log</code> should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission <strong>should not</strong> contain any compiled binaries (executables or object files), or any testing-related files (in particular, <strong>please do not submit any image files</strong>).</p>
+<p>The requirements for your <code>git log</code> are the same as in previous assignments, except note that we expect all members of your team to be contributing commits to your shared midterm project repo.</p>
+</div>
+</div>
 
-The requirements for your `git log` are the same as in previous assignments, except note that we expect all members of your team to be contributing commits to your shared midterm project repo.
-:::
-
-:::caution
-**Only one team member should submit the project on Gradescope, but you must add your partner's name in the Gradescope submission.** The same team member should submit all versions of the project in his/her account. **Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members**, so that each student gets credit for this work.
-:::
+<div class='admonition caution'>
+<div class='title'>Caution</div>
+<div class='content'>
+<p><strong>Only one team member should submit the project on Gradescope, but you must add your partner's name in the Gradescope submission.</strong> The same team member should submit all versions of the project in his/her account. <strong>Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members</strong>, so that each student gets credit for this work.</p>
+</div>
+</div>
