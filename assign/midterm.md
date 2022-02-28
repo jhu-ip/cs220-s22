@@ -5,13 +5,11 @@ title: Midterm Project
 layout: default
 ---
 
-**Warning**: This is a preliminary version of the midterm project. Details may change.
-
 <div class='admonition caution'>
 <div class='title'>Caution</div>
 <div class='content'>
 <ul>
-<li>You are expected to work in a team of two.</li>
+<li>You are expected to work in a team of two or three.</li>
 <li><strong>Released:</strong> Monday, Feb 28th</li>
 <li><strong>Due:</strong> Friday, March 18th by 11pm Baltimore time</li>
 <li><em>This project is worth 140 points</em></li>
@@ -40,14 +38,14 @@ layout: default
 
 ## General Requirements
 
-This is a team of two programming assignment, meaning you and a partner will collaboratively write and submit the source code for a program. You and your partner should take a "paired programming" approach, where you frequently work together at a single screen. In this approach, at any given time one person is the "driver" with their hands on the keyboard, and the other is the "navigator" watching and guiding the driver. You should switch roles regularly. This method is particularly effective when you are testing and debugging your program. Remember, you are both responsible for all the code you submit and will receive the same grade.
+This is a team of two or three programming assignment, meaning you and one or two partners will collaboratively write and submit the source code for a program. You and your partner(s) should take a "paired programming" approach, where you frequently work together at a single screen. In this approach, at any given time one person is the "driver" with their hands on the keyboard, and the other is the "navigator" watching and guiding the driver. You should switch roles regularly. This method is particularly effective when you are testing and debugging your program. Remember, you are both responsible for all the code you submit and will receive the same grade.
 
-As usual for coding assignments, you are required to use the `git` version control system and include a *log file* with your project submission. Both partners must make sigificant commits to the project.
+As usual for coding assignments, you are required to use the `git` version control system and include a *log file* with your project submission. All partners must make sigificant commits to the project.
 
 <div class='admonition caution'>
 <div class='title'>Caution</div>
 <div class='content'>
-<p>We will provision you a separate repo for your midterm project under the <code>jhu-ip</code> organization and both team members along with course staff will be invited to have an admin role on the repo. You will both need to clone this new repo to get started. You should anticipate some conflicts when sharing a repo, and will need to resolve and merge them appropriately. Frequent commit/push/pull sequences are even more important in this situation.</p>
+<p>We will provision you a separate repo for your midterm project under the <code>jhu-ip</code> organization and all team members along with course staff will be invited to have an admin role on the repo. You will both need to clone this new repo to get started. You should anticipate some conflicts when sharing a repo, and will need to resolve and merge them appropriately. Frequent commit/push/pull sequences are even more important in this situation.</p>
 </div>
 </div>
 
@@ -236,17 +234,17 @@ The texture synthesis you are implementing is essentially the one described by E
 
 The goal is to extend, or grow, an exemplar texture into a larger texture with the same qualitative "feel". Starting with an exemplar image, you will first create a new image with width and height as prescribed on the command line, and you will copy the exemplar image into the top left corner. (You will need to check that the width and height are big enough to contain the exemplar.) For example, starting with the image
 <CENTER>
-![output image](img/D3.input.jpg)<BR>
+<img class="keep_original_size" src="img/D3.input.jpg" alt="output image"><BR>
 </CENTER>
 and a target width and height of 128, you may generate an image like:
 <CENTER>
-![output image](img/D3.20.jpg)<BR>
+<img class="keep_original_size" src="img/D3.20.jpg" alt="output image"><BR>
 </CENTER>
 In the course of processing, every pixel will be marked as either _set_ or _unset_, with _set_ pixels identified by having a non-zero alpha value. Initially, only the pixels copied from the exemplar image will be marked as _set_.
 
 You will then iterate through the image, identifying _unset_ pixels (visualized in black) that are adjacent to _set_ pixels and you will assign them color values. That is, if you were to output an image after each step of processing (visualizing unset pixels in black) and you were to makes those images the frames of a video, you would get something that looks like:
 <CENTER>
-<VIDEO controls autoplay SRC="img/D3.mp4" TYPE="video/mp4"></VIDEO>
+<VIDEO controls autoplay SRC="img/d3.mp4" TYPE="video/mp4"></VIDEO>
 </CENTER>
 
 The approach you will take is as follows.
@@ -254,11 +252,11 @@ The approach you will take is as follows.
 * For every pixel in the to-be-synthesized (TBS) pixel list
 	* You will create a window around the pixel and compare that windows about **every** exemplar pixel.
 		For example, given the selected pixel shown in the center of the 5x5 (yellow) window below (left):<BR>
-<CENTER>
-<IMG WIDTH=500 SRC="img/windowSearch.jpg">
-</CENTER><BR>
-you will center a 5x5 (blue) window over each exemplar pixel and compare the pixels within the 5x5 window about the TBS pixel to the corresponding pixels in the 5x5 window about the exemplar pixel (right).
-
+		<CENTER>
+		<IMG WIDTH=500 SRC="img/windowSearch.jpg">
+		</CENTER><BR>
+		you will center a 5x5 (blue) window over each exemplar pixel and compare the pixels within the 5x5 window about the TBS pixel to the corresponding pixels in the 5x5 window about the exemplar pixel (right).
+		
 		Note that in the course of processing, we iterate row by row. Starting at the top (row zero) and moving to the bottom. Within a row we traverse the pixels from left (column zero) to right.
 
 		Note also that in this example, when the TBS pixel is at the top-right, the comparison to the first two (top-left) exemplar pixels will be ignored. This is because the TBS pixel has six neighboring pixels that are set (below and to the left) but not all of the corresponding pixels in the windows about the two exemplar pixels are interior the exemplar image.
@@ -347,9 +345,9 @@ However, if you really want to reproduce our results you will also need to ensur
 </div>
 
 <div class='admonition tip'>
-<div class='title'>submission</div>
+<div class='title'>Submission</div>
 <div class='content'>
-<p>Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a <code>Makefile</code>) as well as a <code>README</code> file (which includes both partner names, JHEDs and Hopkins IDs) and a <code>git log</code> file from your midterm project repo. The <code>log</code> should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission <strong>should not</strong> contain any compiled binaries (executables or object files), or any testing-related files (in particular, <strong>please do not submit any image files</strong>).</p>
+<p>Submit your project via Gradescope. Your submission should contain all source code and files necessary to compile your program (including a <code>Makefile</code>) as well as a <code>README</code> file (which includes all partner names, JHEDs and Hopkins IDs) and a <code>git log</code> file from your midterm project repo. The <code>log</code> should indicate that all team members were contributing code and pushing their contributions to the repository. Your submission <strong>should not</strong> contain any compiled binaries (executables or object files), or any testing-related files (in particular, <strong>please do not submit any image files</strong>).</p>
 <p>The requirements for your <code>git log</code> are the same as in previous assignments, except note that we expect all members of your team to be contributing commits to your shared midterm project repo.</p>
 </div>
 </div>
@@ -357,6 +355,6 @@ However, if you really want to reproduce our results you will also need to ensur
 <div class='admonition caution'>
 <div class='title'>Caution</div>
 <div class='content'>
-<p><strong>Only one team member should submit the project on Gradescope, but you must add your partner's name in the Gradescope submission.</strong> The same team member should submit all versions of the project in his/her account. <strong>Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members</strong>, so that each student gets credit for this work.</p>
+<p><strong>Only one team member should submit the project on Gradescope, but all partners' name(s) must be included in the Gradescope submission.</strong> The same team member should submit all versions of the project in his/her account. <strong>Also make sure that the README includes the names, JHEDs and Hopkins IDs of both team members</strong>, so that each student gets credit for this work.</p>
 </div>
 </div>

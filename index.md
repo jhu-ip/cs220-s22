@@ -47,6 +47,13 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Feb 28** — The [Midterm Project](assign/midterm.html) is due **Friday, Mar 18th**
+  by 11pm.  You will work in a team with 2 or 3 members (see Piazza post 276
+  if you need to find team members(s).) Note that late submissions will *not*
+  be accepted.
+* **Feb 24** — Homework 4 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
+  as **HW4: pointers, structs, bits (written)**, and is due **Friday, Mar 4th** by 11pm. Note that late submissions are
+  *not* accepted for written homeworks.
 * **Feb 17** — The [Homework 3](assign/hw3.html) description has been updated to
   clarify how to link the `png2txt` and `txt2png` executables. (The `-lz` option
   is needed.)
