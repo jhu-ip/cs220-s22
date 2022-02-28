@@ -353,7 +353,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=11a3f085-1b39-43a9-9868-ae4a01395eda'>Section 1</a></td>
       <td></td>
       <td></td>
     </tr>
