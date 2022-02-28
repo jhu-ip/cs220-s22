@@ -323,7 +323,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Slides</td>
-      <td><a href='#'>Midterm project</a></td>
+      <td><a href='slides/sec01/16.pdf'>Midterm project</a></td>
       <td><a href='slides/day17_linked_lists.pdf'>Linked lists</a></td>
       <td><a href='slides/day18_more_linked_lists.pdf'>More Linked lists</a></td>
     </tr>
