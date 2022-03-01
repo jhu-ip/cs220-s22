@@ -47,6 +47,8 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Mar 1** — The [Resources](resources.html) page has review materials for the
+  midterm exam, which will take place in class on **Friday, Mar 11th**.
 * **Feb 28** — The [Midterm Project](assign/midterm.html) is due **Friday, Mar 18th**
   by 11pm.  You will work in a team with 2 or 3 members (see Piazza post 276
   if you need to find team members(s).) Note that late submissions will *not*
