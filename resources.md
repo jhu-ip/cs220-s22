@@ -36,7 +36,7 @@ This page has links to useful resources for the course.
 
 Note: the review materials are intended to help you study to reinforce your knowledge
 of concepts, but you should not assume that the types of questions will be exactly
-the same on the actual midterm exam.
+the same on the actual midterm or final exams.
 
 * [MidtermReview.pdf](resources/MidtermReview.pdf): general midterm review questions
 * [Midterm-Fall2019.pdf](resources/Midterm-Fall2019.pdf): midterm exam from Fall 2019
