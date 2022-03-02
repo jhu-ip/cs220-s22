@@ -200,10 +200,12 @@ Week,Day,Date,Type,Link text,URL
 6,2,2-Mar,Slides,Linked lists,slides/day17_linked_lists.pdf
 6,2,2-Mar,Recap,Day 17,questions/day17.html
 6,2,2-Mar,Exercise,Exercise 17,exercise/ex17.html
-6,2,2-Mar,LectureSlides,"Section 1",slides/sec01/day17_notes.pdf
+6,2,2-Mar,LectureSlides,Section 1,slides/sec01/day17_notes.pdf
 6,2,2-Mar,LectureSlides,Section 2,slides/sec02/17.pdf
-6,2,2-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76379573-2d62-4abc-a68a-ae4c01345f67
-6,2,2-Mar,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05eaf51d-bb28-43d7-8ef9-ae4c0141c944
+6,2,2-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76379573-2d62-4abc-a68a-ae4c01345f67
+6,2,2-Mar,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05eaf51d-bb28-43d7-8ef9-ae4c0141c944
+6,2,2-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=babc99b2-7d21-4fb9-9d01-ae4c015c1b55
+6,2,2-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b83601f-56ce-4768-8da0-ae4c010c0151
 6,3,4-Mar,Video,More Linked lists,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=06994aeb-6743-4fcd-b69f-ae2300279d42
 6,3,4-Mar,Slides,More Linked lists,slides/day18_more_linked_lists.pdf
 6,3,4-Mar,Recap,Day 18,questions/day18.html
