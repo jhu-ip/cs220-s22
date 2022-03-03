@@ -26,4 +26,66 @@ Announcements/reminders
 
 Exercise 17 review
 
+// length function, while loop version
 
+int length(const Node *n) {
+  int count = 0;
+  while (n != NULL) {
+    count++;
+    n = n->next;
+  }
+  return count;
+}
+
+Note: const Node *n means "n is a pointer to const Node"
+We can't change the contents of the node n points to,
+but we can change *which* node n points to
+
+
+Exercise 17 review
+
+// length function, recursive version!
+
+int length(const Node *n) {
+  if (n == NULL) {
+    return 0;
+  } else {
+    return 1 + length(n->next);
+  }
+}
+
+Observation: a linked list is a recursive data structure.
+If a pointer n points to:
+
+- NULL: the list is empty
+
+- a Node: the list has at least one element, and
+  n->next points to a smaller linked list
+
+Many important data structures can be defined recursively.
+
+
+Exercise 17 review
+
+void add_after(Node *n, char value) {
+  Node *node = (Node *) malloc(sizeof(Node));
+  node->data = value;
+  node->next = n->next;
+  n->next = node;
+}
+
+Trace:
+
+
+
+Exercise 17 review
+
+void reverse_print(const Node *n) {
+  // Pseudo-code:
+
+  //   if n is the empty list
+  //     do nothing, return
+  //   else
+  //     print the rest of the list in reverse order
+  //     print the value of the first element
+}
