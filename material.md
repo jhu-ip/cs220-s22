@@ -349,13 +349,13 @@ the materials for that week.
       <td>Lecture<br>Slides</td>
       <td><a href='slides/sec02/16.pdf'>Section 2</a></td>
       <td><a href='slides/sec01/day17_notes.pdf'>Section 1</a><br><a href='slides/sec02/17.pdf'>Section 2</a></td>
-      <td><a href='slides/sec02/18.pdf'>Section 2</a></td>
+      <td><a href='slides/sec01/day18_notes.pdf'>Section 1</a><br><a href='slides/sec02/18.pdf'>Section 2</a></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=11a3f085-1b39-43a9-9868-ae4a01395eda'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8826782c-88d2-4909-b5f3-ae4a0140aa52'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9cb71831-7b4e-47c7-a8e9-ae4a015ab045'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04b9e6dc-05a6-477a-8f45-ae4a01029bf7'>Section 4</a></td>
       <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=76379573-2d62-4abc-a68a-ae4c01345f67'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=05eaf51d-bb28-43d7-8ef9-ae4c0141c944'>Section 2</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=babc99b2-7d21-4fb9-9d01-ae4c015c1b55'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4b83601f-56ce-4768-8da0-ae4c010c0151'>Section 4</a></td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9dee4325-ca9c-4ea8-bf29-ae4e01364b28'>Section 1</a></td>
     </tr>
   </tbody>
 </table>
