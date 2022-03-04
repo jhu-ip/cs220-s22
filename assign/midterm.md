@@ -307,14 +307,12 @@ When comparing a window about a TBS pixel to a window about an exemplar pixel, y
 
 Assuming that you are considering a TBS pixel with column/row index (`colS`,`rowS`) and an exemplar pixel with column/row index (`colX`,`rowX`), pseudo-code for this could look something like:
 * set `diff`=0
-* set `sum`=0
 * for every pair of integer offsets (`col`,`row`) with `col` and `row` in the range {-`r`...`r`}
 	* if the pixel (`colS`+`col`,`rowS`+`row`) is within the output image and is _set_
 		* If the exemplar pixel at (`colX`+`col`,`rowX`+`row`) is not within the exemplar image, skip the comparison of the TBS window and the exemplar window.
 		* set `d` to be the squared differences of the red, green, and blue values of pixel (`colS`+`col`,`rowS`+`row`) in the synthesized image and pixel (`colX`+`col`,`rowX`+`row`) in the exemplar image.
 		* set `s` to be the evaluation of the Gaussian: `s` =exp( -(`col`x`col`+`row`x`row`)/((2x`Sigma`x`Sigma`)
 		* increment the difference: `diff` += `d`x`s`
-		* increment the total sum: `sum` += `s`
 
 <div class='admonition tip'>
 <div class='title'>Tip</div>
