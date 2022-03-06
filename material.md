@@ -360,6 +360,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_7_toggle" class="week_control_button">Week 7 (7-Mar–11-Mar)</button>
+<div id="week_7" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 19 (7-Mar)</th>
+      <th>Day 20 (9-Mar)</th>
+      <th>Day 21 (11-Mar)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='#'>N/A</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='assign/midterm.html'>Midterm Project</a></td>
+      <td><a href='assign/midterm.html'>Midterm Project</a></td>
+      <td><a class='external' target='_blank' href='https://www.gradescope.com/'>Midterm Exam (on Gradescope)</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td><a href='resources/midterm_review_solutions.html'>Midterm Review Solutions</a><br><a href='resources/midterm_fall2019_solutions.html'>Fall 2019 Midterm Solutions</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
@@ -389,7 +446,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_6';
+    var active_week_id = 'week_7';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {
