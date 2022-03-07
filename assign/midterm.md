@@ -135,7 +135,7 @@ Recall that you can compare images (include PPM images) using the `idiff` comman
 ```
 $ idiff img1.ppm img2.ppm
 ```
-If your `WritePPM` code is correct, then the `./compare_img.rb` and `idiff` commands are successful, then `idiff` should indicate that the comparison `PASS`ed.
+If your `WritePPM` code is correct, then the `idiff` should indicate that the comparison `PASS`ed.
 
 Once you have confirmed that your image i/o works, you are ready to start implementing texture synthesis.
 
