@@ -410,7 +410,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9fb8726e-e7e1-4e2f-b873-ae5101433853'>Section 1</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9fb8726e-e7e1-4e2f-b873-ae5101433853'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ffd48016-2c89-49cb-9312-ae5101394012'>Section 2</a></td>
       <td></td>
       <td></td>
     </tr>
