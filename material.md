@@ -399,7 +399,7 @@ the materials for that week.
     <tr>
       <td>Additional<br>Resources</td>
       <td></td>
-      <td><a href='resources/midterm_review_solutions.html'>Midterm Review Solutions</a><br><a href='resources/midterm_fall2019_solutions.html'>Fall 2019 Midterm Solutions</a></td>
+      <td><a href='resources/midterm_review_solutions.html'>Midterm Review Solutions</a><br><a href='resources/Midterm-Fall2019-solutions.pdf'>Fall 2019 Midterm Solutions</a></td>
       <td></td>
     </tr>
     <tr>
