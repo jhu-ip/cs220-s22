@@ -3,4 +3,4 @@ layout: default
 title: "Midterm Review Solutions"
 ---
 
-Coming soon!
+Solutions are here: [MidtermReview-solutions.pdf](MidtermReview-solutions.pdf)
