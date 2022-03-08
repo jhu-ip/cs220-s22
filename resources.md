@@ -39,4 +39,4 @@ of concepts, but you should not assume that the types of questions will be exact
 the same on the actual midterm or final exams.
 
 * [MidtermReview.pdf](resources/MidtermReview.pdf): general midterm review questions
-* [Midterm-Fall2019.pdf](resources/Midterm-Fall2019.pdf): midterm exam from Fall 2019
+* [Midterm-Fall2019.pdf](resources/Midterm-Fall2019.pdf): midterm exam from Fall 2019, [Solutions](resources/Midterm-Fall2019-solutions.pdf)

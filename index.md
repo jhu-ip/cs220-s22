@@ -47,6 +47,7 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Mar 8** — Solutions to the Fall 2019 midterm exam are posted on the [Resources](resources.html) page.
 * **Mar 1** — The [Resources](resources.html) page has review materials for the
   midterm exam, which will take place in class on **Friday, Mar 11th**.
 * **Feb 28** — The [Midterm Project](assign/midterm.html) is due **Friday, Mar 18th**
