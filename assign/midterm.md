@@ -311,7 +311,7 @@ Assuming that you are considering a TBS pixel with column/row index (`colS`,`row
 	* if the pixel (`colS`+`col`,`rowS`+`row`) is within the output image and is _set_
 		* If the exemplar pixel at (`colX`+`col`,`rowX`+`row`) is not within the exemplar image, skip the comparison of the TBS window and the exemplar window.
 		* set `d` to be the squared differences of the red, green, and blue values of pixel (`colS`+`col`,`rowS`+`row`) in the synthesized image and pixel (`colX`+`col`,`rowX`+`row`) in the exemplar image.
-		* set `s` to be the evaluation of the Gaussian: `s` =exp( -(`col`x`col`+`row`x`row`)/((2x`Sigma`x`Sigma`)
+		* set `s` to be the evaluation of the Gaussian: `s` =exp( -(`col`x`col`+`row`x`row`)/(2x`Sigma`x`Sigma`))
 		* increment the difference: `diff` += `d`x`s`
 
 <div class='admonition tip'>
