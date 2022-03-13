@@ -461,7 +461,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
-      <td></td>
+      <td><a href='slides/sec02/22.pdf'>Section 2</a></td>
       <td></td>
       <td></td>
     </tr>
