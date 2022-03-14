@@ -461,13 +461,13 @@ the materials for that week.
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
-      <td><a href='slides/sec02/22.pdf'>Section 2</a></td>
+      <td><a href='slides/sec01/day22_notes.pdf'>Section 1</a><br><a href='slides/sec02/22.pdf'>Section 2</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8569857b-044d-4506-934b-ae580126139e'>Section 1</a></td>
       <td></td>
       <td></td>
     </tr>
