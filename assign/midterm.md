@@ -11,7 +11,7 @@ layout: default
 <ul>
 <li>You are expected to work in a team of two or three.</li>
 <li><strong>Released:</strong> Monday, Feb 28th</li>
-<li><strong>Due:</strong> Friday, March 18th by 11pm Baltimore time</li>
+<li><strong>Due:</strong> <strike>Friday, March 18th</strike> <strong>Monday, March 21st</strong> by 11pm Baltimore time</li>
 <li><em>This project is worth 140 points</em></li>
 <li>No late days may be used!</li>
 </ul>

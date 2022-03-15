@@ -47,6 +47,7 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Mar 15** — The deadline for submitting the [Midterm Project](assign/midterm.html) has been extended to **Monday, Mar 21st** by 11pm.
 * **Mar 8** — Solutions to the midterm exam review problems are posted on the [Resources](resources.html) page.
 * **Mar 8** — Solutions to the Fall 2019 midterm exam are posted on the [Resources](resources.html) page.
 * **Mar 1** — The [Resources](resources.html) page has review materials for the
