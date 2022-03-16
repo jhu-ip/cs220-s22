@@ -229,33 +229,35 @@ Week,Day,Date,Type,Link text,URL
 7,2,9-Mar,Video,N/A,#
 7,2,9-Mar,Slides,N/A,#
 7,2,9-Mar,Recap,N/A,#
-7,2,9-Mar,LectureSlides,"Section 1",slides/sec01/day20_notes.pdf
+7,2,9-Mar,LectureSlides,Section 1,slides/sec01/day20_notes.pdf
 7,2,9-Mar,Exercise,Midterm Project,assign/midterm.html
 7,2,9-Mar,Resource,Midterm Review Solutions,resources/MidtermReview-solutions.pdf
 7,2,9-Mar,Resource,Fall 2019 Midterm Solutions,resources/Midterm-Fall2019-solutions.pdf
-7,2,9-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=897723d6-1b94-49d5-ae1b-ae53013a53b9
+7,2,9-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=897723d6-1b94-49d5-ae1b-ae53013a53b9
 7,3,11-Mar,Video,N/A,#
 7,3,11-Mar,Slides,N/A,#
 7,3,11-Mar,Recap,N/A,#
 7,3,11-Mar,Exercise,Midterm Exam (on Gradescope),https://www.gradescope.com/
-8,1,14-Mar,Video,"Introduction to C++",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2760c264-312d-49f2-9e43-ae2300279acb
-8,1,14-Mar,Video,"C++ Strings",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=954ea030-61b3-482d-96e8-ae2300279a4f
-8,1,14-Mar,Slides,"Introduction to C++",slides/day22_intro_cpp.pdf
-8,1,14-Mar,Slides,"C++ Strings",slides/day22_cpp_strings.pdf
-8,1,14-Mar,Recap,"Day 22",questions/day22.html
+8,1,14-Mar,Video,Introduction to C++,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2760c264-312d-49f2-9e43-ae2300279acb
+8,1,14-Mar,Video,C++ Strings,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=954ea030-61b3-482d-96e8-ae2300279a4f
+8,1,14-Mar,Slides,Introduction to C++,slides/day22_intro_cpp.pdf
+8,1,14-Mar,Slides,C++ Strings,slides/day22_cpp_strings.pdf
+8,1,14-Mar,Recap,Day 22,questions/day22.html
 8,1,14-Mar,Exercise,N/A,#
-8,1,14-Mar,LectureSlides,"Section 1",slides/sec01/day22_notes.pdf
+8,1,14-Mar,LectureSlides,Section 1,slides/sec01/day22_notes.pdf
 8,1,14-Mar,LectureSlides,Section 2,slides/sec02/22.pdf
-8,1,14-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8569857b-044d-4506-934b-ae580126139e
-8,1,14-Mar,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5336e3e-890c-4bc2-940a-ae580137a743
-8,2,16-Mar,Video,"Introduction to STL and templates",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04905da6-f193-4a6e-9f3e-ae2300279736
-8,2,16-Mar,Slides,"Introduction to STL and templates",slides/day23_stl_templates.pdf
-8,2,16-Mar,Recap,"Day 23",questions/day23.html
-8,2,16-Mar,Exercise,"Exercise 23",exercise/ex23.html
+8,1,14-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8569857b-044d-4506-934b-ae580126139e
+8,1,14-Mar,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c5336e3e-890c-4bc2-940a-ae580137a743
+8,1,14-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=92f020b6-8cc4-42d6-8f37-ae5801488078
+8,1,14-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=aa51ae78-1a91-4616-92f3-ae5800f33049
+8,2,16-Mar,Video,Introduction to STL and templates,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=04905da6-f193-4a6e-9f3e-ae2300279736
+8,2,16-Mar,Slides,Introduction to STL and templates,slides/day23_stl_templates.pdf
+8,2,16-Mar,Recap,Day 23,questions/day23.html
+8,2,16-Mar,Exercise,Exercise 23,exercise/ex23.html
 8,2,16-Mar,LectureSlides,Section 2,slides/sec02/23.pdf
 8,3,18-Mar,Video,"STL Containers - map, pair, and tuple",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c12342a6-6af3-4859-9da6-ae2300279661
-8,3,18-Mar,Video,"STL Algorithms",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be
+8,3,18-Mar,Video,STL Algorithms,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be
 8,3,18-Mar,Slides,"STL Containers - map, pair, and tuple",slides/day24_more_stl_containers.pdf
-8,3,18-Mar,Slides,"STL Algorithms",slides/day24_stl_algorithms.pdf
-8,3,18-Mar,Recap,"Day 24",questions/day24.html
-8,3,18-Mar,Exercise,"Exercise 24",exercise/ex24.html
+8,3,18-Mar,Slides,STL Algorithms,slides/day24_stl_algorithms.pdf
+8,3,18-Mar,Recap,Day 24,questions/day24.html
+8,3,18-Mar,Exercise,Exercise 24,exercise/ex24.html
