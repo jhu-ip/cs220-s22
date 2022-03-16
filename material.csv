@@ -254,9 +254,11 @@ Week,Day,Date,Type,Link text,URL
 8,2,16-Mar,Slides,Introduction to STL and templates,slides/day23_stl_templates.pdf
 8,2,16-Mar,Recap,Day 23,questions/day23.html
 8,2,16-Mar,Exercise,Exercise 23,exercise/ex23.html
-8,2,16-Mar,LectureSlides,"Section 1",slides/sec01/day23_notes.pdf
+8,2,16-Mar,LectureSlides,Section 1,slides/sec01/day23_notes.pdf
 8,2,16-Mar,LectureSlides,Section 2,slides/sec02/23.pdf
-8,2,16-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=11aa5900-15c5-4004-bb96-ae5a01200065
+8,2,16-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=11aa5900-15c5-4004-bb96-ae5a01200065
+8,2,16-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=8d7aad31-5268-4ea0-95a5-ae5a014fe37f
+8,2,16-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=302d45ff-4bcd-4511-9e93-ae5a00f5b142
 8,3,18-Mar,Video,"STL Containers - map, pair, and tuple",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c12342a6-6af3-4859-9da6-ae2300279661
 8,3,18-Mar,Video,STL Algorithms,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c08d312c-963d-485b-84bf-ae23002796be
 8,3,18-Mar,Slides,"STL Containers - map, pair, and tuple",slides/day24_more_stl_containers.pdf
