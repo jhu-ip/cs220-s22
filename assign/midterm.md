@@ -61,15 +61,16 @@ This project is larger and more complex than previous programming assignments. A
 ## Program Description
 This program will be a texture synthesis application. It will take as its input an example texture image (the _exemplar_) and will grow the texture into a larger image. It will have a command-line-based user interface (UI), so there will be no graphical interface. In particular, the program will read in the exemplar image's file-name from the command prompt, as well as the output image's dimensions, the output images file-name and the radius of the search window. It will then synthesize the new texture and output it to the prescribed file.
 
-As an example, the table shows several exemplar textures (left) and the 128x128 textures synthesized using various window radii (right).
+As an example, the table shows several exemplar textures (left) and the 128x128 textures synthesized using various window radii with different random seeds (right).
+
 
 exemplar | radius=2 | radius=5 | radius=10 | radius=15
 :------: | :------: | :------: | :-------: | :-------:
-<IMG class="keep_original_size" SRC="img/D1.input.jpg"> | <IMG class="keep_original_size" SRC="img/D1.2.jpg"> | <IMG class="keep_original_size" SRC="img/D1.5.jpg"> | <IMG class="keep_original_size" SRC="img/D1.10.jpg"> | <IMG class="keep_original_size" SRC="img/D1.15.jpg">
-<IMG class="keep_original_size" SRC="img/D3.input.jpg"> | <IMG class="keep_original_size" SRC="img/D3.2.jpg"> | <IMG class="keep_original_size" SRC="img/D3.5.jpg"> | <IMG class="keep_original_size" SRC="img/D3.10.jpg"> | <IMG class="keep_original_size" SRC="img/D3.15.jpg">
-<IMG class="keep_original_size" SRC="img/text3.input.jpg"> | <IMG class="keep_original_size" SRC="img/text3.2.jpg"> | <IMG class="keep_original_size" SRC="img/text3.5.jpg"> | <IMG class="keep_original_size" SRC="img/text3.10.jpg"> | <IMG class="keep_original_size" SRC="img/text3.15.jpg">
-<IMG class="keep_original_size" SRC="img/col-br.input.jpg"> | <IMG class="keep_original_size" SRC="img/col-br.2.jpg"> | <IMG class="keep_original_size" SRC="img/col-br.5.jpg"> | <IMG class="keep_original_size" SRC="img/col-br.10.jpg"> | <IMG class="keep_original_size" SRC="img/col-br.15.jpg">
-<IMG class="keep_original_size" SRC="img/161.input.jpg"> | <IMG class="keep_original_size" SRC="img/161.2.jpg"> | <IMG class="keep_original_size" SRC="img/161.5.jpg"> | <IMG class="keep_original_size" SRC="img/161.10.jpg"> | <IMG class="keep_original_size" SRC="img/161.15.jpg">
+<IMG class="keep_original_size" SRC="img/D1.input.jpg"> | <IMG class="keep_original_size" SRC="img/D1.128.2.gif"> | <IMG class="keep_original_size" SRC="img/D1.128.5.gif"> | <IMG class="keep_original_size" SRC="img/D1.128.10.gif"> | <IMG class="keep_original_size" SRC="img/D1.128.15.gif">
+<IMG class="keep_original_size" SRC="img/D3.input.jpg"> | <IMG class="keep_original_size" SRC="img/D3.128.2.gif"> | <IMG class="keep_original_size" SRC="img/D3.128.5.gif"> | <IMG class="keep_original_size" SRC="img/D3.128.10.gif"> | <IMG class="keep_original_size" SRC="img/D3.128.15.gif">
+<IMG class="keep_original_size" SRC="img/text3.input.jpg"> | <IMG class="keep_original_size" SRC="img/text3.128.2.gif"> | <IMG class="keep_original_size" SRC="img/text3.128.5.gif"> | <IMG class="keep_original_size" SRC="img/text3.128.10.gif"> | <IMG class="keep_original_size" SRC="img/text3.128.15.gif">
+<IMG class="keep_original_size" SRC="img/col-br.input.jpg"> | <IMG class="keep_original_size" SRC="img/col-br.128.2.gif"> | <IMG class="keep_original_size" SRC="img/col-br.128.5.gif"> | <IMG class="keep_original_size" SRC="img/col-br.128.10.gif"> | <IMG class="keep_original_size" SRC="img/col-br.128.15.gif">
+<IMG class="keep_original_size" SRC="img/161.input.jpg"> | <IMG class="keep_original_size" SRC="img/161.128.2.gif"> | <IMG class="keep_original_size" SRC="img/161.128.5.gif"> | <IMG class="keep_original_size" SRC="img/161.128.10.gif"> | <IMG class="keep_original_size" SRC="img/161.128.15.gif">
 
 (Note that the texture is grown from the top left, so the top left corner of the output images exactly matches the exemplar.)
 
