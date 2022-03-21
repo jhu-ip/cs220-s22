@@ -18,15 +18,56 @@ Then add, commit, and push both material.csv and material.md.
 You can click on the header for a specific week to expand or collapse
 the materials for that week.
 
+<button type="button" id="week_0_toggle" class="week_control_button">Week 0 (–)</button>
+<div id="week_0" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 1 ()</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <button type="button" id="week_1_toggle" class="week_control_button">Week 1 (24-Jan–28-Jan)</button>
 <div id="week_1" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 1 (24-Jan)</th>
-      <th>Day 2 (26-Jan)</th>
-      <th>Day 3 (28-Jan)</th>
+      <th>Day 2 (24-Jan)</th>
+      <th>Day 3 (26-Jan)</th>
+      <th>Day 4 (28-Jan)</th>
     </tr>
   </thead>
   <tbody>
@@ -81,9 +122,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 4 (31-Jan)</th>
-      <th>Day 5 (2-Feb)</th>
-      <th>Day 6 (4-Feb)</th>
+      <th>Day 5 (31-Jan)</th>
+      <th>Day 6 (2-Feb)</th>
+      <th>Day 7 (4-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -138,9 +179,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 7 (7-Feb)</th>
-      <th>Day 8 (9-Feb)</th>
-      <th>Day 9 (11-Feb)</th>
+      <th>Day 8 (7-Feb)</th>
+      <th>Day 9 (9-Feb)</th>
+      <th>Day 10 (11-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -195,9 +236,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 10 (14-Feb)</th>
-      <th>Day 11 (16-Feb)</th>
-      <th>Day 12 (18-Feb)</th>
+      <th>Day 11 (14-Feb)</th>
+      <th>Day 12 (16-Feb)</th>
+      <th>Day 13 (18-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -252,9 +293,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 13 (21-Feb)</th>
-      <th>Day 14 (23-Feb)</th>
-      <th>Day 15 (25-Feb)</th>
+      <th>Day 14 (21-Feb)</th>
+      <th>Day 15 (23-Feb)</th>
+      <th>Day 16 (25-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -309,9 +350,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 16 (28-Feb)</th>
-      <th>Day 17 (2-Mar)</th>
-      <th>Day 18 (4-Mar)</th>
+      <th>Day 17 (28-Feb)</th>
+      <th>Day 18 (2-Mar)</th>
+      <th>Day 19 (4-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -366,9 +407,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 19 (7-Mar)</th>
-      <th>Day 20 (9-Mar)</th>
-      <th>Day 21 (11-Mar)</th>
+      <th>Day 20 (7-Mar)</th>
+      <th>Day 21 (9-Mar)</th>
+      <th>Day 22 (11-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -423,9 +464,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 22 (14-Mar)</th>
-      <th>Day 23 (16-Mar)</th>
-      <th>Day 24 (18-Mar)</th>
+      <th>Day 23 (14-Mar)</th>
+      <th>Day 24 (16-Mar)</th>
+      <th>Day 25 (18-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -474,6 +515,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_9_toggle" class="week_control_button">Week 9 (28-Mar–1-Apr)</button>
+<div id="week_9" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 26 (28-Mar)</th>
+      <th>Day 27 (30-Mar)</th>
+      <th>Day 28 (1-Apr)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f35cdf8e-80d0-4d88-b9e3-ae2300279562'>C++ I/O stream and stringstream</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=090adf84-0330-4c2f-9c73-ae230027a599'>Intro to Object Oriented Programming</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516'>References</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc'>Dynamic Memory Allocation</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431'>C++ Classes</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3'>Default Constructors</a></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='slides/day25_cpp_file_io_stringstream.pdf'>C++ I/O stream and stringstream</a><br><a href='slides/day25_intro_to_oo.pdf'>Intro to Object Oriented Programming</a></td>
+      <td><a href='slides/day26_cpp_reference.pdf'>References</a><br><a href='slides/day26_dynamic_memory_allocation.pdf'>Dynamic Memory Allocation</a></td>
+      <td><a href='slides/day27_cpp_classes.pdf'>C++ Classes</a><br><a href='slides/day27_default_constructor.pdf'>Default Constructors</a></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='questions/day25.html'>Day 25</a></td>
+      <td><a href='questions/day26.html'>Day 26</a></td>
+      <td><a href='questions/day27.html'>Day 27</a></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='exercise/ex25.html'>Exercise 25</a></td>
+      <td><a href='exercise/ex26.html'>Exercise 26</a></td>
+      <td><a href='exercise/ex27.html'>Exercise 27</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
@@ -503,7 +601,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_8';
+    var active_week_id = 'week_9';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {

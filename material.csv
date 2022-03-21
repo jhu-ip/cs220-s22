@@ -272,3 +272,23 @@ Week,Day,Date,Type,Link text,URL
 8,3,18-Mar,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c0bb58d4-17eb-40b0-91e0-ae5c013560f8
 8,3,18-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=208e21fa-aed7-4759-a7fd-ae5c014c2809
 8,3,18-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=c39a0ba2-4d86-4d58-a41d-ae5c00faabbe
+9,1,28-Mar,Video,"C++ I/O stream and stringstream",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f35cdf8e-80d0-4d88-b9e3-ae2300279562
+9,1,28-Mar,Video,"Intro to Object Oriented Programming",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=090adf84-0330-4c2f-9c73-ae230027a599
+9,1,28-Mar,Slides,"C++ I/O stream and stringstream",slides/day25_cpp_file_io_stringstream.pdf
+9,1,28-Mar,Slides,"Intro to Object Oriented Programming",slides/day25_intro_to_oo.pdf
+9,1,28-Mar,Recap,Day 25,questions/day25.html
+9,1,28-Mar,Exercise,Exercise 25,exercise/ex25.html
+
+9,2,30-Mar,Video,"References",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516
+9,2,30-Mar,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc
+9,2,30-Mar,Slides,"References",slides/day26_cpp_reference.pdf
+9,2,30-Mar,Slides,"Dynamic Memory Allocation",slides/day26_dynamic_memory_allocation.pdf
+9,2,30-Mar,Recap,Day 26,questions/day26.html
+9,2,30-Mar,Exercise,Exercise 26,exercise/ex26.html
+
+9,3,1-Apr,Video,"C++ Classes",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431
+9,3,1-Apr,Video,"Default Constructors",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3
+9,3,1-Apr,Slides,"C++ Classes",slides/day27_cpp_classes.pdf
+9,3,1-Apr,Slides,"Default Constructors",slides/day27_default_constructor.pdf
+9,3,1-Apr,Recap,Day 27,questions/day27.html
+9,3,1-Apr,Exercise,Exercise 27,exercise/ex27.html
