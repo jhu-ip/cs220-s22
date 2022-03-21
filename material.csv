@@ -278,14 +278,12 @@ Week,Day,Date,Type,Link text,URL
 9,1,28-Mar,Slides,"Intro to Object Oriented Programming",slides/day25_intro_to_oo.pdf
 9,1,28-Mar,Recap,Day 25,questions/day25.html
 9,1,28-Mar,Exercise,Exercise 25,exercise/ex25.html
-
 9,2,30-Mar,Video,"References",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516
 9,2,30-Mar,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc
 9,2,30-Mar,Slides,"References",slides/day26_cpp_reference.pdf
 9,2,30-Mar,Slides,"Dynamic Memory Allocation",slides/day26_dynamic_memory_allocation.pdf
 9,2,30-Mar,Recap,Day 26,questions/day26.html
 9,2,30-Mar,Exercise,Exercise 26,exercise/ex26.html
-
 9,3,1-Apr,Video,"C++ Classes",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431
 9,3,1-Apr,Video,"Default Constructors",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3
 9,3,1-Apr,Slides,"C++ Classes",slides/day27_cpp_classes.pdf
