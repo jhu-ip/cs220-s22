@@ -278,6 +278,7 @@ Week,Day,Date,Type,Link text,URL
 9,1,28-Mar,Slides,"Intro to Object Oriented Programming",slides/day25_intro_to_oo.pdf
 9,1,28-Mar,Recap,Day 25,questions/day25.html
 9,1,28-Mar,Exercise,Exercise 25,exercise/ex25.html
+9,1,28-Mar,LectureSlides,Section 2,slides/sec02/25.pdf
 9,2,30-Mar,Video,"References",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4fcd7033-f754-429f-b55b-ae230027a516
 9,2,30-Mar,Video,"Dynamic Memory Allocation",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d9978853-6c9b-4cc3-b62d-ae230027a4cc
 9,2,30-Mar,Slides,"References",slides/day26_cpp_reference.pdf
