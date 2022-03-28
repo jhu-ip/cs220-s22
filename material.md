@@ -524,7 +524,7 @@ the materials for that week.
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62899dd2-74da-4fc6-b22e-ae66012501b6'>Section 1</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62899dd2-74da-4fc6-b22e-ae66012501b6'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9bdb9a6c-c78f-4b30-b11f-ae660147a4e1'>Section 3</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=955d3bbd-8edc-4083-9c7c-ae6600fc117b'>Section 4</a></td>
       <td></td>
       <td></td>
     </tr>
