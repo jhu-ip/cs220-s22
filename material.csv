@@ -290,10 +290,12 @@ Week,Day,Date,Type,Link text,URL
 9,2,30-Mar,Slides,Dynamic Memory Allocation,slides/day26_dynamic_memory_allocation.pdf
 9,2,30-Mar,Recap,Day 26,questions/day26.html
 9,2,30-Mar,Exercise,Exercise 26,exercise/ex26.html
-9,2,30-Mar,LectureSlides,"Section 1",slides/sec01/day26_notes.pdf
+9,2,30-Mar,LectureSlides,Section 1,slides/sec01/day26_notes.pdf
 9,2,30-Mar,LectureSlides,Section 2,slides/sec02/26.pdf
-9,2,30-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=715d9b83-6557-40db-a26f-ae6801269fe2
+9,2,30-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=715d9b83-6557-40db-a26f-ae6801269fe2
 9,2,30-Mar,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf600869-d462-4929-9565-ae6801359398
+9,2,30-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30de1811-84cf-407d-95ee-ae68014dd79b
+9,2,30-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd90042a-323d-4e87-8229-ae6800fc2a6c
 9,3,1-Apr,Video,C++ Classes,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431
 9,3,1-Apr,Video,Default Constructors,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3
 9,3,1-Apr,Slides,C++ Classes,slides/day27_cpp_classes.pdf
