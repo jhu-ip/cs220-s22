@@ -308,16 +308,16 @@ Week,Day,Date,Type,Link text,URL
 10,1,4-Apr,Slides,Constructors and default arguments,slides/day28_constructors.pdf
 10,1,4-Apr,Slides,Destructors,slides/day28_destructors.pdf
 10,1,4-Apr,Recap,Day 28,questions/day28.html
-10,1,4-Apr,Exercise,Exercise 28,#
+10,1,4-Apr,Exercise,Exercise 28,exercise/ex28.html
 10,2,6-Apr,Video,Function overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65
 10,2,6-Apr,Video,Operator overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e
 10,2,6-Apr,Slides,Function overloading,slides/day29_function_overloading.pdf
 10,2,6-Apr,Slides,Operator overloading,slides/day29_operator_overloading.pdf
 10,2,6-Apr,Recap,Day 29,questions/day29.html
-10,2,6-Apr,Exercise,Exercise 29,#
+10,2,6-Apr,Exercise,Exercise 29,exercise/ex29.html
 10,3,8-Apr,Video,Initialization and assignment,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93
 10,3,8-Apr,Video,Rule of 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3
 10,3,8-Apr,Slides,Initialization and assignment,slides/day30_initialization_assignments.pdf
 10,3,8-Apr,Slides,Rule of 3,slides/day30_rule_of_3.pdf
 10,3,8-Apr,Recap,Day 30,questions/day30.html
-10,3,8-Apr,Exercise,Exercise 30,#
+10,3,8-Apr,Exercise,Exercise 30,exercise/ex30.html
