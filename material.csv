@@ -290,13 +290,33 @@ Week,Day,Date,Type,Link text,URL
 9,2,30-Mar,Slides,Dynamic Memory Allocation,slides/day26_dynamic_memory_allocation.pdf
 9,2,30-Mar,Recap,Day 26,questions/day26.html
 9,2,30-Mar,Exercise,Exercise 26,exercise/ex26.html
-9,2,30-Mar,LectureSlides,"Section 1",slides/sec01/day26_notes.pdf
+9,2,30-Mar,LectureSlides,Section 1,slides/sec01/day26_notes.pdf
 9,2,30-Mar,LectureSlides,Section 2,slides/sec02/26.pdf
-9,2,30-Mar,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=715d9b83-6557-40db-a26f-ae6801269fe2
+9,2,30-Mar,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=715d9b83-6557-40db-a26f-ae6801269fe2
 9,2,30-Mar,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=cf600869-d462-4929-9565-ae6801359398
+9,2,30-Mar,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=30de1811-84cf-407d-95ee-ae68014dd79b
+9,2,30-Mar,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=dd90042a-323d-4e87-8229-ae6800fc2a6c
 9,3,1-Apr,Video,C++ Classes,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5a1a7afe-6165-4e33-9567-ae230027a431
 9,3,1-Apr,Video,Default Constructors,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e485b33-028d-45e6-be18-ae230027a3d3
 9,3,1-Apr,Slides,C++ Classes,slides/day27_cpp_classes.pdf
 9,3,1-Apr,Slides,Default Constructors,slides/day27_default_constructor.pdf
 9,3,1-Apr,Recap,Day 27,questions/day27.html
 9,3,1-Apr,Exercise,Exercise 27,exercise/ex27.html
+10,1,4-Apr,Video,Constructors and default arguments,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62080530-d06e-4a0e-be06-ae230027a050
+10,1,4-Apr,Video,Destructors,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ea9792a-afab-4319-85f1-ae2300279fe3
+10,1,4-Apr,Slides,Constructors and default arguments,slides/day28_constructors.pdf
+10,1,4-Apr,Slides,Destructors,slides/day28_destructors.pdf
+10,1,4-Apr,Recap,Day 28,questions/day28.html
+10,1,4-Apr,Exercise,Exercise 28,#
+10,2,6-Apr,Video,Function overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65
+10,2,6-Apr,Video,Operator overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e
+10,2,6-Apr,Slides,Function overloading,slides/day29_function_overloading.pdf
+10,2,6-Apr,Slides,Operator overloading,slides/day29_operator_overloading.pdf
+10,2,6-Apr,Recap,Day 29,questions/day29.html
+10,2,6-Apr,Exercise,Exercise 29,#
+10,3,8-Apr,Video,Initialization and assignment,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9091b95-ab29-46fe-82b8-ae2300279e93
+10,3,8-Apr,Video,Rule of 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=181313b7-6b07-400c-addf-ae2300279df3
+10,3,8-Apr,Slides,Initialization and assignment,slides/day30_initialization_assignments.pdf
+10,3,8-Apr,Slides,Rule of 3,slides/day30_rule_of_3.pdf
+10,3,8-Apr,Recap,Day 30,questions/day30.html
+10,3,8-Apr,Exercise,Exercise 30,#
