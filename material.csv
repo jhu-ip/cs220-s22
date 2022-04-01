@@ -302,7 +302,9 @@ Week,Day,Date,Type,Link text,URL
 9,3,1-Apr,Slides,Default Constructors,slides/day27_default_constructor.pdf
 9,3,1-Apr,Recap,Day 27,questions/day27.html
 9,3,1-Apr,Exercise,Exercise 27,exercise/ex27.html
+9,3,1-Apr,LectureSlides,"Section 1",slides/sec01/day27_notes.pdf
 9,3,1-Apr,LectureSlides,Section 2,slides/sec02/27.pdf
+9,3,1-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7506fb21-3d3b-413e-aed0-ae6a013f2ab4
 10,1,4-Apr,Video,Constructors and default arguments,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=62080530-d06e-4a0e-be06-ae230027a050
 10,1,4-Apr,Video,Destructors,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2ea9792a-afab-4319-85f1-ae2300279fe3
 10,1,4-Apr,Slides,Constructors and default arguments,slides/day28_constructors.pdf
