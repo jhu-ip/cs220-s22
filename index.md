@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Apr 4** — Homework 6 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
+  as **HW 6 (written C++)**, and is due **Wednesday, Mar 13th** by 11pm. Note that late submissions are
+  *not* accepted for written homeworks.
 * **Mar 27** — [Homework 5](assign/hw5.html) is due **Wednesday, Apr 6th** by 11pm.
 * **Mar 15** — The deadline for submitting the [Midterm Project](assign/midterm.html) has been extended to **Monday, Mar 21st** by 11pm.
 * **Mar 8** — Solutions to the midterm exam review problems are posted on the [Resources](resources.html) page.
