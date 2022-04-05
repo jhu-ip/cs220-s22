@@ -314,7 +314,11 @@ Week,Day,Date,Type,Link text,URL
 10,1,4-Apr,Slides,Destructors,slides/day28_destructors.pdf
 10,1,4-Apr,Recap,Day 28,questions/day28.html
 10,1,4-Apr,Exercise,Exercise 28,exercise/ex28.html
+10,1,4-Apr,LectureSlides,Section 1,slides/sec01/day28_notes.pdf
 10,1,4-Apr,LectureSlides,Section 2,slides/sec02/28.pdf
+10,1,4-Apr,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f36da5e4-3441-449d-bdd6-ae6d0125c621
+10,1,4-Apr,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=87c1d1f6-4534-48ea-860f-ae6d01464598
+10,1,4-Apr,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d3ed4977-7ba2-44d2-a8b9-ae6d00f66279
 10,2,6-Apr,Video,Function overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2c8031d1-8509-4b22-881b-ae2300279f65
 10,2,6-Apr,Video,Operator overloading,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ee4c0ea7-24f8-426a-9291-ae2300279f0e
 10,2,6-Apr,Slides,Function overloading,slides/day29_function_overloading.pdf
