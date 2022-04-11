@@ -350,6 +350,10 @@ Week,Day,Date,Type,Link text,URL
 11,1,11-Apr,Slides,Template classes,slides/day31_template_classes.pdf
 11,1,11-Apr,Recap,Day 31,questions/day31.html
 11,1,11-Apr,Exercise,Exercise 31,exercise/ex31.html
+11,1,11-Apr,LectureSlides,"Section 1",slides/sec01/day31_notes.pdf
+11,1,11-Apr,LectureSlides,"Section 2",slides/sec02/day31_notes.pdf
+11,1,11-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7de5c9a3-ecc2-4f4b-8ab8-ae74013991ad
+11,1,11-Apr,Recording,"Section 2 (link to Section 1<br>recording, we forgot to<br>record Section 2)",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7de5c9a3-ecc2-4f4b-8ab8-ae74013991ad
 11,2,13-Apr,Video,Inheritance,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7cdea279-e109-4ba8-b99d-ae2300279bea
 11,2,13-Apr,Video,Polymorphism,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=873d6ec0-a562-47f2-b098-ae2300279b28
 11,2,13-Apr,Slides,Inheritance,slides/day32_inheritance.pdf

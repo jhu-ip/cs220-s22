@@ -632,13 +632,13 @@ the materials for that week.
     </tr>
     <tr>
       <td>Lecture<br>Slides</td>
-      <td></td>
+      <td><a href='slides/sec01/day31_notes.pdf'>Section 1</a><br><a href='slides/sec02/day31_notes.pdf'>Section 2</a></td>
       <td></td>
       <td></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
-      <td></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7de5c9a3-ecc2-4f4b-8ab8-ae74013991ad'>Section 1</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7de5c9a3-ecc2-4f4b-8ab8-ae74013991ad'>Section 2 (link to Section 1<br>recording, we forgot to<br>record Section 2)</a></td>
       <td></td>
       <td></td>
     </tr>
