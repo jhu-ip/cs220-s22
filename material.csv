@@ -362,10 +362,12 @@ Week,Day,Date,Type,Link text,URL
 11,2,13-Apr,Slides,Polymorphism,slides/day32_polymorphism.pdf
 11,2,13-Apr,Recap,Day 32,questions/day32.html
 11,2,13-Apr,Exercise,Exercise 32,exercise/ex32.html
-11,2,13-Apr,LectureSlides,"Section 1",slides/sec01/day32_notes.pdf
-11,2,13-Apr,LectureSlides,"Section 2",slides/sec02/day32_notes.pdf
-11,2,13-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d220a4fc-7a92-4fc1-bb15-ae76011ea016
-11,2,13-Apr,_Recording,"Section 2",#
+11,2,13-Apr,LectureSlides,Section 1,slides/sec01/day32_notes.pdf
+11,2,13-Apr,LectureSlides,Section 2,slides/sec02/day32_notes.pdf
+11,2,13-Apr,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d220a4fc-7a92-4fc1-bb15-ae76011ea016
+11,2,13-Apr,_Recording,Section 2,#
+11,2,13-Apr,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4587dd21-646e-41f5-b0b4-ae7601480169
+11,2,13-Apr,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbf2f9d9-a0d5-4bf9-a6d6-ae7600fd3880
 11,3,15-Apr,Video,Dynamic dispatch,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe
 11,3,15-Apr,Video,Function hiding and abstract classes,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0e849f80-9dec-47c1-aaac-ae2300279986
 11,3,15-Apr,Video,Virtual destructors,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=5d6fdb70-910c-4823-b4a0-ae23002797a1
