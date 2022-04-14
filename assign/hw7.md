@@ -57,24 +57,24 @@ Below are a list of functions you need to implement and some tips for the implem
 
 3. Copy constructor: applying the rule of 3, we will have a non-trivial destructor so we should implement the copy constructor for a deep copy.
 
-<div class='admonition tip'>
-<div class='title'>Tip</div>
-<div class='content'>
-<p>For constructors, remember to make good use of member initializer lists.</p>
-<p>You may want to implement <code>operator=</code> first and reuse it to implement the copy constructor.</p>
-</div>
-</div>
+   <div class='admonition tip'>
+   <div class='title'>Tip</div>
+   <div class='content'>
+   <p>For constructors, remember to make good use of member initializer lists.</p>
+   <p>You may want to implement <code>operator=</code> first and reuse it to implement the copy constructor.</p>
+   </div>
+   </div>
 
 4. `operator=(DataLoop)`: applying the rule of 3, we will have a non-trivial destructor so we should implement the assignment operator for a deep copy.
 
-<div class='admonition tip'>
-<div class='title'>Tip</div>
-<div class='content'>
-<p>When you implement your copy logic, draw it out on paper. That will help to figure out how to update the pointers.</p>
-<p>For the assignment operator, if you reallocate memory, make sure there are no memory leaks.</p>
-<p>You may want to implement <code>operator+=</code> first and reuse it to implement the assignment operator.</p>
-</div>
-</div>
+   <div class='admonition tip'>
+   <div class='title'>Tip</div>
+   <div class='content'>
+   <p>When you implement your copy logic, draw it out on paper. That will help to figure out how to update the pointers.</p>
+   <p>For the assignment operator, if you reallocate memory, make sure there are no memory leaks.</p>
+   <p>You may want to implement <code>operator+=</code> first and reuse it to implement the assignment operator.</p>
+   </div>
+   </div>
 
 5. Destructor: this function should deallocate all the dynamically allocated memory.
 
@@ -84,24 +84,24 @@ Below are a list of functions you need to implement and some tips for the implem
 
 8. `operator+(DataLoop)`: this overloaded operator creates and returns a new `DataLoop` by concatenating copies of both (the implicit and explicit parameters), with the start of the explicit parameter dataloop positioned at the original end of this dataloop. The count for this new dataloop should be updated accordingly, and the start position should mimic the start of this implicit parameter. Neither of the original dataloops should be changed by this function.
 
-<div class='admonition tip'>
-<div class='title'>Tip</div>
-<div class='content'>
-<p>The <code>operator+</code> assigns the result to a new variable, not to the implicit object. e.g. consider <code>a = b + c</code>. <code>b + c</code> is the same as <code>b.operator+(c)</code>. The implicit object <code>b</code> remains unchanged after calling <code>b.operator+(c)</code>, as does explicit parameter <code>c</code>. <code>b.operator+(c)</code> returns the concatenated result and it is then assigned to <code>a</code> in this example using the assignment operator.</p>
-<p>You may want to use other operators/functions to implement <code>operator+</code>.</p>
-</div>
-</div>
+   <div class='admonition tip'>
+   <div class='title'>Tip</div>
+   <div class='content'>
+   <p>The <code>operator+</code> assigns the result to a new variable, not to the implicit object. e.g. consider <code>a = b + c</code>. <code>b + c</code> is the same as <code>b.operator+(c)</code>. The implicit object <code>b</code> remains unchanged after calling <code>b.operator+(c)</code>, as does explicit parameter <code>c</code>. <code>b.operator+(c)</code> returns the concatenated result and it is then assigned to <code>a</code> in this example using the assignment operator.</p>
+   <p>You may want to use other operators/functions to implement <code>operator+</code>.</p>
+   </div>
+   </div>
 
 9. `operator^(int)`: this overloaded operator shifts the `start` position in this dataloop according to the parameter offset - forward for a positive value and backward for a negative value. A 0 offset does not make any changes, and no changes will be made to an empty dataloop or one with only one node. If the parameter is larger than `count`, the result should be as if you keep looping around the circular list by that many nodes.
 
 10. `splice(DataLoop, size_t)`: this function inserts the entire explicit parameter DataLoop into the implicit parameter DataLoop at the indicated position, where 0 would indicate the starting position of the current DataLoop and update `start` accordingly. An insert position of n would indicate that the start node of rhs comes after node n in the current DataLoop (assuming you start counting nodes with 1). The nodes in the input DataLoop (rhs) should be inserted in their current order, beginning with that object's starting node. The count for the current DataLoop should be updated. If the indicated position is larger than the current count, effectively loop around as much as necessary to get to the indicated spot. The parameter dataloop should then be reset to an empty dataloop since both can't co-exist.
 
-<div class='admonition danger'>
-<div class='title'>Danger</div>
-<div class='content'>
-<p>Make sure that only one dataloop object is holding the nodes after a splice operation - the implicit parameter (object) that calls the function. Otherwise, if the parameter still has nodes associated with it, then deleting that object will delete the nodes from the other as well since they should not be copies.</p>
-</div>
-</div>
+      <div class='admonition danger'>
+      <div class='title'>Danger</div>
+      <div class='content'>
+      <p>Make sure that only one dataloop object is holding the nodes after a splice operation - the implicit parameter (object) that calls the function. Otherwise, if the parameter still has nodes associated with it, then deleting that object will delete the nodes from the other as well since they should not be copies.</p>
+      </div>
+      </div>
 
 11. `length()`: this function returns the number of data values (nodes) in this object.
 
