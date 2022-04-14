@@ -47,6 +47,9 @@ to the course Gradescope in the first week.
 
 ## News
 
+* **Apr 14** — The [Final Project](assign/final.html) is due **Friday, Apr 29th** by 11pm.
+  Please use the Google form linked from [Piazza post 575](https://piazza.com/class/ky8wh6vzxlr2fk?cid=575)
+  to register your team. Note that late submissions will not be accepted.
 * **Apr 10** — [Homework 7](assign/hw7.html) is due **Wednesday, Apr 20th** by 11 pm.
 * **Apr 4** — Homework 6 is available on <a class="external" target="_blank" href="https://www.gradescope.com/">Gradescope</a>
   as **HW 6 (written C++)**, and is due **Wednesday, Mar 13th** by 11pm. Note that late submissions are
