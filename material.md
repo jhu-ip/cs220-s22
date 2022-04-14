@@ -645,6 +645,63 @@ the materials for that week.
   </tbody>
 </table>
 </div>
+<button type="button" id="week_12_toggle" class="week_control_button">Week 12 (18-Apr–22-Apr)</button>
+<div id="week_12" class="collapsible">
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th>Day 34 (18-Apr)</th>
+      <th>Day 35 (20-Apr)</th>
+      <th>— (22-Apr)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Videos</td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9'>OO Design & UML Diagrams</a></td>
+      <td><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c'>Enumerated Types</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8'>Exceptions</a><br><a class='external' target='_blank' href='https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850'>Customized Exceptions</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Slides</td>
+      <td><a href='slides/day34_oo_design_uml.pdf'>OO Design & UML Diagrams</a></td>
+      <td><a href='slides/day35_enum.pdf'>Enumerated Types</a><br><a href='slides/day35_exceptions.pdf'>Exceptions</a><br><a href='slides/day35_customized_exceptions.pdf'>Customized Exceptions</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recap<br>Questions</td>
+      <td><a href='questions/day34.html'>Day 34</a></td>
+      <td><a href='questions/day35.html'>Day 35</a></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Exercise</td>
+      <td><a href='#'>N/A</a></td>
+      <td><a href='exercise/ex35.html'>Exercise 35</a></td>
+      <td><a href='#'>Work on final project</a></td>
+    </tr>
+    <tr>
+      <td>Additional<br>Resources</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Lecture<br>Slides</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>Recorded<br>Sessions</td>
+      <td></td>
+      <td></td>
+      <td></td>
+    </tr>
+  </tbody>
+</table>
+</div>
 <script type="text/javascript">
   // Create and register a click handler for button clicks to expand/contract
   // specified content div
@@ -674,7 +731,7 @@ the materials for that week.
   }
 
   document.addEventListener('DOMContentLoaded', function() {
-    var active_week_id = 'week_11';
+    var active_week_id = 'week_12';
 
     var content_divs = document.getElementsByClassName("collapsible");
     for (i = 0; i < content_divs.length; i++) {

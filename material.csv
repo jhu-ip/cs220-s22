@@ -376,3 +376,16 @@ Week,Day,Date,Type,Link text,URL
 11,3,15-Apr,Slides,Virtual destructors,slides/day33_virtual_destructors.pdf
 11,3,15-Apr,Recap,Day 33,questions/day33.html
 11,3,15-Apr,Exercise,Exercise 33,exercise/ex33.html
+12,1,18-Apr,Video,"OO Design & UML Diagrams",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9
+12,1,18-Apr,Slides,"OO Design & UML Diagrams",slides/day34_oo_design_uml.pdf
+12,1,18-Apr,Recap,"Day 34",questions/day34.html
+12,1,18-Apr,Exercise,"N/A",#
+12,2,20-Apr,Video,"Enumerated Types",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c
+12,2,20-Apr,Video,"Exceptions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8
+12,2,20-Apr,Video,"Customized Exceptions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850
+12,2,20-Apr,Slides,"Enumerated Types",slides/day35_enum.pdf
+12,2,20-Apr,Slides,"Exceptions",slides/day35_exceptions.pdf
+12,2,20-Apr,Slides,"Customized Exceptions",slides/day35_customized_exceptions.pdf
+12,2,20-Apr,Recap,"Day 35",questions/day35.html
+12,2,20-Apr,Exercise,"Exercise 35",exercise/ex35.html
+12,3,22-Apr,Exercise,"Work on final project",#

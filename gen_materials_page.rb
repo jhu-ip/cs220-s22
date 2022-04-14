@@ -12,6 +12,16 @@
 
 require 'csv'
 
+# If any days should not be numbered, specify them here.
+# This is a useful hack if an "extra" work/non-course-content day
+# gets inserted into the schedule, and you don't feel like
+# renumbering all of the subsequent material (slides, exercises,
+# recap questions, etc.) Keys should be a pair [week_number, day_number],
+# the mapped value should just be something that evaluates as true.
+NON_NUMBERED_DAYS = {
+  [12, 3] => true,
+}
+
 FRONT_STUFF = <<'EOF1'
 ---
 layout: default
@@ -121,6 +131,8 @@ class Week
     return date_of(-1)
   end
 
+  # Note that we don't actually use this.
+  # Also, this code should be rewritten to use Ruby DateTime objects.
   def not_in_future?(current_date)
     # The idea here is that current_date is the current date,
     # and this method returns true if this week is not "in the future"
@@ -158,8 +170,11 @@ class Week
 
     day_numbers.each do |day_number|
       day_info = @days[day_number]
-      day_info.global_day_number = n
-      n += 1
+
+      if !NON_NUMBERED_DAYS.has_key?([@week_num, day_number])
+        day_info.global_day_number = n
+        n += 1
+      end
     end
 
     return n
@@ -253,7 +268,10 @@ EOF2
 EOF3
   days.each do |day_num|
     day_info = week[day_num]
-    puts "      <th>Day #{day_info.global_day_number} (#{day_info.date})</th>"
+
+    formatted_day = day_info.global_day_number.nil? ? '—' : "Day #{day_info.global_day_number}"
+
+    puts "      <th>#{formatted_day} (#{day_info.date})</th>"
   end
   #puts ''
   print <<"EOF4"
