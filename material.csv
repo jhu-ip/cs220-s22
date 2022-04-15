@@ -376,6 +376,9 @@ Week,Day,Date,Type,Link text,URL
 11,3,15-Apr,Slides,Virtual destructors,slides/day33_virtual_destructors.pdf
 11,3,15-Apr,Recap,Day 33,questions/day33.html
 11,3,15-Apr,Exercise,Exercise 33,exercise/ex33.html
+11,3,15-Apr,LectureSlides,"Section 1",slides/sec01/day33_notes.pdf
+11,3,15-Apr,LectureSlides,"Section 2",slides/sec02/day33_notes.pdf
+11,3,15-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae5d7092-3490-4a58-b2cc-ae78012d499c
 12,1,18-Apr,Video,"OO Design & UML Diagrams",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9
 12,1,18-Apr,Slides,"OO Design & UML Diagrams",slides/day34_oo_design_uml.pdf
 12,1,18-Apr,Recap,"Day 34",questions/day34.html
