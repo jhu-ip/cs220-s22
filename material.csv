@@ -364,8 +364,8 @@ Week,Day,Date,Type,Link text,URL
 11,2,13-Apr,Exercise,Exercise 32,exercise/ex32.html
 11,2,13-Apr,LectureSlides,Section 1,slides/sec01/day32_notes.pdf
 11,2,13-Apr,LectureSlides,Section 2,slides/sec02/day32_notes.pdf
-11,2,13-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d220a4fc-7a92-4fc1-bb15-ae76011ea016
-11,2,13-Apr,Recording,"Section 2",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a9a0d2e-8466-4115-af3e-ae76012d0f58
+11,2,13-Apr,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=d220a4fc-7a92-4fc1-bb15-ae76011ea016
+11,2,13-Apr,Recording,Section 2,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=0a9a0d2e-8466-4115-af3e-ae76012d0f58
 11,2,13-Apr,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=4587dd21-646e-41f5-b0b4-ae7601480169
 11,2,13-Apr,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=bbf2f9d9-a0d5-4bf9-a6d6-ae7600fd3880
 11,3,15-Apr,Video,Dynamic dispatch,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=162dba01-3c6a-4358-8179-ae23002799fe
@@ -376,19 +376,21 @@ Week,Day,Date,Type,Link text,URL
 11,3,15-Apr,Slides,Virtual destructors,slides/day33_virtual_destructors.pdf
 11,3,15-Apr,Recap,Day 33,questions/day33.html
 11,3,15-Apr,Exercise,Exercise 33,exercise/ex33.html
-11,3,15-Apr,LectureSlides,"Section 1",slides/sec01/day33_notes.pdf
-11,3,15-Apr,LectureSlides,"Section 2",slides/sec02/day33_notes.pdf
-11,3,15-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae5d7092-3490-4a58-b2cc-ae78012d499c
-12,1,18-Apr,Video,"OO Design & UML Diagrams",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9
-12,1,18-Apr,Slides,"OO Design & UML Diagrams",slides/day34_oo_design_uml.pdf
-12,1,18-Apr,Recap,"Day 34",questions/day34.html
-12,1,18-Apr,Exercise,"N/A",#
-12,2,20-Apr,Video,"Enumerated Types",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c
-12,2,20-Apr,Video,"Exceptions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8
-12,2,20-Apr,Video,"Customized Exceptions",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850
-12,2,20-Apr,Slides,"Enumerated Types",slides/day35_enum.pdf
-12,2,20-Apr,Slides,"Exceptions",slides/day35_exceptions.pdf
-12,2,20-Apr,Slides,"Customized Exceptions",slides/day35_customized_exceptions.pdf
-12,2,20-Apr,Recap,"Day 35",questions/day35.html
-12,2,20-Apr,Exercise,"Exercise 35",exercise/ex35.html
-12,3,22-Apr,Exercise,"Work on final project",#
+11,3,15-Apr,LectureSlides,Section 1,slides/sec01/day33_notes.pdf
+11,3,15-Apr,LectureSlides,Section 2,slides/sec02/day33_notes.pdf
+11,3,15-Apr,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=ae5d7092-3490-4a58-b2cc-ae78012d499c
+11,3,15-Apr,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=277966fe-d3af-4b4e-9047-ae78014b79ad
+11,3,15-Apr,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f16a04dc-849b-4c08-a34c-ae7800fc2d77
+12,1,18-Apr,Video,OO Design & UML Diagrams,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=2edb2b97-e40e-4200-94ce-ae23002790c9
+12,1,18-Apr,Slides,OO Design & UML Diagrams,slides/day34_oo_design_uml.pdf
+12,1,18-Apr,Recap,Day 34,questions/day34.html
+12,1,18-Apr,Exercise,N/A,#
+12,2,20-Apr,Video,Enumerated Types,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c
+12,2,20-Apr,Video,Exceptions,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8
+12,2,20-Apr,Video,Customized Exceptions,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850
+12,2,20-Apr,Slides,Enumerated Types,slides/day35_enum.pdf
+12,2,20-Apr,Slides,Exceptions,slides/day35_exceptions.pdf
+12,2,20-Apr,Slides,Customized Exceptions,slides/day35_customized_exceptions.pdf
+12,2,20-Apr,Recap,Day 35,questions/day35.html
+12,2,20-Apr,Exercise,Exercise 35,exercise/ex35.html
+12,3,22-Apr,Exercise,Work on final project,#
