@@ -736,8 +736,8 @@ this individual submission will give each student an opportunity to
 comment on the contributions that they and their partners made to the
 final project.
 
-Note that the deadline for this individual submission is 48 hours
-after the code submission deadline (i.e. Sunday 5/1 at 11pm).
+Note that the deadline for this individual submission is 72 hours
+after the code submission deadline (i.e. Monday 5/2 at 11pm).
 **Each team member must submit their own version of this
 contributions assignment in order to get credit for their work on the
 final project.**
