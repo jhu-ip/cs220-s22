@@ -18,4 +18,4 @@ Assignment | Due date
 [Midterm Project Contributions](https://www.gradescope.com/) (on Gradescope)| Friday, Apr 8th by 11pm
 <a class="external" target="_blank" href="https://www.gradescope.com/">Homework 6</a><br>(**HW 6 (written C++)** on Gradescope)<br>*Late submissions are not allowed* | Wednesday, Apr 13th by 11pm
 [Homework 7](assign/hw7.html) | Wednesday, Apr 20th by 11pm
-[Final Project](assign/final.html)<br>You will work in teams of 2 or 3<br>*Late submissions are not allowed* | Friday, Apr 29th by 11pm
+[Final Project](assign/final.html)<br>You will work in teams of 2 or 3<br>*Late submissions accepted until 11pm Monday May 2nd* | Friday, Apr 29th by 11pm

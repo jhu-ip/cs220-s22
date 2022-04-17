@@ -11,7 +11,7 @@ title: Final Project
 <li>You are expected to work in a team of two or three. (Three is strongly recommended.)</li>
 <li><strong>Due: Friday April 29th at 11pm (Baltimore time).</strong></li>
 <li><em>This assignment is worth 160 points.</em></li>
-<li>No late days may be used!</li>
+<li>Late submissions are accepted (with no grade penalty) until 11pm on Monday, May 2nd</li>
 </ul>
 </div>
 </div>
