@@ -46,7 +46,10 @@ to the course Gradescope in the first week.
 
 
 ## News
-
+* **Apr 18** — The deadline for registering a final project team is 11am on **Tuesday, Apr 19th**.
+  If you are not part of a registered team by that time, we will assign you to a team.
+  (See [Piazza post 575](https://piazza.com/class/ky8wh6vzxlr2fk?cid=575) for the link
+  to the team registration form.)
 * **Apr 17** — Late submissions for the final project will be accepted (without penalty)
   until 11pm on **Monday, May 2nd**.
 * **Apr 14** — The [Final Project](assign/final.html) is due **Friday, Apr 29th** by 11pm.
