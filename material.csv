@@ -386,9 +386,11 @@ Week,Day,Date,Type,Link text,URL
 12,1,18-Apr,Slides,OO Design & UML Diagrams,slides/day34_oo_design_uml.pdf
 12,1,18-Apr,Recap,Day 34,questions/day34.html
 12,1,18-Apr,Exercise,Work on final project,#
-12,1,18-Apr,LectureSlides,"Section 1",slides/sec01/day34_notes.pdf
+12,1,18-Apr,LectureSlides,Section 1,slides/sec01/day34_notes.pdf
 12,1,18-Apr,LectureSlides,Section 2,slides/sec02/34.pdf
-12,1,18-Apr,Recording,"Section 1",https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eea28ef6-91d0-4985-bb5b-ae7b012295d2
+12,1,18-Apr,Recording,Section 1,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=eea28ef6-91d0-4985-bb5b-ae7b012295d2
+12,1,18-Apr,Recording,Section 3,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=343f1480-37cd-48b1-bcb8-ae7b01475cf0
+12,1,18-Apr,Recording,Section 4,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=e4aa7e1f-25ca-44e4-9b69-ae7b00f51de7
 12,2,20-Apr,Video,Enumerated Types,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=00c8e477-aa8e-4357-bd0e-ae230027992c
 12,2,20-Apr,Video,Exceptions,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=7e2654d0-197a-49fb-8d90-ae23002798b8
 12,2,20-Apr,Video,Customized Exceptions,https://jh.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=53afa435-461a-4814-bfc2-ae2300279850
