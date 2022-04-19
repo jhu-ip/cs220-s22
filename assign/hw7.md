@@ -105,7 +105,7 @@ Below are a list of functions you need to implement and some tips for the implem
 
 11. `length()`: this function returns the number of data values (nodes) in this object.
 
-12. `std::stream& operator<<`: this overloaded operator prints a dataloop in this format: "-> data1 <--> data2 <--> ... <--> datax <-" where data1 is the value in the start node. For example, if we have a DataLoop with three elements 32, 12, 20 starting at 12 it will print "-> 12 <--> 20 <--> 32 <-". If the DataLoop is empty, it prints ">no values<". Note that the output does not include any end of line characters.
+12. `std::ostream& operator<<`: this overloaded operator prints a dataloop in this format: "-> data1 <--> data2 <--> ... <--> datax <-" where data1 is the value in the start node. For example, if we have a DataLoop with three elements 32, 12, 20 starting at 12 it will print "-> 12 <--> 20 <--> 32 <-". If the DataLoop is empty, it prints ">no values<". Note that the output does not include any end of line characters.
 
 ### Testing
 You are given a file named `DataLoopTest.cpp` that provides basic tests for your implementation. Once you are done implementing `DataLoop.cpp`, you should compile and run `DataLoopTest` to make sure that all test cases pass. Keep in mind that these are minimal cases. You should develop your own test cases and test your program thoroughly.
