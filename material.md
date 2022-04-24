@@ -18,56 +18,15 @@ Then add, commit, and push both material.csv and material.md.
 You can click on the header for a specific week to expand or collapse
 the materials for that week.
 
-<button type="button" id="week_0_toggle" class="week_control_button">Week 0 (–)</button>
-<div id="week_0" class="collapsible">
-<table>
-  <thead>
-    <tr>
-      <th></th>
-      <th>Day 1 ()</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Videos</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Slides</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Recap<br>Questions</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Exercise</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Additional<br>Resources</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Lecture<br>Slides</td>
-      <td></td>
-    </tr>
-    <tr>
-      <td>Recorded<br>Sessions</td>
-      <td></td>
-    </tr>
-  </tbody>
-</table>
-</div>
 <button type="button" id="week_1_toggle" class="week_control_button">Week 1 (24-Jan–28-Jan)</button>
 <div id="week_1" class="collapsible">
 <table>
   <thead>
     <tr>
       <th></th>
-      <th>Day 2 (24-Jan)</th>
-      <th>Day 3 (26-Jan)</th>
-      <th>Day 4 (28-Jan)</th>
+      <th>Day 1 (24-Jan)</th>
+      <th>Day 2 (26-Jan)</th>
+      <th>Day 3 (28-Jan)</th>
     </tr>
   </thead>
   <tbody>
@@ -122,9 +81,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 5 (31-Jan)</th>
-      <th>Day 6 (2-Feb)</th>
-      <th>Day 7 (4-Feb)</th>
+      <th>Day 4 (31-Jan)</th>
+      <th>Day 5 (2-Feb)</th>
+      <th>Day 6 (4-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -179,9 +138,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 8 (7-Feb)</th>
-      <th>Day 9 (9-Feb)</th>
-      <th>Day 10 (11-Feb)</th>
+      <th>Day 7 (7-Feb)</th>
+      <th>Day 8 (9-Feb)</th>
+      <th>Day 9 (11-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -236,9 +195,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 11 (14-Feb)</th>
-      <th>Day 12 (16-Feb)</th>
-      <th>Day 13 (18-Feb)</th>
+      <th>Day 10 (14-Feb)</th>
+      <th>Day 11 (16-Feb)</th>
+      <th>Day 12 (18-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -293,9 +252,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 14 (21-Feb)</th>
-      <th>Day 15 (23-Feb)</th>
-      <th>Day 16 (25-Feb)</th>
+      <th>Day 13 (21-Feb)</th>
+      <th>Day 14 (23-Feb)</th>
+      <th>Day 15 (25-Feb)</th>
     </tr>
   </thead>
   <tbody>
@@ -350,9 +309,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 17 (28-Feb)</th>
-      <th>Day 18 (2-Mar)</th>
-      <th>Day 19 (4-Mar)</th>
+      <th>Day 16 (28-Feb)</th>
+      <th>Day 17 (2-Mar)</th>
+      <th>Day 18 (4-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -407,9 +366,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 20 (7-Mar)</th>
-      <th>Day 21 (9-Mar)</th>
-      <th>Day 22 (11-Mar)</th>
+      <th>Day 19 (7-Mar)</th>
+      <th>Day 20 (9-Mar)</th>
+      <th>Day 21 (11-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -464,9 +423,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 23 (14-Mar)</th>
-      <th>Day 24 (16-Mar)</th>
-      <th>Day 25 (18-Mar)</th>
+      <th>Day 22 (14-Mar)</th>
+      <th>Day 23 (16-Mar)</th>
+      <th>Day 24 (18-Mar)</th>
     </tr>
   </thead>
   <tbody>
@@ -521,9 +480,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 26 (28-Mar)</th>
-      <th>Day 27 (30-Mar)</th>
-      <th>Day 28 (1-Apr)</th>
+      <th>Day 25 (28-Mar)</th>
+      <th>Day 26 (30-Mar)</th>
+      <th>Day 27 (1-Apr)</th>
     </tr>
   </thead>
   <tbody>
@@ -578,9 +537,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 29 (4-Apr)</th>
-      <th>Day 30 (6-Apr)</th>
-      <th>Day 31 (8-Apr)</th>
+      <th>Day 28 (4-Apr)</th>
+      <th>Day 29 (6-Apr)</th>
+      <th>Day 30 (8-Apr)</th>
     </tr>
   </thead>
   <tbody>
@@ -635,9 +594,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 32 (11-Apr)</th>
-      <th>Day 33 (13-Apr)</th>
-      <th>Day 34 (15-Apr)</th>
+      <th>Day 31 (11-Apr)</th>
+      <th>Day 32 (13-Apr)</th>
+      <th>Day 33 (15-Apr)</th>
     </tr>
   </thead>
   <tbody>
@@ -692,8 +651,8 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 35 (18-Apr)</th>
-      <th>Day 36 (20-Apr)</th>
+      <th>Day 34 (18-Apr)</th>
+      <th>Day 35 (20-Apr)</th>
       <th>— (22-Apr)</th>
     </tr>
   </thead>
@@ -749,9 +708,9 @@ the materials for that week.
   <thead>
     <tr>
       <th></th>
-      <th>Day 37 (25-Apr)</th>
+      <th>Day 36 (25-Apr)</th>
+      <th>Day 37 (27-Apr)</th>
       <th>Day 38 (27-Apr)</th>
-      <th>Day 39 (27-Apr)</th>
     </tr>
   </thead>
   <tbody>
