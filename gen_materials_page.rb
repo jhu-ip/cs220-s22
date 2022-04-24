@@ -194,7 +194,7 @@ end
 weeks = {}
 
 CSV.foreach('material.csv') do |row|
-  if row[0] != 'Week'
+  if row.length == 6 && row[0] != 'Week'
     week_num = row[0].to_i
     day = row[1].to_i
     date = row[2]
