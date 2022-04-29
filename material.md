@@ -702,7 +702,7 @@ the materials for that week.
   </tbody>
 </table>
 </div>
-<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (25-Apr–27-Apr)</button>
+<button type="button" id="week_13_toggle" class="week_control_button">Week 13 (25-Apr–29-Apr)</button>
 <div id="week_13" class="collapsible">
 <table>
   <thead>
@@ -710,7 +710,7 @@ the materials for that week.
       <th></th>
       <th>Day 36 (25-Apr)</th>
       <th>Day 37 (27-Apr)</th>
-      <th>Day 38 (27-Apr)</th>
+      <th>Day 38 (29-Apr)</th>
     </tr>
   </thead>
   <tbody>
@@ -748,7 +748,7 @@ the materials for that week.
       <td>Lecture<br>Slides</td>
       <td><a href='slides/sec01/day36_notes.pdf'>Section 1</a><br><a href='slides/sec02/36.pdf'>Section 2</a></td>
       <td><a href='slides/sec01/37.pdf'>Section 1</a><br><a href='slides/sec02/37.pdf'>Section 2</a></td>
-      <td></td>
+      <td><a href='slides/sec01/day38_notes.pdf'>Section 1</a></td>
     </tr>
     <tr>
       <td>Recorded<br>Sessions</td>
