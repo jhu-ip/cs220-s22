@@ -46,6 +46,9 @@ to the course Gradescope in the first week.
 
 
 ## News
+
+* **May 3** — Final exam review questions and solutions are available on the
+  [Resources](resources.html) page.
 * **Apr 18** — The deadline for registering a final project team is 11am on **Tuesday, Apr 19th**.
   If you are not part of a registered team by that time, we will assign you to a team.
   (See [Piazza post 575](https://piazza.com/class/ky8wh6vzxlr2fk?cid=575) for the link
